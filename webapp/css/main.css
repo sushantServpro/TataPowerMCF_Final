@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /*landing page*/
 
 .headerMainPanel {
@@ -179,6 +181,8 @@
     margin: 0;
     font-weight: bold;
 }
+
+.home_side_menu h4 { font: bold 15px "Open Sans"; }
 
 .onex {
     background: linear-gradient(to right, #f78d0a 0%, #fec107 100%)!important;

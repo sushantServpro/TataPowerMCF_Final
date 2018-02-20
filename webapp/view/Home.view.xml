@@ -16,7 +16,7 @@ xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m"
 											<tileContent>
 												<TileContent>
 													<content>
-														<html:div>
+														<html:div class="home_side_menu">
 															<html:image src="images/online_bill.png" alt="speakers" style="margin-top:20px"></html:image>
 															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">QUICK BILL</html:h4>
 															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">PAYMENT</html:h4>
@@ -31,7 +31,7 @@ xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m"
 											<tileContent>
 												<TileContent>
 													<content>
-														<html:div>
+														<html:div class="home_side_menu">
 															<html:image src="images/my_ac.png" alt="speakers" style="margin-top:20px"></html:image>
 															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">MY</html:h4>
 															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">ACCOUNT</html:h4>
@@ -46,7 +46,7 @@ xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns="sap.m"
 											<tileContent>
 												<TileContent>
 													<content>
-														<html:div>
+														<html:div class="home_side_menu">
 															<html:image src="images/pay_bill.png" alt="speakers" style="margin-top:20px"></html:image>
 															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">NEW</html:h4>
 															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">Customer</html:h4>
