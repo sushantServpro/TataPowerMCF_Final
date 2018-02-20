@@ -16,12 +16,7 @@ sap.ui.define([
 	onInit: function(evt) {
 
 			// set explored app's demo model on this sample
-			var oModel = new sap.ui.model.json.JSONModel("json/Newsletter.json");
-			this.getView().setModel(oModel);
-			var vbox1 = this.getView().byId("Flexboxview");
-			var fragment = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.NewConnectionSideMenu"].join("."), this);
-			vbox1.addItem(fragment);
-			
+		
 			
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();

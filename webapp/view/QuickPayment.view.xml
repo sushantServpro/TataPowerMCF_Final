@@ -9,11 +9,10 @@
 					<html:div class="container-fluid">
 						<html:div class="row">
 							<html:div class="col-md-3">
-								<FlexBox id="Flexboxview" class="ne-flexbox1" width="95%" renderType="List" justifyContent="Center" alignItems="Center"></FlexBox>
+								<FlexBox id="Flexboxview"></FlexBox>
 							</html:div>
 							<html:div class="col-md-9">
-								<FlexBox id="FlexboxProcedure" class="ne-flexbox1" width="95%" renderType="List" justifyContent="Center" alignItems="Center"></FlexBox>
-							
+								<FlexBox id="FlexboxProcedure"></FlexBox>
 							</html:div>
 						</html:div>
 					</html:div>
