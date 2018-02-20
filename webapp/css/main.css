@@ -106,6 +106,7 @@
 .main_nav .sapMSB .sapMBtnInner {
     background: none;
     font-size: 13px;
+    font-family: "Open Sans";
 }
 
 #__field0-reset {
@@ -121,6 +122,9 @@
     padding-left: 25px;
     border: none;
 }
+
+.sapMFlexBoxBGTransparent { width: 100% !important; }
+.sapMFlexBoxBGTransparent .sapMPanelContent { padding: 0 !important; }
 
 .search_list .sapMSF .sapMSFI {
     border: none;
@@ -168,6 +172,10 @@
     padding: 10px 10px;
 }
 
+.user_prof {
+    margin: 0;
+}
+
 .user_prof li {
     padding: 5px 10px;
 }
@@ -182,12 +190,10 @@
     font-weight: bold;
 }
 
-.home_side_menu h4 { font: bold 15px "Open Sans"; }
-
 .onex {
     background: linear-gradient(to right, #f78d0a 0%, #fec107 100%)!important;
     width: 100% !important;
-    height: 11rem !important;
+    height: 10rem !important;
     margin-bottom: 8px !important;
 }
 
@@ -350,6 +356,7 @@
 }
 
 .innertext {
+	padding: 0 15px;
     text-align: right;
 }
 
@@ -712,7 +719,8 @@
 .your_bill .tileLayout {
     width: 100% !important;
     height: 50px !important;
-    padding: 13px 0;
+    padding: 11px 0;
+    font: normal 13px "Open Sans";
 }
 
 .bill_payment .sapMGTContent,
@@ -834,12 +842,12 @@
 
 .counters .col-sm-4 span {
     color: #79a2c1;
-    font-size: 15px;
+    font: normal 14px "Open Sans";
 }
 
 .counters .col-xs-4 span {
     color: #79a2c1;
-    font-size: 14px;
+    font: normal 13px "Open Sans";
 }
 
 .counters .col-sm-4 h4 {
@@ -848,7 +856,7 @@
 }
 
 .counters .col-xs-4 h4 {
-    font-size: 18px;
+    font: normal 18px "Open Sans";
     color: #fff;
 }
 
@@ -933,28 +941,36 @@
     font-size: 13px;
 }
 
+.home_side_menu h4 { font: bold 15px "Helvetica","Open Sans"; }
+.home_service_menu h4 { font: bold 16px "Helvetica","Open Sans"; }
 
 /*be-green introduction*/
+
+.intro_head h4 {
+    padding: 10px 0;
+    font: normal 18px "Open Sans";
+}
 
 .intro_desc p,
 .dear_consumer p {
     padding: 15px 0;
     margin: 0;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 14px "Open Sans";
 }
+
+.intro_desc p { padding: 20px 0; }
 
 .intro_desc h5 {
     padding: 20px 0;
     margin: 0;
     color: #1c7a1a;
-    font-size: 18px;
+    font: bold 18px "Open Sans";
 }
 
 .inti_list {
     list-style-image: url('../images/list_blue.png');
     font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .inti_list li {
@@ -995,8 +1011,7 @@
     padding: 15px 0;
     margin: 0;
     color: #3495e9;
-    font-weight: 600;
-    font-size: 16px;
+    font: bold 18px "Open Sans";
 }
 
 .cons_opt {
@@ -1023,13 +1038,13 @@
     margin: 0;
     padding: 15px 0;
     color: #2d8de3;
-    font-size: 14px;
+    font: bold 18px "Open Sans";
 }
 
 .be_green_contact p {
     margin: 0;
     padding: 5px 0;
-    font-size: 15px;
+    font: bold 14px "Open Sans";
 }
 
 
@@ -1044,12 +1059,20 @@
     margin: 0;
     background: #3b9def21;
     color: #1c7a1a;
-    font-size: 14px;
+    font: bold 13px "Open Sans";
 }
 
 .load_shape .box {
     padding: 10px 15px;
     font-size: 12px;
+}
+
+.load_shape .box.col-sm-10 {
+    font: normal 13px "Open Sans";
+}
+
+.load_shape .box strong {
+    font: bold 14px "Open Sans";
 }
 
 .ben_initiatives .row {
@@ -1506,12 +1529,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .about_desc p {
     padding: 10px 0;
+    font: normal 13px "Open Sans";
 }
 
 .about_read_more p {
     padding: 10px;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .read_more_link {
@@ -1520,8 +1543,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .read_more_link a {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
     color: #1773ce;
 }
 
@@ -1552,7 +1574,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 .eob_apply .sapMBtnContent bdi,
 .eob_new_con .sapMBtnContent bdi,
 .audit_reg .sapMBtnContent bdi {
-    font-size: 14px;
+    font: bold 14px "Open Sans";
     text-shadow: none;
     padding: 5px 0;
     height: auto;
@@ -1561,7 +1583,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .track_request .sapMLabel bdi,
 .eob_apply .sapMLabel bdi {
-    font-size: 16px;
+    font: normal 16px "Open Sans";
     color: #1773cf;
 }
 
@@ -1575,19 +1597,16 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .eob_new_con h5 {
-    font-weight: bold;
-    font-size: 14px;
+    font: bold 14px "Open Sans";
 }
 
 .chk_instruction h5 {
-    font-weight: bold;
-    font-size: 15px;
+    font: bold 14px "Open Sans";
 }
 
 .chk_instruction ol {
     padding-left: 15px;
-    font-size: 13px;
-    font-weight: bold;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction ol li {
@@ -1595,24 +1614,25 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .eob_new_con span {
-    font-size: 13px;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction p {
     padding: 10px 0;
     color: #f00;
-    font-weight: bold;
-    font-size: 13px;
+    font: normal 13px "Open Sans";
 }
 
 .chk_instruction p a {
     color: #3b9df0;
+    font: bold 13px "Open Sans";
 }
 
 .acc_change_password h4 {
     padding: 20px 0;
     margin: 0;
     border-bottom: 1px solid #ddd;
+    font: bold 18px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1624,7 +1644,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px 0;
     margin: 0;
     color: #959598;
-    font-size: 14px;
+    font: normal 14px "Open Sans";
 }
 
 .view_table .sapMTB {
@@ -1645,6 +1665,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .view_table .sapMListTbl > thead > tr > th .sapMText {
     color: #fff !important;
+    font: normal 12px "Open Sans";
 }
 
 
@@ -1659,6 +1680,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .blue_bullet_list li {
     padding: 5px 0;
+    font: bold 13px "Open Sans";
 }
 
 .blue_bullet_list li .row {
@@ -1676,22 +1698,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .audit_prog p {
     padding: 5px 0;
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 13px "Open Sans";
 }
 
 .split_ac_link p {
-    font-size: 14px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
 }
 
 .split_ac_link p a {
     color: #3b9cef;
+    font: bold 14px "Open Sans";
 }
 
 .read_more_energy p {
-    font-size: 15px;
-    font-weight: bold;
+    font: bold 14px "Open Sans";
     padding: 10px 0;
 }
 
@@ -1711,7 +1731,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 15px 0;
     margin: 0;
     color: #2280d9;
-    font-weight: bold;
+    font: bold 18px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1720,12 +1740,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .pwr_sply_desc p {
-    font-size: 14px;
+    font: normal 14px "Open Sans";
 }
 
 .pwr_sply_app_num h5 {
     color: #2280d9;
-    font-size: 18px;
+    font: bold 16px "Open Sans";
     text-transform: capitalize;
 }
 
@@ -1738,8 +1758,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .rdm_num .sapMLabel bdi {
     color: #2280d9;
-    font-size: 18px;
-    font-weight: bold;
+    font: bold 18px "Open Sans";
 }
 
 .btn_continue {
@@ -1747,11 +1766,12 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .new_con_apply p {
-    font-size: 14px;
+    font: normal 13px "Open Sans";
 }
 
 .new_con_apply h5 {
     color: #2280d9;
+    font: normal 16px "Open Sans";
 }
 
 .new_con_apply .sapMInput,
@@ -1793,7 +1813,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .new_con_apply .sapMRbHasLabel .sapMLabel bdi {
     color: #2280d9;
-    font-size: 18px;
+    font: bold 16px "Open Sans";
 }
 
 .green_explore_lst {
@@ -1803,11 +1823,11 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .green_explore_lst h5 {
-    font-weight: bold;
+    font: bold 14px "Open Sans";
 }
 
 .green_explore_lst p {
-    font-size: 12px;
+    font: normal 12px "Open Sans";
 }
 
 .green_explore_lst .row {
@@ -1820,8 +1840,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .green_knw_more .sapMLnk {
     color: #000 !important;
-    font-weight: bold;
-    font-size: 12px !important;
+    font: bold 12px "Open Sans" !important;
 }
 
 .green_knw_more .sapMLnk:after {
@@ -1840,6 +1859,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 15px 0;
 }
 
+.ass_officer h4 {
+    font: normal 18px "Open Sans";
+}
+
 .ass_officer_num {
     padding: 10px 25px;
     background: #d3e7fd;
@@ -1848,18 +1871,22 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .cont_tel {
     color: #2381da;
-    font-size: 15px;
+    font: normal 13px "Open Sans";
 }
 
 .cont_tel_num {
     font-weight: bold;
-    font-size: 20px;
+    font: bold 16px "Open Sans";
 }
 
 .ass_officer_num_rw2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ass_officer_num_rw1 h5 {
+    font: normal 14px "Open Sans";
 }
 
 .pwr_dist_spl_chart h4 {
@@ -2522,8 +2549,4 @@ hr {
 .penplink {
     color: #0070b1!important;
     font-size: 13px!important;
-}
-.sapMFlexItem {
-    position: relative;
-    width: 100% !important;
 }
