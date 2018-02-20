@@ -1,0 +1,69 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_12">
+				<html:div class="treeimg">
+					<html:image src="images/ebill_green_img.png" alt="be_green_banner" class="img-responsive tree"></html:image>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-8 col-md-offset-2 treepara">
+						<html:p>Every 3000 sheets of paper cost us a tree. At this rate, it won't be long that all trees will completely disappear. So let's do what
+							it takes to preserve the environment. Help save trees by registering for e-bill and get your bills in your inbox instead of regular hard
+							copies.
+						</html:p>
+					</html:div>
+				</html:div>
+				<html:div class="ebiregister">
+					<html:p>FILL YOUR DETAILS BELOW TO REGISTER FOR E-BILL</html:p>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-4 col-md-offset-4">
+						<Label text="Consumer Number" labelFor="cnntreeInput"/>
+						<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-4 col-md-offset-4">
+						<Label text="Consumer Number" labelFor="cnntreeInput"/>
+						<Input id="cnntreeInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-4 col-md-offset-4">
+						<Label text="Consumer Name" labelFor="cnntreeInput"/>
+						<Input id="cnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-4 col-md-offset-4">
+						<Label text="Email" labelFor="cnntreeInput"/>
+						<Input id="cnntreInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-4 col-md-offset-4">
+						<Label text="Mobile Number" labelFor="cnntreeInput"/>
+						<Input id="cnnntrInput" required="true" type="text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-8 col-md-offset-2">
+						<RadioButton groupName="GroupB"
+							text="I agree to save trees and contribute toward nature by opening for e-bill and stop reciving paper bills" selected="true"/>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="col-md-12">
+						<Panel expandable="true" expanded="false" headerText="Term and Condition" width="auto" class="sapUiResponsiveMargin">
+							<content>
+								<Text
+									text="*Incentive would be credited in the bill at the rate of 1% of bill amount (excl taxes) of the last generated bill up to a maximum of Rs.50/-. * This is a onetime incentive for first time registartion only. "/>
+							</content>
+						</Panel>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

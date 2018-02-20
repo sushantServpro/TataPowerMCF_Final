@@ -1,0 +1,26 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel class="footerMain">
+		<content>
+		<html:div class="footer">
+				<html:div class="row">
+					<html:div class="col-xs-12 col-sm-6 col-md-4 term">
+						<html:h5>
+							<html:a href="#">Term of Use
+							</html:a>
+							|
+							<html:a href="#">
+								Private Policy</html:a>
+							|
+							<html:a href="#">
+								Site Map</html:a>
+						</html:h5>
+					</html:div>
+					<html:div class="col-xs-12 col-sm-6 col-md-4 offset-col-md-4 pull-right rightreserve">
+						<html:h5>@2017 Tata Power - All Rights Reserved</html:h5>
+					</html:div>
+				</html:div>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

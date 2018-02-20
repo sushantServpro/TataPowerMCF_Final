@@ -1,0 +1,21 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 20 Feb 2018 05:35:17 GMT"
+    }
+  ],
+  "hcpdeploy": {
+    "account": "p2000047465trial",
+    "name": "tatapower",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "",
+    "defaultLanguage": "",
+    "defaultI18NPropertyFile": "",
+    "resourceModelName": ""
+  }
+}

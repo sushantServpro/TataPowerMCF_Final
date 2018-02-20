@@ -1,0 +1,169 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.OnlineApplications"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+						<html:h5 align="center">Online Applications</html:h5>
+				
+					<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
+						<items>
+						
+							<IconTabFilter icon="images/new_connection.png" text="New connection">
+								<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>New Connection</html:h4>
+									</html:div>
+									<html:div class="row pagelinkage">
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="PROCEDURE &amp; GUIDELINES"  press="pressNewConnection"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="FAQs" press="pressNewConnection"/></html:span>
+										</html:div>
+									
+											<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="ESTIMATION OF SECURITY DEPOSIT" press="pressNewConnection"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="STANDARD DRAWINGS" press="pressNewConnection"/></html:span>
+										</html:div>
+									
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APPLY ONLINE" press="pressNewConnection"/></html:span>
+										</html:div>
+									</html:div>
+								</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/change_connection.png" text="Change Over Connection">
+							<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Change Over Connection</html:h4>
+									</html:div>
+									<html:div class="row pagelinkage">
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="ESTIMATION OF SECURITY DEPOSIT" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APPLY ONLINE FORM" target="_blank" href="#"/></html:span>
+										</html:div>
+											<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="FAQS" target="_blank" href="#"/></html:span>
+										</html:div>
+									
+											</html:div>
+										</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/switchover_connection.png" text="Switch Over Connection">
+									<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Switch Over Connection</html:h4>
+									</html:div>
+									<html:div class="row pagelinkage">
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
+										</html:div>
+											</html:div>
+												</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/net_metering.png" text="Net Metering">
+							<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Net Metering</html:h4>
+									</html:div>
+									<html:div class="row pagelinkage">
+										<html:div class="col-md-4">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-4">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-4">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="MODEL CONNECTION AGREEMENT" target="_blank" href="#"/></html:span>
+										</html:div>
+											<html:div class="col-md-5 ">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="CHECK DISTRIBUTION TRANSFORMER CAPACITY" target="_blank" href="#"/></html:span>
+										</html:div>
+											<html:div class=" col-md-offset-3 col-md-4">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+										</html:div>
+										
+										</html:div>
+										</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/open_access.png" text="Open Access">
+							<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Open Access</html:h4>
+									</html:div>
+									<html:div class="row pagelinkage">
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="SHORT TERM" target="_blank" href="#"/></html:span>
+										</html:div>
+										<html:div class="col-md-6">
+											<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+												<Link  class="linknewcon" text="LONG/MEDIUM TERM" target="_blank" href="#"/></html:span>
+										</html:div>
+											</html:div>
+												</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/reconnection.png" text="Reconnection">
+								<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Reconnection</html:h4>
+									</html:div>
+										</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/advance_bill_payment.png" text="Advance Bill Payment">
+							<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Advance Bill Payment</html:h4>
+									</html:div>
+										</html:div>
+							</IconTabFilter>
+							<IconTabFilter icon="images/reword_connection.png" text="Register Now &amp; Get Rewarded">
+								<html:div class="container">
+									<html:div class="newconnectiontxt">
+										<html:h4>Register Now and Get Rewarded</html:h4>
+									</html:div>
+										</html:div>
+							
+							</IconTabFilter>
+						
+						</items>
+					</IconTabBar>
+						<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

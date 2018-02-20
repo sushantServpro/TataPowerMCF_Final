@@ -1,0 +1,77 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_22">
+				<html:h4 align="center">Latest Adds</html:h4>
+				<html:div class="latest">
+					<html:div class="row latestaddrow">
+						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+							<html:div class="panel panel-default latestcolum">
+								<html:div class="panel-body pdfviewer">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="panel-footer">We have chosen TataPower.And you?(Hindi)</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-xs-12 col-sm-6 col-md-3 ">
+							<html:div class="panel panel-default latestcolum">
+								<html:div class="panel-body pdfviewer">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="panel-footer">We have chosen TataPower.And you?(Marathi)</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-xs-12 col-sm-6 col-md-3">
+							<html:div class="panel panel-default latestcolum">
+								<html:div class="panel-body pdfviewer">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
+							</html:div>
+						</html:div>
+						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+							<html:div class="panel panel-default latestcolum">
+								<html:div class="panel-body pdfviewer">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="panel-footer">Choose Tata Power</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row moblink">
+						<html:div class=" col-xs-12 col-sm-6 col-md-6">
+							<html:div class="row">
+								<html:div class=" col-md-1">
+									<html:i class="fa fa-apple mobilefa" aria-hidden="true"></html:i>
+								</html:div>
+								<html:div class=" col-md-11">
+									<Link class="mobilelink" text="TATAPOWER Mobile App Link For IOS" target="_blank"
+										href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8"/>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class=" col-xs-12 col-sm-6 col-md-6 ">
+							<html:div class="row">
+								<html:div class=" col-md-1">
+									<html:i class="fa fa-android mobilefa" aria-hidden="true"></html:i>
+								</html:div>
+								<html:div class=" col-md-11">
+									<Link class="mobilelink" text="TATAPOWER Mobile App Link For Android" target="_blank" href="http://www.sap.com"/>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

@@ -1,0 +1,181 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_35">
+				<html:h4>Trained Wiremen</html:h4>
+				<html:h6>Please enter all related information For us to help you better.</html:h6>
+				<html:div class="row wiremanfind">
+					<html:div class="col-md-6">
+						<Label text="Select Area" labelFor=""/>
+						<ActionSelect>
+							<items>
+								<core:Item key="{ProductId}" text="Andheri"/>
+								<core:Item key="{ProductId}" text="Powai"/>
+								<core:Item key="{ProductId}" text="Vikroli"/>
+							</items>
+						</ActionSelect>
+					</html:div>
+					<html:div class="col-md-2">
+						<Button text="GO" press="onPress" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					</html:div>
+					<html:div class="col-md-2">
+						<Button text="CENCEL" press="onPress" class="switchcenter go" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+					</html:div>
+				</html:div>
+				<html:div class="row">
+					<html:div class="wiremenfinder">
+						<html:div class="col-md-6">
+							<html:div class="searchwireman">
+								<html:div class="row">
+									<html:div class="col-md-6">
+										<html:h6 align="right">Name Of Wireman:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>Pravakar Tanji Solkar</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">
+											licence:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>181156</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Mobile:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>985231132</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Adress:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Area:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-md-6">
+							<html:div class="searchwireman">
+								<html:div class="row">
+									<html:div class="col-md-6">
+										<html:h6 align="right">Name Of Wireman:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>Pravakar Tanji Solkar</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">
+											licence:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>181156</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Mobile:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>985231132</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Adress:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Area:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-md-6">
+							<html:div class="searchwireman">
+								<html:div class="row">
+									<html:div class="col-md-6">
+										<html:h6 align="right">Name Of Wireman:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>Pravakar Tanji Solkar</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">
+											licence:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>181156</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Mobile:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>985231132</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Adress:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Area:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="col-md-6">
+							<html:div class="searchwireman">
+								<html:div class="row">
+									<html:div class="col-md-6">
+										<html:h6 align="right">Name Of Wireman:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>Pravakar Tanji Solkar</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">
+											licence:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>181156</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Mobile:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>985231132</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Adress:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6 align="right">Area:</html:h6>
+									</html:div>
+									<html:div class="col-md-6">
+										<html:h6>ANDHERI(E)</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

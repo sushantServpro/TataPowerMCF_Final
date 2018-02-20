@@ -1,0 +1,37 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_07">
+									<html:div class="container-fluid">
+										<html:div class="go-green_intro">
+											<html:div class="intro_head">
+												<html:h4>Energy Conversion</html:h4>
+											</html:div>
+											<html:div class="intro_img">
+												<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="intro_desc">
+												<html:h5 class="text-center">Let us follow these simple tips &amp; a power greener world !</html:h5>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/kitchen_app.png" alt="kitchen_app" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/home_app.png" alt="home_app" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+											<html:div class="kitchen">
+												<html:div class="green_banner">
+													<html:image src="images/conserve.png" alt="conserve" class="img-responsive"></html:image>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
