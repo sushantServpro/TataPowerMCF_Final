@@ -154,6 +154,10 @@
     font-style: normal;
 }
 
+.lang_link bdi {
+	font: bold 13px "Open Sans";
+}
+
 .header_one .navbar-default {
     margin: 0;
 }
@@ -183,6 +187,8 @@
 
 .user_prof li {
     padding: 5px 10px;
+    font: normal 13px "Open Sans";
+    text-align: center;
 }
 
 .user_prof li span {
