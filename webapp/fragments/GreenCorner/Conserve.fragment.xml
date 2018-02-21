@@ -1,0 +1,116 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_41">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Conserve</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="green_explore">
+						<html:div class="row">
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/energy_eff.png" alt="energy_eff" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Energy Efficient Devices</html:h5>
+											<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/saving_tips.png" alt="saving_tips" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Energy Saving Tips</html:h5>
+											<html:p>Mumbai is the one Indian city that has always enjoyed ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/guidelines.png" alt="guidelines" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Power Consumption Guidelines</html:h5>
+											<html:p>Monthly energy consumption ready reckoner ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/reduce_bill.png" alt="reduce_bill" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Reducing your Bill</html:h5>
+											<html:p>Energy conservation and reducing bills should become a mantra ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/energy_calc.png" alt="energy_calc" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Energy Calculator</html:h5>
+											<html:p>Calculate your consumption, Kwh (Units) ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class="col-sm-6">
+								<html:div class="green_explore_lst">
+									<html:div class="row">
+										<html:div class="col-xs-4">
+											<html:image src="images/bill_calc.png" alt="bill_calc" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-8">
+											<html:h5>Bill Calculator</html:h5>
+											<html:p>Calculate your bill ...</html:p>
+											<html:div class="green_knw_more text-right">
+												<Link text="Know More" press="handleLinkPress"/>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
