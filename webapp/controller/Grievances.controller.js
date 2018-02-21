@@ -41,12 +41,12 @@ sap.ui.define([
 			}
 			else if(evt.oSource.mProperties.text === "Consumer Grievance Redressal Forum") {
 				
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.ConsumerGrievancesRedrssalForum"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.ConsumerGrievanceRedressalForum"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 			else if(evt.oSource.mProperties.text === "Regulatory Guidelines") {
 				
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grivances.RegulatoryGuidelines"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.RegulatoryGuidelines"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 		

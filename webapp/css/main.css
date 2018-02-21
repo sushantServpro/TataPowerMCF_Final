@@ -953,12 +953,12 @@
 }
 
 .home_side_menu h4 {
-    font: bold 15px "Helvetica", "Open Sans";
+    font: bold 15px "Open Sans";
 }
 
 .home_service_menu h4 {
-	color: #3a3a3a;
     font: bold 18px "Helvetica", "Open Sans";
+    color: #3a3a3a;
 }
 
 
