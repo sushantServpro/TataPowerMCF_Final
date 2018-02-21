@@ -48,7 +48,7 @@
 														<html:div class="home_side_menu">
 															<html:image src="images/pay_bill.png" alt="speakers" style="margin-top:20px"></html:image>
 															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">NEW</html:h4>
-															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">Customer</html:h4>
+															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">CUSTOMER</html:h4>
 														</html:div>
 													</content>
 												</TileContent>
