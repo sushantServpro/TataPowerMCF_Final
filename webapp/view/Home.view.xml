@@ -77,7 +77,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressOnlineApplication">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/online_appln.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -94,7 +94,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressTariff">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/tariff_details.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -110,7 +110,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressPowerFailure">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/power_failure.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -127,7 +127,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressPowerOutage">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/scheduled_outage.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -145,7 +145,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressBeGreen">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/be_green.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -161,7 +161,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressSafeAtHome">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/safety_home.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -177,7 +177,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressEaseOfBusinessDoing">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/ease_business.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -195,7 +195,7 @@
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressCustomercare">
 									<TileContent>
 										<content>
-											<html:div class="row">
+											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
 													<html:image src="images/write_cc.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
@@ -427,7 +427,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressCalulator">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressSeniorLeadership">
 									<TileContent>
 										<content>
 											<html:div class="innerpic home_service_menu">

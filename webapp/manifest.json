@@ -65,100 +65,101 @@
 				}
 			},
 			"routes": [{
-				"pattern": "",
-				"name": "appHome",
-				"target": "home"
-			}, {
-				"pattern": "MyAccount",
-				"name": "MyAccount",
-				"target": "MyAccount"
-			},{
-				"pattern": "MyAccounts",
-				"name": "MyAccounts",
-				"target": "MyAccounts"
-			}, {
-				"pattern": "QuickPayment",
-				"name": "QuickPayment",
-				"target": "QuickPayment"
-			}, {
-				"pattern": "BeGreen",
-				"name": "BeGreen",
-				"target": "BeGreen"
-			}, {
-				"pattern": "ContactUs",
-				"name": "ContactUs",
-				"target": "ContactUs"
-			}, {
-				"pattern": "EaseOfDoingBusiness",
-				"name": "EaseOfDoingBusiness",
-				"target": "EaseOfDoingBusiness"
-			}, {
-				"pattern": "FAQ",
-				"name": "FAQ",
-				"target": "FAQ"
-			}, {
-				"pattern": "Grievances",
-				"name": "Grievances",
-				"target": "Grievances"
-			}, {
-				"pattern": "KnowledgeCenter",
-				"name": "KnowledgeCenter",
-				"target": "KnowledgeCenter"
-			}, {
-				"pattern": "NewConnections",
-				"name": "NewConnections",
-				"target": "NewConnections"
-			}, {
-				"pattern": "Wireman",
-				"name": "Wireman",
-				"target": "Wireman"
-			}, {
-				"pattern": "GreenCorner",
-				"name": "GreenCorner",
-				"target": "GreenCorner"
-			}, {
-				"pattern": "Newsletter",
-				"name": "Newsletter",
-				"target": "Newsletter"
-			}, {
-				"pattern": "Wireman",
-				"name": "Wireman",
-				"target": "Wireman"
-			}, {
-				"pattern": "AboutUs",
-				"name": "AboutUs",
-				"target": "AboutUs"
-			}, {
-				"pattern": "Calculator",
-				"name": "Calculator",
-				"target": "Calculator"
-			},
-			{
-				"pattern": "OnlineApplications",
-				"name": "OnlineApplications",
-				"target": "OnlineApplications"
-			},
-			{
-				"pattern": "NewCustomer",
-				"name": "NewCustomer",
-				"target": "NewCustomer"
-			},
+					"pattern": "",
+					"name": "appHome",
+					"target": "home"
+				}, {
+					"pattern": "MyAccount",
+					"name": "MyAccount",
+					"target": "MyAccount"
+				}, {
+					"pattern": "MyAccounts",
+					"name": "MyAccounts",
+					"target": "MyAccounts"
+				}, {
+					"pattern": "QuickPayment",
+					"name": "QuickPayment",
+					"target": "QuickPayment"
+				}, {
+					"pattern": "BeGreen",
+					"name": "BeGreen",
+					"target": "BeGreen"
+				}, {
+					"pattern": "ContactUs",
+					"name": "ContactUs",
+					"target": "ContactUs"
+				}, {
+					"pattern": "EaseOfDoingBusiness",
+					"name": "EaseOfDoingBusiness",
+					"target": "EaseOfDoingBusiness"
+				}, {
+					"pattern": "FAQ",
+					"name": "FAQ",
+					"target": "FAQ"
+				}, {
+					"pattern": "Grievances",
+					"name": "Grievances",
+					"target": "Grievances"
+				}, {
+					"pattern": "KnowledgeCenter",
+					"name": "KnowledgeCenter",
+					"target": "KnowledgeCenter"
+				}, {
+					"pattern": "NewConnections",
+					"name": "NewConnections",
+					"target": "NewConnections"
+				}, {
+					"pattern": "Wireman",
+					"name": "Wireman",
+					"target": "Wireman"
+				}, {
+					"pattern": "GreenCorner",
+					"name": "GreenCorner",
+					"target": "GreenCorner"
+				}, {
+					"pattern": "Newsletter",
+					"name": "Newsletter",
+					"target": "Newsletter"
+				}, {
+					"pattern": "Wireman",
+					"name": "Wireman",
+					"target": "Wireman"
+				}, {
+					"pattern": "AboutUs",
+					"name": "AboutUs",
+					"target": "AboutUs"
+				}, {
+					"pattern": "Calculator",
+					"name": "Calculator",
+					"target": "Calculator"
+				}, {
+					"pattern": "OnlineApplications",
+					"name": "OnlineApplications",
+					"target": "OnlineApplications"
+				}, {
+					"pattern": "NewCustomer",
+					"name": "NewCustomer",
+					"target": "NewCustomer"
+				}, {
+					"pattern": "PaymentHistory",
+					"name": "PaymentHistory",
+					"target": "PaymentHistory"
+				}, {
+					"pattern": "LatesAds",
+					"name": "LatesAds",
+					"target": "LatesAds"
+				}, {
+					"pattern": "RegisterPowerFailure",
+					"name": "RegisterPowerFailure",
+					"target": "RegisterPowerFailure"
+				},
+
 				{
-				"pattern": "PaymentHistory",
-				"name": "PaymentHistory",
-				"target": "PaymentHistory"
-			},
-				{
-				"pattern": "LatesAds",
-				"name": "LatesAds",
-				"target": "LatesAds"
-			}
-			,
-				{
-				"pattern": "RegisterPowerFailure",
-				"name": "RegisterPowerFailure",
-				"target": "RegisterPowerFailure"
-			}
+					"pattern": "SeniorLeadership",
+					"name": "SeniorLeadership",
+					"target": "SeniorLeadership"
+				}
+
 			],
 			"targets": {
 				"home": {
@@ -175,12 +176,12 @@
 					"viewName": "MyAccount",
 					"viewLevel": 2
 				},
-					"MyAccounts": {
+				"MyAccounts": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "MyAccounts",
 					"viewLevel": 2
 				},
-					"NewCustomer": {
+				"NewCustomer": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "NewCustomer",
 					"viewLevel": 2
@@ -205,7 +206,7 @@
 					"viewName": "ContactUs",
 					"viewLevel": 8
 				},
-					"LatesAds": {
+				"LatesAds": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "LatesAds",
 					"viewLevel": 8
@@ -262,23 +263,23 @@
 					"viewName": "Calculator",
 					"viewLevel": 18
 				},
-				
-					"OnlineApplications": {
+
+				"OnlineApplications": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "OnlineApplications",
 					"viewLevel": 19
-				}
-				,
-				
-					"RegisterPowerFailure": {
+				},
+
+				"RegisterPowerFailure": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "RegisterPowerFailure",
 					"viewLevel": 19
+				},
+				"SeniorLeadership": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SeniorLeadership",
+					"viewLevel": 19
 				}
-				
-				
-				
-				
 
 			}
 		}

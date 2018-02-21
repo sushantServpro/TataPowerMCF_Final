@@ -130,6 +130,9 @@ sap.ui.define([
 		},
 		pressNewsForyou: function() {
 			this.getRouter().navTo("home");
+		},
+		pressSeniorLeadership: function() {
+			this.getRouter().navTo("SeniorLeadership");
 		}
 
 	});

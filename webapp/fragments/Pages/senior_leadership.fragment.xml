@@ -24,12 +24,12 @@
 								</html:div>
 							</html:div>
 						</html:div>
-						<html:div class="row">
+						<html:div class="row sr_lead_info">
 							<html:div class="col-md-6 ">
 								<html:h5>Mr. Ashok S. Sethi</html:h5>
 								<html:p class="mdname">COO &amp; Executive Director</html:p>
 							</html:div>
-							<html:div class="col-md-3 col-md-offset-3">
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
 								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
 							</html:div>
 						</html:div>
@@ -52,12 +52,12 @@
 								</html:div>
 							</html:div>
 						</html:div>
-						<html:div class="row">
+						<html:div class="row sr_lead_info">
 							<html:div class="col-md-6 ">
 								<html:h5>Mr. Anil Sardana</html:h5>
 								<html:p class="mdname">CEO &amp; Managing Director</html:p>
 							</html:div>
-							<html:div class="col-md-3 col-md-offset-3">
+							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
 								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
 							</html:div>
 						</html:div>
@@ -68,12 +68,13 @@
 				<html:div class="textimgvalue">
 					<html:image src="images/feedback.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
 				</html:div>
-				<html:h5 align="center">BEST REGARDS</html:h5>
+				<html:h5 class="text-center best_regards">BEST REGARDS</html:h5>
 				<html:h5 class="teamtata">Team TATA Power</html:h5>
-				<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to<Link text="ccag@tatapower-ddl.com" press="handleLinkPress" class="penplink"/>
+				<html:p class="penleader">For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to
+					<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
 				</html:p>
 				<html:p class="penleader">OR at TPDDL website with link
-					<Link text="http://www.tatapower-ddl.com/" press="handleLinkPress" class="penplink"/>
+					<html:a href="http://www.tatapower-ddl.com/" title="Tata Power DDl" target="_blank">http://www.tatapower-ddl.com/</html:a>
 					to enable timely resolution.
 				</html:p>
 				<html:p class="penleader">TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations and customer satisfaction.</html:p>

@@ -377,7 +377,7 @@
 }
 
 .term a {
-	padding: 0 15px;
+    padding: 0 15px;
     color: #fff;
     font: bold 14px "Open Sans";
 }
@@ -738,7 +738,7 @@
 }
 
 .share_feedback .tileLayout {
-	box-shadow: none !important;
+    box-shadow: none !important;
     width: 100% !important;
     height: auto;
     padding: 5px;
@@ -946,12 +946,19 @@
     font-size: 13px;
 }
 
+.home_ten_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home_side_menu h4 {
     font: bold 15px "Helvetica", "Open Sans";
 }
 
 .home_service_menu h4 {
-    font: bold 15px "Helvetica", "Open Sans";
+	color: #3a3a3a;
+    font: bold 18px "Helvetica", "Open Sans";
 }
 
 
@@ -2126,7 +2133,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         position: relative;
     }
     .middlebanner .cube {
-    	margin-right: 0;
+        margin-right: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -2334,7 +2341,9 @@ hr {
 }
 
 .senleader {
-    font-size: 15px;
+    padding: 10px 0;
+    margin: 0;
+    font: normal 14px "Open Sans";
     text-align: center;
 }
 
@@ -2344,15 +2353,38 @@ hr {
 }
 
 .senled {
-    font-size: 11px;
+    font: bold 13px "Open Sans";
+}
+
+.lead_btn_write .sapMBtn {
+    width: 100%;
+}
+
+.lead_btn_write .sapMBtn .sapMBtnCustomIcon {
+    color: #fff;
+}
+
+.lead_btn_write .sapMBtn bdi {
+    font: normal 14px "Open Sans";
+}
+
+.best_regards {
+    padding: 10px;
+    font: normal 14px "Open Sans";
 }
 
 .write {
     margin-top: 10px !important;
 }
 
+.sr_lead_info h5 {
+    font: bold 14px "Open Sans";
+}
+
 .mdname {
+    margin: 0;
     color: #0797ef;
+    font: normal 14px "Open Sans";
 }
 
 .textimgvalue {
@@ -2604,11 +2636,14 @@ hr {
 .teamtata {
     color: #0797ef;
     text-align: center;
+    font: normal 14px "Open Sans";
 }
 
 .penleader {
-    font-size: 13px;
+    padding: 10px 0 5px;
+    margin: 0;
     text-align: center;
+    font: bold 13px "Open Sans";
 }
 
 .penplink {
