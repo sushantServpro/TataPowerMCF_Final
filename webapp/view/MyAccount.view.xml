@@ -57,22 +57,22 @@
 								<html:div class="row righttiles">
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout onept" press="OnMyAccount">
-											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/reg_e_services.png" alt="Example picture of speakers"/>
+											<TileContent footer="View/Pay Bill Online" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/view_n_paybill_online.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile">
 										<GenericTile class="tileLayout twopt" press="OnMyAccount">
-											<TileContent footer="Register for E-Bill" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/reg_email.png" alt="Example picture of speakers"/>
+											<TileContent footer="Consumption" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/consumprion.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile chg_tile">
 										<GenericTile class="tileLayout threept" press="OnMyAccount">
-											<TileContent footer="Change Password" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/change_passd.png" alt="Example picture of speakers"/>
+											<TileContent footer="Payment Receipts" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/online_pmt_recp.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
@@ -85,15 +85,15 @@
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
 										<GenericTile class="tileLayout fivept" press="OnMyAccount">
-											<TileContent footer="Online Payment Receipt" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/online_pmt_recp.png" alt="Example picture of speakers"/>
+											<TileContent footer="Register for E-Service" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/reg_e_services.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
 									<html:div class="col-xs-6 col-sm-4 col-md-4 righttile bottom_tile">
 										<GenericTile class="tileLayout sixpt" press="OnMyAccount">
-											<TileContent footer="View/Pay Bill Online" class="sapUiSmallMargin">
-												<Image class="myimg" src="images/view_n_paybill_online.png" alt="Example picture of speakers"/>
+											<TileContent footer="Register for E-Bill" class="sapUiSmallMargin">
+												<Image class="myimg" src="images/reg_email.png" alt="Example picture of speakers"/>
 											</TileContent>
 										</GenericTile>
 									</html:div>
@@ -103,9 +103,9 @@
 						<html:div class="row middlebox">
 							<html:div class="content">
 								<html:div class="row">
-									<html:div class="col-sm-7 col-md-6">
+									<html:div class="col-sm-12 col-md-3">
 										<html:div class="row">
-											<html:div class="col-sm-6">
+											<html:div class="col-sm-12">
 												<html:div class="row bill_payment">
 													<html:div class="col-xs-12">
 														<GenericTile class="tileLayout" press="press">
@@ -143,9 +143,29 @@
 													</html:div>
 												</html:div>
 											</html:div>
-											<html:div class="col-sm-6">
+										</html:div>
+									</html:div>
+									<html:div class="col-sm-12 col-md-7 col-md-offset-2  counters">
+										<html:div class="row myacc_count_flex">
+											<html:div class="col-sm-9">
+												<html:div class="row">
+													<html:div class="col-xs-4 col-sm-4 text-center">
+														<html:span>Consumer Number</html:span>
+														<html:h4>1234</html:h4>
+													</html:div>
+													<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+														<html:span>Account Number</html:span>
+														<html:h4>1234</html:h4>
+													</html:div>
+													<html:div class="col-xs-4 col-sm-4 text-center">
+														<html:span>Meter Number</html:span>
+														<html:h4>1234</html:h4>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-sm-3">
 												<html:div class="row share_feedback">
-													<html:div class="col-xs-12 col-sm-12 col-md-8">
+													<html:div class="col-xs-12 col-sm-12 col-md-12">
 														<GenericTile class="tileLayout" press="press">
 															<TileContent>
 																<content>
@@ -164,22 +184,6 @@
 														</GenericTile>
 													</html:div>
 												</html:div>
-											</html:div>
-										</html:div>
-									</html:div>
-									<html:div class="col-sm-5 col-md-6 counters">
-										<html:div class="row">
-											<html:div class="col-xs-4 col-sm-4 text-center">
-												<html:span>Consumer Number</html:span>
-												<html:h4>1234</html:h4>
-											</html:div>
-											<html:div class="col-xs-4 col-sm-4 text-center acc_no">
-												<html:span>Account Number</html:span>
-												<html:h4>1234</html:h4>
-											</html:div>
-											<html:div class="col-xs-4 col-sm-4 text-center">
-												<html:span>Meter Number</html:span>
-												<html:h4>1234</html:h4>
 											</html:div>
 										</html:div>
 									</html:div>
