@@ -367,21 +367,6 @@
 								</GenericTile>
 							</html:div>
 							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressCalulator">
-									<TileContent>
-										<content>
-											<html:div class="innerpic home_service_menu">
-												<html:image src="images/faqs.png" alt="speakers " class="innertileimg"></html:image>
-												<html:h4 class="innertext">Calculator</html:h4>
-												<html:div class="green_knw_more text-right">
-													<Link text="Know More" press="handleLinkPress"/>
-												</html:div>
-											</html:div>
-										</content>
-									</TileContent>
-								</GenericTile>
-							</html:div>
-							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressVideoGallery">
 									<TileContent>
 										<content>
@@ -433,6 +418,21 @@
 											<html:div class="innerpic home_service_menu">
 												<html:image src="images/news_fryou.png" alt="speakers " class="innertileimg"></html:image>
 												<html:h4 class="innertext">News For You</html:h4>
+												<html:div class="green_knw_more text-right">
+													<Link text="Know More" press="handleLinkPress"/>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressCalulator">
+									<TileContent>
+										<content>
+											<html:div class="innerpic home_service_menu">
+												<html:image src="images/sr_leader.png" alt="sr_leader" class="innertileimg"></html:image>
+												<html:h4 class="innertext">Write to Sr. Leadership</html:h4>
 												<html:div class="green_knw_more text-right">
 													<Link text="Know More" press="handleLinkPress"/>
 												</html:div>
