@@ -2,27 +2,55 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_45">
-				<html:div class="container-fluid">
-					<html:div class="new_cust_type">
-						<html:div class="row">
-							<html:div class="col-sm-8 col-sm-offset-2">
-								<html:div class="row">
-									<html:div class="col-xs-12 col-sm-4">
-										<ImageContent class="pro_img_cont" src="images/residential.png" description="residential" press="press"></ImageContent>
-									</html:div>
-									<html:div class="col-xs-12 col-sm-4">
-										<ImageContent class="pro_img_cont" src="images/commercial.png" description="commercial" press="press"></ImageContent>
-									</html:div>
-									<html:div class="col-xs-12 col-sm-4">
-										<ImageContent class="pro_img_cont" src="images/industrial.png" description="industrial" press="press"></ImageContent>
-									</html:div>
+			<html:div class="row nctabbar">
+				<IconTabBar id="idIconTabBarStretchContent" stretchContentHeight="true" backgroundDesign="Transparent" applyContentPadding="false"
+					expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+					<items>
+						<IconTabFilter icon="images/residential.png">
+							<html:div class=" row innertabvst">
+								<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+									<items>
+										<IconTabFilter text="VALUE PREPOSITION">
+											<html:div class="intabnc">
+												<html:h5 class="techlinenew">TECHNICAL</html:h5>
+												<html:p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+													ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+													five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+													release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+													including versions of Lorem Ipsum.</html:p>
+											</html:div>
+										</IconTabFilter>
+										<IconTabFilter text="SERVICE PREMISED">
+											<Text text="Attachments go here ..."/>
+										</IconTabFilter>
+										<IconTabFilter text="TARIFF">
+											<Text text="Notes go here ..."/>
+										</IconTabFilter>
+									</items>
+								</IconTabBar>
+							</html:div>
+							<html:div class="row">
+								<html:div class="col-md-3 col-md-offset-3">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/life_history.png" alt="tata_logo"></html:image>
+									</html:a>
+								</html:div>
+								<html:div class="col-md-6 ">
+									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+										<html:image src="images/apply_to_us.png" alt="tata_logo"></html:image>
+									</html:a>
 								</html:div>
 							</html:div>
-						</html:div>
-					</html:div>
-				</html:div>
-			</Panel>
+						</IconTabFilter>
+						<IconTabFilter icon="images/commercial.png">
+							<Text text="Attachments go here ..."/>
+						</IconTabFilter>
+						<IconTabFilter icon="images/industrial.png">
+							<Text text="People content goes here ..."/>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</html:div>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

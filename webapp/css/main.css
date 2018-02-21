@@ -123,8 +123,13 @@
     border: none;
 }
 
-.sapMFlexBoxBGTransparent { width: 100% !important; }
-.sapMFlexBoxBGTransparent .sapMPanelContent { padding: 0 !important; }
+.sapMFlexBoxBGTransparent {
+    width: 100% !important;
+}
+
+.sapMFlexBoxBGTransparent .sapMPanelContent {
+    padding: 0 !important;
+}
 
 .search_list .sapMSF .sapMSFI {
     border: none;
@@ -356,7 +361,7 @@
 }
 
 .innertext {
-	padding: 0 15px;
+    padding: 0 15px;
     text-align: right;
 }
 
@@ -941,8 +946,14 @@
     font-size: 13px;
 }
 
-.home_side_menu h4 { font: bold 15px "Helvetica","Open Sans"; }
-.home_service_menu h4 { font: bold 16px "Helvetica","Open Sans"; }
+.home_side_menu h4 {
+    font: bold 15px "Helvetica", "Open Sans";
+}
+
+.home_service_menu h4 {
+    font: bold 16px "Helvetica", "Open Sans";
+}
+
 
 /*be-green introduction*/
 
@@ -958,7 +969,9 @@
     font: bold 14px "Open Sans";
 }
 
-.intro_desc p { padding: 20px 0; }
+.intro_desc p {
+    padding: 20px 0;
+}
 
 .intro_desc h5 {
     padding: 20px 0;
@@ -1935,25 +1948,38 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     text-transform: capitalize;
 }
 
-.e_services { border-top: 1px solid #ddd; }
-
-.email_ser_img img { display: inline-block; }
-
-.email_service { padding: 40px 15px; }
-
-.e_services h5 {
-	padding: 10px 0;
-	font: bold 16px "Open Sans";
-	color: #2f8fe4;
-	text-transform: capitalize;
+.e_services {
+    border-top: 1px solid #ddd;
 }
 
-.email_alerts_radio .sapMRb { width: 100% !important; }
+.email_ser_img img {
+    display: inline-block;
+}
+
+.email_service {
+    padding: 40px 15px;
+}
+
+.e_services h5 {
+    padding: 10px 0;
+    font: bold 16px "Open Sans";
+    color: #2f8fe4;
+    text-transform: capitalize;
+}
+
+.email_alerts_radio .sapMRb {
+    width: 100% !important;
+}
 
 .email_alerts_chk .row,
-.email_alerts_radio .row { padding: 5px 0; }
+.email_alerts_radio .row {
+    padding: 5px 0;
+}
 
-.reg_serv_btn { padding: 15px 0; } 
+.reg_serv_btn {
+    padding: 15px 0;
+}
+
 
 /*mobile view */
 
@@ -2159,8 +2185,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .secondline {
         margin-top: 20px;
     }
-    
-    .sms_service { border-left: 1px solid #ddd; }
+    .sms_service {
+        border-left: 1px solid #ddd;
+    }
 }
 
 
@@ -2437,32 +2464,57 @@ hr {
 }
 
 .sapMITBFilter .sapMITBText {
-    line-height: 2.2375rem!important;
-    overflow: hidden;
-    padding: 6px 5px 12px 0px !important;
-    position: relative;
-    text-overflow: ellipsis;
-    width: 20rem !important;
-    text-shadow: 0 0 0.125rem #ffffff;
-    font-size: 14px !important;
-    color: #333;
+    line-height: 0.9375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 0 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 16rem!important;
+    color: #333333!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 12px!important;
 }
 
 .sapMITBFilter .sapMITBText:hover {
-    line-height: 2.2375rem!important;
+    line-height: 0.9375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 0 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 16rem!important;
+    color: #fff!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 12px!important;
+}
+
+.nctabbar .sapMITBFilterIcon {
+    border-bottom-left-radius: 0rem !important;
+    border-bottom-right-radius: 0rem !important;
+    -moz-border-radius: 3rem !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: auto !important;
+    line-height: 2.75rem;
     overflow: hidden;
-    padding: 6px 5px 12px 0px !important;
-    position: relative;
-    text-overflow: ellipsis;
-    width: 20rem !important;
-    text-shadow: 0 0 0.125rem #ffffff;
-    font-size: 14px !important;
-    color: #fff !important;
+    width: 100% !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 .sapMITBVertical,
 .sapMITBVertical>.sapMITBTab {
     height: auto!important;
+}
+
+.nctabbar .sapMITBFilterDefault:hover,
+.sapMITBSelected {
+    color: #fff!important;
+    background: transparent !important;
+    border: none !important;
 }
 
 .sapMITBTab {
@@ -2475,20 +2527,10 @@ hr {
     border-bottom: 0.125rem solid #eff4f900!important;
 }
 
-.sapMITBFilter {
-    margin: 0px 1rem!important;
-}
-
-.sapUiMedia-Std-Desktop .sapMITB.sapUiResponsiveContentPadding .sapMITBArrowScrollRight {
-    padding: 8rem 0px !important;
-    right: 1.25rem !important;
-    font-size: 18px !important;
-}
-
-.sapUiMedia-Std-Desktop .sapMITB.sapUiResponsiveContentPadding .sapMITBArrowScrollLeft {
-    left: 1.25rem!important;
-    padding: 8rem 0px!important;
-    font-size: 18px !important;
+.nctabbar .sapMITH {
+    box-shadow: inset 0 -0.25rem 0 -0.125rem #d1e0ee00!important;
+    background-color: none !important;
+    border-bottom: none!important;
 }
 
 .sapMITBFilterDefault {
@@ -2497,15 +2539,43 @@ hr {
     border: 1px solid #16a7f7;
 }
 
+.nctabbar .sapMITBFilterIcon {
+    border: 1px solid #427cac;
+}
+
 .sapMITBFilterDefault:hover,
 .sapMITBSelected {
-    color: #fff;
+    color: #fff!important;
     background: #16a7f7 !important;
     border: 2px solid #16a7f7 !important;
 }
 
-.sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
-    padding-right: 0rem !important;
+.sapMPanel {
+    box-sizing: border-box!important;
+    position: relative!important;
+    overflow: visible!important;
+}
+
+.nctabbar .sapMITBFilterDefault {
+    color: #16a7f7;
+    background: none!important;
+    border: none!important;
+}
+
+.nctabbar .sapMITH {
+    box-shadow: inset 0 -0.25rem 0 -0.125rem #d1e0ee;
+    background-color: transparent!important;
+    border-bottom: 0.125rem solid #eff4f9;
+}
+
+.nctabbar .sapMITBNoText>.sapMITBFilter>.sapMITBContentArrow {
+    margin: 0 auto;
+    width: 27rem!important;
+}
+
+.nctabbar .sapMITBSelected .sapMITBFilterDefault {
+    background: none!important;
+    color: transparent!important;
 }
 
 .newconnectiontxt {
@@ -2549,4 +2619,64 @@ hr {
 .penplink {
     color: #0070b1!important;
     font-size: 13px!important;
+}
+
+.innertabvst .sapMITBFilter .sapMITBText {
+    line-height: 0.9375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 12px 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 30rem!important;
+    color: #333333!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 12px!important;
+}
+
+.innertabvst .sapMITBFilter .sapMITBText:hover {
+    line-height: 0.9375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 12px 0 !important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 30rem!important;
+    color: #16a7f7!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 12px!important;
+}
+
+.innertabvst .sapMITBSelected>.sapMITBContentArrow {
+    border-bottom-color: transparent!important;
+}
+
+.innertabvst .sapMITBText:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #1e87e4;
+    font-size: 20px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.techlinenew:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #333;
+    font-size: 10px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 21px;
+    left: 0;
+}
+
+.intabnc p {
+    font-size: 12px;
 }

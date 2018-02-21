@@ -10,7 +10,7 @@
 						<html:div class="row">
 							<html:div class="col-xs-12 col-sm-12 col-md-7 profile">
 								<html:div class="row">
-									<html:div class="col-xs-12 col-sm-8 col-md-8 profileblue">
+									<html:div class="col-xs-12 col-sm-12 col-md-12 profileblue">
 										<html:div class="profimg">
 											<html:image src="images/profile.png" alt="prof"></html:image>
 										</html:div>
@@ -22,28 +22,32 @@
 											</html:h5>
 										</html:div>
 										<html:div class="row contacttext">
-											<html:div class=" col-md-6 proftext2">
-												<html:i class="fa fa-envelope-o fa-2x" aria-hidden="true"></html:i>
+											<html:div class="col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Email
+												</html:h5>
 												<html:h5 style="color:#fff;">Siddhesh.m1@gmail.com
 												</html:h5>
 											</html:div>
-											<html:div class=" col-md-6 proftext3">
-												<html:i class="fa fa-mobile fa-2x" aria-hidden="true"></html:i>
+											<html:div class=" col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Mobile
+												</html:h5>
 												<html:h5 style="color:#fff;">
 													+91 9000034564
 												</html:h5>
 											</html:div>
-										</html:div>
-									</html:div>
-									<html:div class="col-xs-12 col-sm-4 col-md-4 profileblack">
-										<html:div class="row">
-											<html:div class="col-xs-3 col-sm-3 col-md-3 proftext4">
-												<html:image src="images/my_bill.png" alt="speakers"></html:image>
+											<html:div class="col-sm-3 col-md-3 proftext3">
+												<html:h5 style="color:#fff;">Aadhar Number
+												</html:h5>
+												<html:h5 style="color:#fff;">
+													900003456432
+												</html:h5>
 											</html:div>
-											<html:div class="col-xs-9 col-sm-9 col-md-9 proftext5">
-												<html:h5>
-													My Bill</html:h5>
-												<html:h3>₹ 790.00</html:h3>
+											<html:div class="col-sm-3 col-md-3 proftextx">
+												<html:h5 style="color:#fff;">GST Number
+												</html:h5>
+												<html:h5 style="color:#fff;">
+													933003566456
+												</html:h5>
 											</html:div>
 										</html:div>
 									</html:div>
