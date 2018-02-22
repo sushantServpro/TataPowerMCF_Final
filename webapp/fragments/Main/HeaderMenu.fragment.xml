@@ -98,14 +98,14 @@
 											<items>
 												<MenuItem text="About Power Supply" press="pressAboutUs"></MenuItem>
 												<MenuItem text="About Tata Power Customer Portal" press="pressAboutUs"></MenuItem>
-													<MenuItem text="Milestones" press="pressAboutUs"></MenuItem>
-														<MenuItem text="Future Intiatives" press="pressAboutUs"></MenuItem>
+												<MenuItem text="Milestones" press="pressAboutUs"></MenuItem>
+												<MenuItem text="Future Intiatives" press="pressAboutUs"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
 								</MenuButton>
 							</html:li>
-								<html:li>
+							<html:li>
 								<MenuButton text="More" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
@@ -129,10 +129,14 @@
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right mobile_store">
 							<html:li>
-								<html:image src="images/app_store.png" alt="app_store" class="img-responsive"></html:image>
+								<html:a href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8">
+									<html:image src="images/app_store.png" alt="app_store" class="img-responsive"></html:image>
+								</html:a>
 							</html:li>
 							<html:li>
-								<html:image src="images/play_store.png" alt="play_store" class="img-responsive"></html:image>
+								<html:a href="https://play.google.com/store/apps/details?id=com.tata.tatapower">
+									<html:image src="images/play_store.png" alt="play_store" class="img-responsive"></html:image>
+								</html:a>
 							</html:li>
 						</html:ul>
 					</html:div>

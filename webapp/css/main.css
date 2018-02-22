@@ -2750,3 +2750,16 @@ hr {
 .vidgall{
 	color:#0882cc;
 }
+.videogallery{
+	padding:0 !important;
+}
+.mobile_store li a{
+	padding:0;
+}
+.innerpoint{
+	list-style-type: circle;
+	font-size: 20px;
+}
+.outerpoint{
+	font-size: 14px;	
+}

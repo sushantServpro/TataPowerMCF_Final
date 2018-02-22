@@ -1,0 +1,63 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+	<content>
+			<html:div class="row">
+				<html:div class="col-md-6">
+					<html:h3 class="vidgall">Video Gallery</html:h3>
+				</html:div>
+				<html:div class="col-md-6"></html:div>
+			</html:div>
+			<html:div class="row">
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+								<html:h4>Tatapower video1</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-uAmBr7fwdk"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Tatapower video2</html:h4>
+								</html:div>
+					</html:div>
+				</html:div>
+					<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+								<html:h4>Tatapower video3</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+					<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+								<html:h4>Tatapower video4</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

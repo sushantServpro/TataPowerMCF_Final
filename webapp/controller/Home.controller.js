@@ -120,7 +120,7 @@ sap.ui.define([
 			this.getRouter().navTo("Calculator");
 		},
 		pressVideoGallery: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("VideoGallery");
 		},
 		pressLatestAdCampaigns: function() {
 			this.getRouter().navTo("LatesAds");

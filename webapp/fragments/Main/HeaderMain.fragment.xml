@@ -42,11 +42,7 @@
 									<html:image src="images/fb.png"></html:image>
 								</html:a>
 							</html:li>
-							<html:li>
-								<html:a href="#" title="facebook" target="_blank">
-									<html:image src="images/gplus.png"></html:image>
-								</html:a>
-							</html:li>
+							
 							<html:li>
 								<html:a href="#" title="facebook" target="_blank">
 									<html:image src="images/twitter.png"></html:image>

@@ -165,7 +165,11 @@
 					"name": "SeniorLeadership",
 					"target": "SeniorLeadership"
 				}
-
+,	{
+					"pattern": "VideoGallery",
+					"name": "VideoGallery",
+					"target": "VideoGallery"
+				}
 			],
 			"targets": {
 				"home": {
@@ -285,8 +289,12 @@
 					"viewPath": "tatapower.dev.view",
 					"viewName": "SeniorLeadership",
 					"viewLevel": 19
+				},
+				"VideoGallery": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "VideoGallery",
+					"viewLevel": 20
 				}
-				
 			
 
 			}

@@ -282,6 +282,27 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Meter Testing">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Meter Testing</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
 							</items>
 						</IconTabBar>
 					</html:div>
