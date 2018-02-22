@@ -133,6 +133,10 @@ sap.ui.define([
 		},
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");
+		},
+		
+			pressAboutUs: function() {
+			this.getRouter().navTo("AboutUs");
 		}
 
 	});

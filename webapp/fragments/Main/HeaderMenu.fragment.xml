@@ -14,17 +14,17 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add" press="onHomePress"/>
-														<MenuItem text="subtract" icon="sap-icon://less" press="onHomePress"/>
-														<MenuItem text="multiply" icon="sap-icon://decline" press="onHomePress"/>
-													</items>
+												<MenuItem text="basic">
+													<!--<items>-->
+													<!--	<MenuItem text="add" press="onHomePress"/>-->
+													<!--	<MenuItem text="subtract" press="onHomePress"/>-->
+													<!--	<MenuItem text="multiply" press="onHomePress"/>-->
+													<!--</items>-->
 												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed" press="onHomePress"/>
-													</items>
+												<MenuItem text="complex">
+													<!--<items>-->
+													<!--	<MenuItem text="square" press="onHomePress"/>-->
+													<!--</items>-->
 												</MenuItem>
 											</items>
 										</Menu>
@@ -36,18 +36,8 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -58,18 +48,8 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -80,18 +60,8 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -102,18 +72,8 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -124,40 +84,34 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
 								</MenuButton>
 							</html:li>
 							<html:li>
+								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="About Power Supply" press="pressAboutUs"></MenuItem>
+												<MenuItem text="About Tata Power Customer Portal" press="pressAboutUs"></MenuItem>
+													<MenuItem text="Milestones" press="pressAboutUs"></MenuItem>
+														<MenuItem text="Future Intiatives" press="pressAboutUs"></MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+								<html:li>
 								<MenuButton text="More" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic" icon="sap-icon://chalkboard">
-													<items>
-														<MenuItem text="add" icon="sap-icon://add"/>
-														<MenuItem text="subtract" icon="sap-icon://less"/>
-														<MenuItem text="multiply" icon="sap-icon://decline"/>
-													</items>
-												</MenuItem>
-												<MenuItem text="complex" icon="sap-icon://display">
-													<items>
-														<MenuItem text="square" icon="sap-icon://status-completed"/>
-													</items>
-												</MenuItem>
+												<MenuItem text="basic"></MenuItem>
+												<MenuItem text="complex"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
