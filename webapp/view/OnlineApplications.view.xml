@@ -154,8 +154,8 @@
 								</IconTabFilter>
 							</items>
 						</IconTabBar>
-						<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
 					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

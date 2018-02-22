@@ -3,18 +3,20 @@
 	<Panel >
 		<content>
 			<Panel id="pnl_01">
-				<html:div>
-					<html:div class=" col-md-4">
-						<html:h3>Procedure And Guidelines</html:h3>
+				<html:div class="procedure_head">
+					<html:h4>Procedure And Guidelines</html:h4>
+				</html:div>
+				<html:div class="row procedure_files">
+					<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
-								<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+								<html:div>
 									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-								</html:a>
+								</html:div>
 							</html:div>
-							<html:div class="panel-footer">Procedure and Guidelines</html:div>
+							<html:div class="panel-footer">Estimation of Security Deposite</html:div>
 						</html:div>
-					</html:div>
+					</html:a>
 				</html:div>
 			</Panel>
 		</content>

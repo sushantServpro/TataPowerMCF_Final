@@ -49,9 +49,14 @@ sap.ui.define([
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.Applicationforms"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-			else if(evt.oSource.mProperties.text === "FAQs") {
+				else if(evt.oSource.mProperties.text === "FAQs") {
 				
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.FAQs"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+			else if(evt.oSource.mProperties.text === "Standard Drawings") {
+				
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.StandardDrawings"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 				else if(evt.oSource.mProperties.text === "Apply Online") {
