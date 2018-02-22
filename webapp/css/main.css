@@ -2491,7 +2491,7 @@ hr {
 }
 
 .sapMITBFilter .sapMITBText {
-    line-height: 0.9375rem!important;
+    line-height: 1.4375rem!important;
     overflow: hidden!important;
     padding: 1.575rem 0 0!important;
     position: relative!important;
@@ -2503,7 +2503,7 @@ hr {
 }
 
 .sapMITBFilter .sapMITBText:hover {
-    line-height: 0.9375rem!important;
+    line-height: 1.4375rem!important;
     overflow: hidden!important;
     padding: 1.575rem 0 0!important;
     position: relative!important;
@@ -2709,4 +2709,7 @@ hr {
 
 .intabnc p {
     font-size: 12px;
+}
+.vidgall{
+	color:#0882cc;
 }

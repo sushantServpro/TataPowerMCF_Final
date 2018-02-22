@@ -16,30 +16,28 @@
 											<html:h4>New Connection</html:h4>
 										</html:div>
 										<html:div class="row pagelinkage">
+												<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressNewConnection"/></html:span>
+											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressNewConnection"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="FAQs" press="pressNewConnection"/></html:span>
+													<Link class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
 											</html:div>
+										
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="ESTIMATION OF SECURITY DEPOSIT" press="pressNewConnection"/></html:span>
+													<Link class="linknewcon" text="FAQs" press="pressNewConnection"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="STANDARD DRAWINGS" press="pressNewConnection"/></html:span>
 											</html:div>
-											<html:div class="col-md-6">
-												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
-											</html:div>
-											<html:div class="col-md-6">
-												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" press="pressNewConnection"/></html:span>
-											</html:div>
+										
 										</html:div>
 									</html:div>
 								</IconTabFilter>
@@ -51,16 +49,17 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
 											</html:div>
-											<html:div class="col-md-6">
+												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="ESTIMATION OF SECURITY DEPOSIT" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
 											</html:div>
-											<html:div class="col-md-6">
-												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE FORM" target="_blank" href="#"/></html:span>
-											</html:div>
+											
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="FAQS" target="_blank" href="#"/></html:span>
@@ -74,6 +73,10 @@
 											<html:h4>Switch Over Connection</html:h4>
 										</html:div>
 										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
@@ -91,23 +94,24 @@
 											<html:h4>Net Metering</html:h4>
 										</html:div>
 										<html:div class="row pagelinkage">
-											<html:div class="col-md-4">
-												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
-											</html:div>
-											<html:div class="col-md-4">
+												<html:div class="col-md-12">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
 											</html:div>
-											<html:div class="col-md-4">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
+											</html:div>
+										
+											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="MODEL CONNECTION AGREEMENT" target="_blank" href="#"/></html:span>
 											</html:div>
-											<html:div class="col-md-5 ">
+											<html:div class="col-md-6 ">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="CHECK DISTRIBUTION TRANSFORMER CAPACITY" target="_blank" href="#"/></html:span>
 											</html:div>
-											<html:div class=" col-md-offset-3 col-md-4">
+											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
 													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
 											</html:div>
@@ -136,6 +140,12 @@
 										<html:div class="newconnectiontxt">
 											<html:h4>Reconnection</html:h4>
 										</html:div>
+											<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
 									</html:div>
 								</IconTabFilter>
 								<IconTabFilter icon="images/advance_bill_payment.png" text="Advance Bill Payment">
@@ -143,13 +153,133 @@
 										<html:div class="newconnectiontxt">
 											<html:h4>Advance Bill Payment</html:h4>
 										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Register Now &amp; Get Rewarded">
+								<IconTabFilter icon="images/reword_connection.png" text="Register &amp; Get Rewarded">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Register Now and Get Rewarded</html:h4>
 										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Permanent Disconnection">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Permanent Disconnection</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-12">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+											</html:div>
+												<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+									<IconTabFilter icon="images/reword_connection.png" text="Load Enhancement">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Load Enhancement</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Load Reduction">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Load Reduction</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Tariff Category Change">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Tariff Category Change</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+								
+								<IconTabFilter icon="images/reword_connection.png" text="Max Demand Enhancement">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Contract Maximum Demand Enhancement</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter icon="images/reword_connection.png" text="Max Demand Reduction">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Contract Maximum Demand Reduction</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
+									</html:div>
+								</IconTabFilter>
+									<IconTabFilter icon="images/reword_connection.png" text="Meter Shifting">
+									<html:div class="container">
+										<html:div class="newconnectiontxt">
+											<html:h4>Meter Shifting</html:h4>
+										</html:div>
+										<html:div class="row pagelinkage">
+											<html:div class="col-md-6">
+												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
+													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+											</html:div>
+												</html:div>
 									</html:div>
 								</IconTabFilter>
 							</items>

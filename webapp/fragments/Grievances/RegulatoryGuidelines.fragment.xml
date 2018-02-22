@@ -2,9 +2,44 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-		<html:object>
-    <html:embed src="flash/Knowledge Centre - Tata Power Consumer Care Portal (1).swf" width="100%" height="500"></html:embed>
-</html:object>
+			<html:div class="row">
+				<html:div class="col-md-6">
+					<html:h3 class="vidgall">Video Gallery</html:h3>
+				</html:div>
+				<html:div class="col-md-6"></html:div>
+			</html:div>
+			<html:div class="row">
+				<html:div class="col-md-4">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">Panel Footer</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-4">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-uAmBr7fwdk"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">Panel Footer</html:div>
+					</html:div>
+				</html:div>
+				<html:div class="col-md-4">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-uAmBr7fwdk"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">Panel Footer</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
 		</content>
 	</Panel>
 </core:FragmentDefinition>
