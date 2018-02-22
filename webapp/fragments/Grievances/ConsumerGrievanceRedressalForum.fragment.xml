@@ -2,9 +2,23 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<html:object>
-    <html:embed src="flash/Milestones.swf" width="100%" height="500"></html:embed>
-</html:object>
+			<Panel id="pnl_01">
+				<html:div class="procedure_head">
+					<html:h4>Procedure for Consumer Grievance Redressal</html:h4>
+				</html:div>
+				<html:div class="row procedure_files">
+					<html:a href="#" target="_blank" class="col-sm-3 col-md-3">
+						<html:div class="panel panel-default">
+							<html:div class="panel-body pdfviewer">
+								<html:div>
+									<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+								</html:div>
+							</html:div>
+							<html:div class="panel-footer">Procedure for redressal of grievances</html:div>
+						</html:div>
+					</html:a>
+				</html:div>
+			</Panel>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

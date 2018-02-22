@@ -6,7 +6,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container-fluid">
+					<html:div class="container-fluid padding_bottom onl_app_frm">
 						<html:h5 align="center">Online Applications</html:h5>
 						<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
 							<items>
