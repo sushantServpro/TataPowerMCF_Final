@@ -92,6 +92,20 @@
 								</MenuButton>
 							</html:li>
 							<html:li>
+								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">
+									<menu>
+										<Menu itemSelected="onMenuAction">
+											<items>
+												<MenuItem text="About Power Supply" press="pressAboutUs"></MenuItem>
+												<MenuItem text="About Tata Power Customer Portal" press="pressAboutUs"></MenuItem>
+													<MenuItem text="Milestones" press="pressAboutUs"></MenuItem>
+														<MenuItem text="Future Intiatives" press="pressAboutUs"></MenuItem>
+											</items>
+										</Menu>
+									</menu>
+								</MenuButton>
+							</html:li>
+								<html:li>
 								<MenuButton text="More" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
