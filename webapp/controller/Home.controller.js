@@ -138,6 +138,11 @@ sap.ui.define([
 			pressAboutUs: function() {
 			this.getRouter().navTo("AboutUs");
 		}
+,
+		
+			pressContactUs: function() {
+			this.getRouter().navTo("ContactUs");
+		}
 
 	});
 

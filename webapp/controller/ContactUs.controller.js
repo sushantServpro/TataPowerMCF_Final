@@ -21,6 +21,10 @@ sap.ui.define([
 			var vbox1 = this.getView().byId("Flexboxview");
 			var fragment = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.NewConnectionSideMenu"].join("."), this);
 			vbox1.addItem(fragment);
+				var vbox = this.getView().byId("FlexboxProcedure");
+			vbox.destroyItems();
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.AssessmentOfficerVigilance"].join("."), this);
+				vbox.addItem(fragment1);
 
 		},
 			onHomePress: function(oEvent) {
@@ -36,7 +40,7 @@ sap.ui.define([
 			vbox.destroyItems();
 			if (evt.oSource.mProperties.text === "Assessment officer vigilance") {
 				
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.AssesssmentOfficerVigilance"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.AssessmentOfficerVigilance"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 			else if(evt.oSource.mProperties.text === "Call Center Number") {
@@ -56,7 +60,7 @@ sap.ui.define([
 			}
 				else if(evt.oSource.mProperties.text === "HOD Customer Services") {
 				
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCutomerServices"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 				else if(evt.oSource.mProperties.text === "Zonal Managers") {
