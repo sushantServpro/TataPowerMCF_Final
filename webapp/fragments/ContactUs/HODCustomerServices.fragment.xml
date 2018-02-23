@@ -7,9 +7,11 @@
 					<html:h4>Hod Costumer Services</html:h4>
 				</html:div>
 				<html:div class="tpdcs">
-					<html:h5>Tata Power,Distribution Costomer Services,</html:h5>
-					<html:h5>Dharavi Reciving Station, Near Matunga Labaur Camp,</html:h5>
-					<html:h5>Matunga West, Mumbai-400019</html:h5>
+					<html:p>
+						<html:span>Tata Power,Distribution Costomer Services,</html:span>
+						<html:span>Dharavi Reciving Station, Near Matunga Labaur Camp,</html:span>
+						<html:span>Matunga West, Mumbai-400019</html:span>
+					</html:p>
 				</html:div>
 				<html:div class="contactinfo">
 					<html:h4>Contact</html:h4>
