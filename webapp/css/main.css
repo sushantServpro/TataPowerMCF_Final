@@ -2072,6 +2072,30 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 25px 15px;
 }
 
+.procedure_head p {
+    padding: 10px 0;
+    font: normal 13px "Open Sans";
+}
+
+.regulatory_info .row {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.regulatory_info .ele_cgrf {
+    padding: 10px 0 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.consmr_act_lst li { margin: 15px 0; }
+
+.nav-stacked { border: none; }
+
+.procedure_head p a,
+.regulatory_info p a {
+	color: #1c6db9;
+	font: bold 13px "Open Sans";
+}
 
 /*mobile view */
 
@@ -2277,6 +2301,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .ele_comsn {
         border-right: 1px solid #ddd;
+    }
+    .regulatory_info .row {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
