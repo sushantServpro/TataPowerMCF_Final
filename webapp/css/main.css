@@ -2109,6 +2109,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     display: block;
 }
 
+.tbl_zonal .table>thead>tr>th {
+    font: bold 16px "Open Sans";
+    padding: 10px 0;
+    background: #0b96fb24;
+    text-align: center;
+}
+
+.tbl_zonal .table>tbody>tr>td {
+	border: 1px solid #ddd;
+    font: bold 13px "Open Sans";
+    padding: 10px 0;
+    text-align: center;
+}
+
 
 /*mobile view */
 
@@ -2591,7 +2605,9 @@ hr {
     margin-top: 25px;
 }
 
-.hocustomer h5 { font: bold 13px "Open Sans"; }
+.hocustomer h5 {
+    font: bold 13px "Open Sans";
+}
 
 .contactinfo {
     padding-top: 20px;
