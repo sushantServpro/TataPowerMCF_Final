@@ -1966,7 +1966,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 10px 0;
 }
 
-.pwr_dist_spl_chart .nav-stacked li a {
+.pwr_dist_spl_chart .nav-stacked li a,
+.electricity_act .nav-stacked li a {
     padding: 15px;
     margin: 0 !important;
     color: #000 !important;
@@ -1975,17 +1976,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font-size: 13px;
 }
 
-.pwr_dist_spl_chart .nav-stacked li a img {
+.pwr_dist_spl_chart .nav-stacked li a img,
+.electricity_act .nav-stacked li a img {
     display: inline-block;
 }
 
-.pwr_dist_spl_chart .nav-stacked li a:hover {
+.pwr_dist_spl_chart .nav-stacked li a:hover,
+.electricity_act .nav-stacked li a:hover {
     border: none !important;
     background: none !important;
     text-decoration: none !important;
 }
 
-.pwr_dist_spl_chart .nav-stacked li a .row {
+.pwr_dist_spl_chart .nav-stacked li a .row,
+.electricity_act .nav-stacked li a .row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2028,6 +2032,73 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .reg_serv_btn {
     padding: 15px 0;
+}
+
+
+/*Regulatroty Guidelines*/
+
+.regulatory_info h5,
+.reg_forum h5 {
+    padding: 10px 0;
+    color: #2988df;
+    font: bold 15px "Open Sans";
+}
+
+.regulatory_info p {
+    font: normal 13px "Open Sans";
+}
+
+.regulatory_info p span {
+    padding: 3px 0;
+    display: block;
+}
+
+.electricity_act {
+    margin: 10px 0;
+}
+
+.electricity_act .nav-stacked li {
+    box-shadow: 1px 2px 2px 0px #ddd;
+    border: 1px solid #ddd;
+}
+
+.pnl_imp_lnk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnl_imp_lnk .pdfviewer {
+    padding: 25px 15px;
+}
+
+.procedure_head p {
+    padding: 10px 0;
+    font: normal 13px "Open Sans";
+}
+
+.regulatory_info .row {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.regulatory_info .ele_cgrf {
+    padding: 10px 0 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.consmr_act_lst li {
+    margin: 15px 0;
+}
+
+.nav-stacked {
+    border: none;
+}
+
+.procedure_head p a,
+.regulatory_info p a {
+    color: #1c6db9;
+    font: bold 13px "Open Sans";
 }
 
 
@@ -2232,6 +2303,13 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .sms_service {
         border-left: 1px solid #ddd;
+    }
+    .ele_comsn {
+        border-right: 1px solid #ddd;
+    }
+    .regulatory_info .row {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -2509,6 +2587,19 @@ hr {
     padding-top: 20px;
 }
 
+.sapMITBArrowScroll {
+    top: 6.5rem !important;
+    font-size: 25px !important;
+}
+
+.sapMITBArrowScrollLeft {
+    left: -3px !important;
+}
+
+.sapMITBArrowScrollRight {
+    right: -3px !important;
+}
+
 .sapMITBFilterIcon {
     border-bottom-left-radius: 0rem !important;
     border-bottom-right-radius: 0rem !important;
@@ -2525,12 +2616,6 @@ hr {
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-}
-
-.sapMITBScrollContainer {
-    display: inline-block;
-    margin: 2px 0.75rem !important;
-    padding: 20px 0px !important;
 }
 
 .sapMITBFilter .sapMITBText {
@@ -2606,7 +2691,7 @@ hr {
 .sapMITBFilterDefault {
     color: #16a7f7;
     background: none;
-    border: 1px solid #16a7f7;
+    border: 2px solid #1c6db9;
 }
 
 .nctabbar .sapMITBFilterIcon {
@@ -2615,9 +2700,28 @@ hr {
 
 .sapMITBFilterDefault:hover,
 .sapMITBSelected {
-    color: #fff!important;
-    background: #16a7f7 !important;
-    border: 2px solid #16a7f7 !important;
+    color: #fff !important;
+    background: #1c6db9 !important;
+    border: 2px solid #1c6db9 !important;
+}
+
+.onl_app_frm h5 {
+    font: bold 18px "Open Sans";
+}
+
+.sapMITBContentArrow {
+    display: none !important;
+}
+
+.sapMITBFilterDefault .sapMITBText {
+    padding: 10px !important;
+    font: normal 13px "Open Sans";
+}
+
+.sapMITBSelected .sapMITBText,
+.sapMITBFilterDefault:hover .sapMITBText {
+    color: #fff !important;
+    padding: 10px !important;
 }
 
 .sapMPanel {
