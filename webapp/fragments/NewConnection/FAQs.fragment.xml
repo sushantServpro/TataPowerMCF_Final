@@ -5,195 +5,229 @@
 			<Panel id="pnl_04">
 				<html:div>
 					<html:h4>FAQs</html:h4>
-					<html:h5 align="center" style="color:#208bda;font-weight:boldany">Frequently Ask Question On New Power Supply</html:h5>
+					<html:h4 class="faqheader">Frequently Ask Question On New Power Supply</html:h4>
 					<Panel expandable="true" expanded="false" headerText="Can Tata Power give power supply in Mumbai? And in which areas?" width="auto"
 						class="sapUiResponsiveMargin">
-						<content>
-							<Text text="Yes, in license area of Tata Power, which extends from Colaba to Vasai Creek and up to Kanjur Mankhurd."/>
+						<content >
+							<html:div class="textpara">
+								<html:h5>
+									Yes, in license area of Tata Power, which extends from Colaba to Vasai Creek and up to Kanjur Mankhurd.
+								</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="Does Tata Power give power supply to individual residences or only to entire society?"
 						width="auto" class="sapUiResponsiveMargin">
 						<content>
-							<Text text="Yes, Tata Power can give power to individual consumers as well as to entire societies in its license area."/>
+							<html:div class="textpara">
+								<html:h5>Yes, Tata Power can give power to individual consumers as well as to entire societies in its license area.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="How do I intimate Tata Power of my new project where I need power supply?"
 						width="auto" class="sapUiResponsiveMargin">
 						<content>
-							<Text
-								text="Intimation can be given to Tata Power Call Centre (1800 209 5161) or Distribution Customer Acquisition Department ( 091-22-6668 8357 / 67173111 ) against which Request Registration number is issued."/>
+							<html:div class="textpara">
+								<html:h5>Intimation can be given to Tata Power Call Centre (1800 209 5161) or Distribution Customer Acquisition Department ( 091-22-6668
+									8357 / 67173111 ) against which Request Registration number is issued.
+								</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false"
 						headerText="Within how many days will the Tata Power Representative contact after request is registered?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<Text
-								text="Site visit is conducted by Tata Power representative within 7 days after the request is registered and the complete procedure is then explained."/>
+							<html:div class="textpara">
+								<html:h5>Site visit is conducted by Tata Power representative within 7 days after the request is registered and the complete procedure is
+									then explained.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="Where does customer apply for connection to new project?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<html:h6>Distribution Customer Acquisition Department,</html:h6>
-							<html:h6>Groundfloor,Technopolis Knowledge Park, MahakaliCaves Road, Andheri(E), Mumbai-400093 Tel No: 091-22-6668 8357</html:h6>
+							<html:div class="textpara">
+								<html:h5>Distribution Customer Acquisition Department,</html:h5>
+								<html:h5>Groundfloor,Technopolis Knowledge Park, MahakaliCaves Road, Andheri(E), Mumbai-400093 Tel No: 091-22-6668 8357</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="What is the time frame required to get connection?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<html:h6>As per Standard of Performance framed by MERC,The time period for provision of supply from date of receipt to date of completed
-								application (including submission of substation space agreement if applicable) &amp; payment of charges are given below :</html:h6>
-							<html:ol class="outerpoint">
-								<html:li>
-									<html:h6>
-										In case connection is to be from existing network - One (1) Month.</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-										Where extension/augmentation of distributing main is required - Three (3) Months.</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-										Where commission of substation is required - One (1) year.</html:h6>
-								</html:li>
-							</html:ol>
+							<html:div class="textpara">
+								<html:h5>As per Standard of Performance framed by MERC,The time period for provision of supply from date of receipt to date of completed
+									application (including submission of substation space agreement if applicable) &amp; payment of charges are given below :</html:h5>
+								<html:ol class="outerpoint">
+									<html:li>
+										<html:h5>
+											In case connection is to be from existing network - One (1) Month.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Where extension/augmentation of distributing main is required - Three (3) Months.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Where commission of substation is required - One (1) year.</html:h5>
+									</html:li>
+								</html:ol>
+							</html:div>
 						</content>
 					</Panel>
-					<Panel expandable="true" expanded="false" headerText="Who can apply for New Power Supply? What are the documents to be submitted?"
+					<Panel expandable="true" width="auto" expanded="false" headerText="Who can apply for New Power Supply? What are the documents to be submitted?"
 						class="sapUiResponsiveMargin">
 						<content>
-							<html:h6>Builders / Developers / Owners of new projects can apply for new power supply. Applicant needs to submit Power Supply Request From
-								(PSRF) along with the following documents.</html:h6>
-							<html:ol class="outerpoint" type="a">
-								<html:li>
-									<html:h6>Proof of Ownership OR Occupation of premises (copy of any one of the following)</html:h6>
-									<html:ul class="innerpoint">
-										<html:li>
-											<html:h6>Purchase/Sale Agreement with Builder / Previous Occupant</html:h6>
-										</html:li>
-										<html:li>
-											<html:h6>7/12 Extract or property card issued by competent authority in the name of applicant.</html:h6>
-										</html:li>
-										<html:li>
-											<html:h6>Leave &amp; License / Leasing Agreement with property owner</html:h6>
-										</html:li>
-									</html:ul>
-								</html:li>
-								<html:li>
-									<html:h6>Proof of identity (Copy of any one of the following documents)</html:h6>
-									<html:ul class="innerpoint">
-										<html:li>
-											<html:h6>Photo Pass (Recognised Organisation Photo Identity Card).</html:h6>
-										</html:li>
-										<html:li>
-											<html:h6>Voter's identification Card / PAN Card / Driving License.</html:h6>
-										</html:li>
-										<html:li>
-											<html:h6>Passport.</html:h6>
-										</html:li>
-									</html:ul>
-								</html:li>
-								<html:li>
-									<html:h6>Location Map of site</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>Plan / Layout</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>Detailed Power Requirement Load Break for the project (As Per Tata Power Format).</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>No Objection Certificate from MCGM / Directorate of Industries for Industrial Load, if available otherwise to be compulsorily
-										submitted before energisation.</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>No Objection Certificate (as per approved Tata Power Format) from owner of the premises in case applicant is not the owner.</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>Proof of Public Utility, if applicable.</html:h6>
-								</html:li>
-							</html:ol>
+							<html:div class="textpara">
+								<html:h5>Builders / Developers / Owners of new projects can apply for new power supply. Applicant needs to submit Power Supply Request From
+									(PSRF) along with the following documents.</html:h5>
+								<html:ol class="outerpoint" type="a">
+									<html:li>
+										<html:h5>Proof of Ownership OR Occupation of premises (copy of any one of the following)</html:h5>
+										<html:ul class="innerpoint">
+											<html:li>
+												<html:h5>Purchase/Sale Agreement with Builder / Previous Occupant</html:h5>
+											</html:li>
+											<html:li>
+												<html:h5>7/12 Extract or property card issued by competent authority in the name of applicant.</html:h5>
+											</html:li>
+											<html:li>
+												<html:h5>Leave &amp; License / Leasing Agreement with property owner</html:h5>
+											</html:li>
+										</html:ul>
+									</html:li>
+									<html:li>
+										<html:h5>Proof of identity (Copy of any one of the following documents)</html:h5>
+										<html:ul class="innerpoint">
+											<html:li>
+												<html:h5>Photo Pass (Recognised Organisation Photo Identity Card).</html:h5>
+											</html:li>
+											<html:li>
+												<html:h5>Voter's identification Card / PAN Card / Driving License.</html:h5>
+											</html:li>
+											<html:li>
+												<html:h5>Passport.</html:h5>
+											</html:li>
+										</html:ul>
+									</html:li>
+									<html:li>
+										<html:h5>Location Map of site</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>Plan / Layout</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>Detailed Power Requirement Load Break for the project (As Per Tata Power Format).</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>No Objection Certificate from MCGM / Directorate of Industries for Industrial Load, if available otherwise to be compulsorily
+											submitted before energisation.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>No Objection Certificate (as per approved Tata Power Format) from owner of the premises in case applicant is not the owner.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>Proof of Public Utility, if applicable.</html:h5>
+									</html:li>
+								</html:ol>
+							</html:div>
 						</content>
 					</Panel>
-					<Panel expandable="true" expanded="false" headerText="Who is going to fill up the Load details, since customer does not have electrical knowledge?" width="auto"
+					<Panel expandable="true" expanded="false"
+						headerText="Who is going to fill up the Load details, since customer does not have electrical knowledge?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<Text text="A licensed Electrical Contractor / Tata Power representative will help in case of difficulty in mentioning connected load / sanctioned load details."/>
+							<html:div class="textpara">
+								<html:h5>A licensed Electrical Contractor / Tata Power representative will help in case of difficulty in mentioning connected load /
+									sanctioned load details.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-								<html:h6>Submit the Power Supply Application Form along with the following:</html:h6>
-						<html:ul class="outerpoint">
-								<html:li>
-									<html:h6>
-									Recent R-Infra paid bill copyRecent R-Infra paid bill copy</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-										Photo identity proof.</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-										Ownership proof.</html:h6>
-								</html:li>
-								<html:li>
-								<html:h6>
-										Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd.</html:h6>
-								</html:li>
-							</html:ul>
-						</content>
-					</Panel>
-					<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power for the entire society?" width="auto"
-						class="sapUiResponsiveMargin">
-						<content>
-							<html:h6>To initiate this process, every individual society member to submit the Power Supply Application Form along with the following:</html:h6>
+							<html:div class="textpara">
+								<html:h5>Submit the Power Supply Application Form along with the following:</html:h5>
 								<html:ul class="outerpoint">
-								<html:li>
-									<html:h6>
-									Recent R-Infra paid bill copy</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-									Photo identity proof</html:h6>
-								</html:li>
-								<html:li>
-									<html:h6>
-										Ownership proof.</html:h6>
-								</html:li>
-								<html:li>
-								<html:h6>
-									Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd.</html:h6>
-								</html:li>
-							</html:ul>
-							<html:h6>For society meters, registration certificate needs to be provided additionally.</html:h6>
+									<html:li>
+										<html:h5>
+											Recent R-Infra paid bill copyRecent R-Infra paid bill copy</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Photo identity proof.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Ownership proof.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd.</html:h5>
+									</html:li>
+								</html:ul>
+							</html:div>
 						</content>
 					</Panel>
-					<Panel expandable="true" expanded="false" headerText="When will I get Tata power Supply?" width="auto"
-						class="sapUiResponsiveMargin">
+					<Panel expandable="true" expanded="false" headerText="What is the procedure to change from R-Infra to Tata Power for the entire society?"
+						width="auto" class="sapUiResponsiveMargin">
 						<content>
-							<Text text="After submission of completed application form along with necessary documents and payments, power supply changeover will be effected within 30 days."/>
+							<html:div class="textpara">
+								<html:h5>To initiate this process, every individual society member to submit the Power Supply Application Form along with the following:</html:h5>
+								<html:ul class="outerpoint">
+									<html:li>
+										<html:h5>
+											Recent R-Infra paid bill copy</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Photo identity proof</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Ownership proof.</html:h5>
+									</html:li>
+									<html:li>
+										<html:h5>
+											Security deposit and registration fee by cash/ cheque in favor of The Tata Power Company Ltd.</html:h5>
+									</html:li>
+								</html:ul>
+								<html:h5>For society meters, registration certificate needs to be provided additionally.</html:h5>
+							</html:div>
+						</content>
+					</Panel>
+					<Panel expandable="true" expanded="false" headerText="When will I get Tata power Supply?" width="auto" class="sapUiResponsiveMargin">
+						<content>
+							<html:div class="textpara">
+								<html:h5>After submission of completed application form along with necessary documents and payments, power supply changeover will be
+									effected within 30 days.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="Who will look after the complaints after changeover to Tata Power?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<Text text="Tata Power will be the single point contact for all complaints, queries and requests. Tata Power shall co-ordinate with R-infra for resolution of technical complaints."/>
+							<html:div class="textpara">
+								<html:h5>Tata Power will be the single point contact for all complaints, queries and requests. Tata Power shall co-ordinate with R-infra for
+									resolution of technical complaints</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 					<Panel expandable="true" expanded="false" headerText="Why are changeover customers charged Wheeling Charges and Wheeling Loss?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content>
-							<Text text="These charges are paid to RInfra-D as per the MERC order, towards usage of their infrastructure for wheeling the power."/>
+							<html:div class="textpara">
+								<html:h5>These charges are paid to RInfra-D as per the MERC order, towards usage of their infrastructure for wheeling the power.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
-					<Panel expandable="true" expanded="false" headerText="Will the meter be changed or do we have the option to use the existing meter?" width="auto"
-						class="sapUiResponsiveMargin">
+					<Panel expandable="true" expanded="false" headerText="Will the meter be changed or do we have the option to use the existing meter?"
+						width="auto" class="sapUiResponsiveMargin">
 						<content>
-							<Text text="A changeover customer has three options:- (1) Retain the R-infra-D meter (2) Install Tata Power meter (3) Purchase own new meter."/>
+							<html:div class="textpara">
+								<html:h5>A changeover customer has three options:- (1) Retain the R-infra-D meter (2) Install Tata Power meter (3) Purchase own new meter.</html:h5>
+							</html:div>
 						</content>
 					</Panel>
 				</html:div>

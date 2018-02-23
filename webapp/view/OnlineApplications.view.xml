@@ -182,7 +182,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Permanent Disconnection">
+								<IconTabFilter icon="images/permannt_discnnction.png" text="Permanent Disconnection">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Permanent Disconnection</html:h4>
@@ -203,7 +203,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-									<IconTabFilter icon="images/reword_connection.png" text="Load Enhancement">
+									<IconTabFilter icon="images/load_enhance.png" text="Load Enhancement">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Load Enhancement</html:h4>
@@ -216,7 +216,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Load Reduction">
+								<IconTabFilter icon="images/load_reduce.png" text="Load Reduction">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Load Reduction</html:h4>
@@ -229,7 +229,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Tariff Category Change">
+								<IconTabFilter icon="images/tariff_cat_chnge.png" text="Tariff Category Change">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Tariff Category Change</html:h4>
@@ -243,7 +243,7 @@
 									</html:div>
 								</IconTabFilter>
 								
-								<IconTabFilter icon="images/reword_connection.png" text="Max Demand Enhancement">
+								<IconTabFilter icon="images/max_demand_enhance.png" text="Max Demand Enhancement">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Contract Maximum Demand Enhancement</html:h4>
@@ -256,7 +256,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Max Demand Reduction">
+								<IconTabFilter icon="images/max_demand_reduce.png" text="Max Demand Reduction">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Contract Maximum Demand Reduction</html:h4>
@@ -269,7 +269,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-									<IconTabFilter icon="images/reword_connection.png" text="Meter Shifting">
+									<IconTabFilter icon="images/meter_shifting.png" text="Meter Shifting">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Meter Shifting</html:h4>
@@ -282,7 +282,7 @@
 												</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/reword_connection.png" text="Meter Testing">
+								<IconTabFilter icon="images/meter_testing.png" text="Meter Testing">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Meter Testing</html:h4>
