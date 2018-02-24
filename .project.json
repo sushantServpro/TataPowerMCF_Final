@@ -1,21 +1,19 @@
 {
-  "generation": [
-    {
-      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
-      "templateVersion": "1.4.0",
-      "dateTimeStamp": "Fri, 23 Feb 2018 09:49:13 GMT"
-    }
-  ],
-  "hcpdeploy": {
-    "account": "p2000047465trial",
-    "name": "tatapower",
-    "lastVersionWeTriedToDeploy": "1.0.0"
-  },
-  "translation": {
-    "translationDomain": "",
-    "supportedLanguages": "",
-    "defaultLanguage": "",
-    "defaultI18NPropertyFile": "",
-    "resourceModelName": ""
-  }
+	"generation": [{
+		"templateId": "ui5template.basicSAPUI5ApplicationComponent",
+		"templateVersion": "1.4.0",
+		"dateTimeStamp": "Fri, 23 Feb 2018 09:49:13 GMT"
+	}],
+	"hcpdeploy": {
+		"account": "p2000047465trial",
+		"name": "tatapower",
+		"lastVersionWeTriedToDeploy": "1.0.0"
+	},
+	"translation": {
+		"translationDomain": "",
+		"supportedLanguages": "",
+		"defaultLanguage": "",
+		"defaultI18NPropertyFile": "",
+		"resourceModelName": ""
+	}
 }
