@@ -59,7 +59,6 @@ sap.ui.define([
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);
 					vbox.addItem(fragment1);
 				} else if (evt.oSource.mProperties.text === "Zonal Managers") {
-alert();
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.ZonalManagers"].join("."), this);
 					vbox.addItem(fragment1);
 				} else if (evt.oSource.mProperties.text === "Zones and Areas") {

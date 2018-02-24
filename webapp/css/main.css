@@ -2109,6 +2109,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     display: block;
 }
 
+.tbl_zonal .table>thead>tr>th {
+    font: bold 16px "Open Sans";
+    padding: 10px 0;
+    background: #0b96fb24;
+    text-align: center;
+}
+
+.tbl_zonal .table>tbody>tr>td {
+	border: 1px solid #ddd;
+    font: bold 13px "Open Sans";
+    padding: 10px 0;
+    text-align: center;
+}
+
 
 /*mobile view */
 
@@ -2903,22 +2917,6 @@ hr {
     color: #208bda;
     font-weight: bold;
 }
-.box{
-  background:#fff;
-  border:1px solid grey;
-  margin-top:10px;
-  font-weight: bold;
-
-  }
-  .box a{
-    color: #635f5f;
-    text-decoration:none;
-}
-
-  .box a:hover{
-    color: #337ab7;
-    text-decoration:underline;
-}
 
 .faqone .sapMTileCntContent {
     height: 3.875rem;
@@ -2931,4 +2929,3 @@ hr {
   height: 13.9rem!important;
   box-shadow: 0px 4px 3px 0px #cccccc!important;
 }
-
