@@ -6,10 +6,10 @@
 				<html:div class="row">
 					<html:div class="col-xs-12 col-sm-6 col-md-6 term">
 						<html:h5>
-							<html:a href="#">Term of Use
+							<html:a href="WordDocument/TermsofUse.docx" target="_blank" title="Terms of Use">Terms of Use
 							</html:a>
 							|
-							<html:a href="#">
+							<html:a href="WordDocument/PrivacyPolicy.docx">
 								Private Policy</html:a>
 							|
 							<html:a href="#">
