@@ -66,7 +66,7 @@ sap.ui.define([
 			this.getRouter().navTo("NewCustomer");
 		},
 		pressTariff: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("TariffDetails");
 		},
 		pressPowerFailure: function() {
 			this.getRouter().navTo("RegisterPowerFailure");
@@ -90,7 +90,8 @@ sap.ui.define([
 			this.getRouter().navTo("Calculator");
 		},
 		pressFAQ: function() {
-			this.getRouter().navTo("FAQ");
+		
+			this.getRouter().navTo("LandingFAQs");
 		},
 		pressGrievances: function() {
 			this.getRouter().navTo("Grievances");
