@@ -23,26 +23,26 @@ sap.ui.define([
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffRatesForChangeoverConsumer"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffRates"].join("."), this);
 				vbox.addItem(fragment1);
 		},
 			handleButtonPress: function(evt) {
 		
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			if (evt.oSource.mProperties.text === "Tariff Rates For Change Over Consumer") {
+			if (evt.oSource.mProperties.text === "Tariff Rates") {
 				
-		var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffRatesForChangeoverConsumer"].join("."), this);
-				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "Tariff Rates For Existing Consumer") {
-				
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffRatesForExistingConsumer"].join("."), this);
+		var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffRates"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 			else if(evt.oSource.mProperties.text === "Tariff Schedule") {
 				
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.TariffSchedule"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+			else if(evt.oSource.mProperties.text === "FAC Rates") {
+				
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TarrifDetails.FacRates"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 			

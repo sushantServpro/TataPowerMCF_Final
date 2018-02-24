@@ -2934,3 +2934,5 @@ hr {
   height: 13.9rem!important;
   box-shadow: 0px 4px 3px 0px #cccccc!important;
 }
+
+.sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child { padding: 0 !important; }
