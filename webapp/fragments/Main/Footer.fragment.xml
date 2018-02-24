@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel class="footerMain">
 		<content>
-			<html:div class="footer">
+			<html:div class="footer fixed-bottom">
 				<html:div class="row">
 					<html:div class="col-xs-12 col-sm-6 col-md-6 term">
 						<html:h5>

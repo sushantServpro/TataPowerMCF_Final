@@ -2123,6 +2123,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     text-align: center;
 }
 
+.switch_over .panel-default { 
+	height: 100%; 
+	margin: 0;
+}
 
 /*mobile view */
 
@@ -2329,7 +2333,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .ele_comsn {
         border-right: 1px solid #ddd;
     }
-    .regulatory_info .row {
+    .regulatory_info .row,
+    .switch_over {
         display: flex;
         flex-wrap: wrap;
     }

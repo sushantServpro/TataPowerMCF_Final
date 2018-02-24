@@ -13,7 +13,7 @@ sap.ui.define([
 		//	onInit: function() {
 		//
 		//	},
-	onInit: function(evt) {
+		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
 			var oModel = new sap.ui.model.json.JSONModel("json/NetMetering.json");
@@ -23,47 +23,40 @@ sap.ui.define([
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Applicationforms"].join("."), this);
-				vbox.addItem(fragment1);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Applicationforms"].join("."), this);
+			vbox.addItem(fragment1);
 		},
-			handleButtonPress: function(evt) {
-		
+		handleButtonPress: function(evt) {
+
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
 			if (evt.oSource.mProperties.text === "Application Forms") {
-				
-		var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Applicationforms"].join("."), this);
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Applicationforms"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "Check Distribution Transformer Capacity") {
-				
+			} else if (evt.oSource.mProperties.text === "Check Distribution Transformer Capacity") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.Check_distribution_transformer_capacity"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "Model Connection Agreement") {
-				
+			} else if (evt.oSource.mProperties.text === "Model Connection Agreement") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ModelConnectionAgreement"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.text === "Procedure And Guidlines") {
-				
+			} else if (evt.oSource.mProperties.text === "Procedure And Guidlines") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ProcedureAndGuidlines"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-			
-		
 
 		},
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-		
-			getRouter: function() {
+
+		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		}
-		
-	
-	
+
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
 		 * (NOT before the first rendering! onInit() is used for that one!).

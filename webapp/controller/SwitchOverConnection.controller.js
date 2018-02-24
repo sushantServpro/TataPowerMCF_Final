@@ -13,7 +13,7 @@ sap.ui.define([
 		//	onInit: function() {
 		//
 		//	},
-	onInit: function(evt) {
+		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
 			var oModel = new sap.ui.model.json.JSONModel("json/SwitchOverConnection.json");
@@ -23,48 +23,43 @@ sap.ui.define([
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.Applicationforms"].join("."), this);
-				vbox.addItem(fragment1);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.Applicationforms"].join("."), this);
+			vbox.addItem(fragment1);
 		},
-			handleButtonPress: function(evt) {
-		
+		handleButtonPress: function(evt) {
+
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			if (evt.oSource.mProperties.text === "About Power Supply") {
-				
-		var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.Applicationforms"].join("."), this);
+			if (evt.oSource.mProperties.text === "Application forms") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.Applicationforms"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "About Tata Power Customer Portal") {
-				
+			} else if (evt.oSource.mProperties.text === "FAQs") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.FAQs"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "Milestones") {
-				
+			} else if (evt.oSource.mProperties.text === "Procedure and Guidelines") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.SwitchoverConnection.ProcedureAndGuidlines"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-			
-				
-		
 
 		},
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-		
-			getRouter: function() {
-			return sap.ui.core.UIComponent.getRouterFor(this);
-		}
-		/**
-		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
-		 * (NOT before the first rendering! onInit() is used for that one!).
-		 * @memberOf tatapower.dev.view.SwitchOverConnection
-		 */
-		//	onBeforeRendering: function() {
-		//
-		//	},
+
+		getRouter: function() {
+				return sap.ui.core.UIComponent.getRouterFor(this);
+			}
+			/**
+			 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
+			 * (NOT before the first rendering! onInit() is used for that one!).
+			 * @memberOf tatapower.dev.view.SwitchOverConnection
+			 */
+			//	onBeforeRendering: function() {
+			//
+			//	},
 
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
