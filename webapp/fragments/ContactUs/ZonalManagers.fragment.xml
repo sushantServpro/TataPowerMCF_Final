@@ -2,7 +2,22 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-		
+			<Panel id="pnl_021">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Zonal Managers Operations &amp; Maintenance</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="">
+						<html:div class="table-responsive">
+							<html:table class="table">
+								
+							</html:table>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

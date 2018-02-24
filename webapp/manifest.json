@@ -89,7 +89,7 @@
 					"name": "ContactUs",
 					"target": "ContactUs"
 				}
-				
+
 				, {
 					"pattern": "AboutUs",
 					"name": "AboutUs",
@@ -164,12 +164,32 @@
 					"pattern": "SeniorLeadership",
 					"name": "SeniorLeadership",
 					"target": "SeniorLeadership"
+				}, {
+					"pattern": "SwitchOverConnection",
+					"name": "SwitchOverConnection",
+					"target": "SwitchOverConnection"
+				}, {
+					"pattern": "TariffDetails",
+					"name": "TariffDetails",
+					"target": "TariffDetails"
+				}, {
+					"pattern": "NetMetering",
+					"name": "NetMetering",
+					"target": "NetMetering"
+				}, {
+					"pattern": "ChangeOverConnection",
+					"name": "ChangeOverConnection",
+					"target": "ChangeOverConnection"
+				}, {
+					"pattern": "AdvanceBillPayment",
+					"name": "AdvanceBillPayment",
+					"target": "AdvanceBillPayment"
+				}, {
+					"pattern": "LandingFAQs",
+					"name": "LandingFAQs",
+					"target": "LandingFAQs"
 				}
-,	{
-					"pattern": "VideoGallery",
-					"name": "VideoGallery",
-					"target": "VideoGallery"
-				}
+
 			],
 			"targets": {
 				"home": {
@@ -295,8 +315,40 @@
 					"viewName": "VideoGallery",
 					"viewLevel": 20
 				}
-			
 
+				,
+				"ChangeOverConnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ChangeOverConnection",
+					"viewLevel": 20
+				},
+				"AdvanceBillPayment": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "AdvanceBillPayment",
+					"viewLevel": 20
+				},
+
+				"NetMetering": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "NetMetering",
+					"viewLevel": 20
+				},
+				"TariffDetails": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "TariffDetails",
+					"viewLevel": 20
+				},
+				"SwitchOverConnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SwitchOverConnection",
+					"viewLevel": 20
+				},
+
+				"LandingFAQs": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "LandingFAQs",
+					"viewLevel": 20
+				}
 			}
 		}
 	}

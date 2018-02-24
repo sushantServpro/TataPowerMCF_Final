@@ -49,20 +49,20 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressChangeOverConnection"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressChangeOverConnection"/></html:span>
 											</html:div>
 												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLICATION FORM" press="pressNewConnection"/></html:span>
+													<Link class="linknewcon" text="APPLICATION FORM" press="pressChangeOverConnection"/></html:span>
 											</html:div>
 											
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="FAQS" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="FAQS" press="pressChangeOverConnection"/></html:span>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -75,15 +75,15 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-12">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressSwitchOverConnection"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressSwitchOverConnection"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APLLICATION FORM" press="pressSwitchOverConnection"/></html:span>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -96,24 +96,24 @@
 										<html:div class="row pagelinkage">
 												<html:div class="col-md-12">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressNetMetering"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APLLICATION FORM" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APLLICATION FORM" press="pressNetMetering"/></html:span>
 											</html:div>
 										
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="MODEL CONNECTION AGREEMENT" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="MODEL CONNECTION AGREEMENT" press="pressNetMetering"/></html:span>
 											</html:div>
 											<html:div class="col-md-6 ">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="CHECK DISTRIBUTION TRANSFORMER CAPACITY" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="CHECK DISTRIBUTION TRANSFORMER CAPACITY" press="pressNetMetering"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressNetMetering"/></html:span>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -156,15 +156,15 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-12">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressAdvanceBillPayment"/></html:span>
 											</html:div>
 												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="pressAdvanceBillPayment"/></html:span>
 											</html:div>
 												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" press="pressAdvanceBillPayment"/></html:span>
 											</html:div>
 												</html:div>
 									</html:div>
@@ -237,7 +237,7 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="APPLY ONLINE" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="APPLY ONLINE" press="pressTariffDetails"/></html:span>
 											</html:div>
 												</html:div>
 									</html:div>

@@ -1483,7 +1483,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 15px 0;
     margin: 0;
     color: #959598;
-    font-size: 12px;
+    font: normal 13px "Open Sans";
 }
 
 .feddback_desc p a {
@@ -1922,7 +1922,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 15px 0;
 }
 
-.ass_officer h4 {
+.ass_officer h4,
+.cusservice h4,
+.contactinfo h4,
+.hocustomer h4 {
     font: normal 18px "Open Sans";
 }
 
@@ -2072,7 +2075,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 25px 15px;
 }
 
-.procedure_head p {
+.procedure_head p,
+.tpdcs p {
     padding: 10px 0;
     font: normal 13px "Open Sans";
 }
@@ -2099,6 +2103,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 .regulatory_info p a {
     color: #1c6db9;
     font: bold 13px "Open Sans";
+}
+
+.tpdcs p span {
+    display: block;
 }
 
 
@@ -2562,26 +2570,28 @@ hr {
 
 .mailcrc b {
     padding-left: 10px;
-    color: #656060;
+    color: #3a3a3a;
     font-size: 14px;
 }
 
 .tecnum {
     color: #1c7af3;
-    font-size: 14px;
+    font: bold 13px "Open Sans";
 }
 
 .tecnum b {
     padding-left: 10px;
-    color: #656060;
+    color: #3a3a3a;
     font-size: 14px;
 }
 
 .hocustomer {
     background: #d3e7fd;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
+
+.hocustomer h5 { font: bold 13px "Open Sans"; }
 
 .contactinfo {
     padding-top: 20px;
@@ -2893,3 +2903,32 @@ hr {
     color: #208bda;
     font-weight: bold;
 }
+.box{
+  background:#fff;
+  border:1px solid grey;
+  margin-top:10px;
+  font-weight: bold;
+
+  }
+  .box a{
+    color: #635f5f;
+    text-decoration:none;
+}
+
+  .box a:hover{
+    color: #337ab7;
+    text-decoration:underline;
+}
+
+.faqone .sapMTileCntContent {
+    height: 3.875rem;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.faqone {
+  height: 13.9rem!important;
+  box-shadow: 0px 4px 3px 0px #cccccc!important;
+}
+

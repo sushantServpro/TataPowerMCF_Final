@@ -106,17 +106,23 @@
 								</MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="More" buttonMode="Split" useDefaultActionOnly="true">
+								<MenuButton text="Contact Us" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic"></MenuItem>
-												<MenuItem text="complex"></MenuItem>
+												<MenuItem text="Assessment Officer vigilance" press="pressContactUs"></MenuItem>
+												<MenuItem text="Call Center Number" press="pressContactUs"></MenuItem>
+												<MenuItem text="Customer Relation Center" press="pressContactUs"></MenuItem>
+												<MenuItem text="Feedback" press="pressContactUs"></MenuItem>
+												<MenuItem text="HOD Customer Services" press="pressContactUs"></MenuItem>
+												<MenuItem text="Zonal Managers" press="pressContactUs"></MenuItem>
+												<MenuItem text="Zones And Areas" press="pressContactUs"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
 								</MenuButton>
 							</html:li>
+						
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right user_prof">
 							<html:li>
