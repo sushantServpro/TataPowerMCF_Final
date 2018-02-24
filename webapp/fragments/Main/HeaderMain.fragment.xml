@@ -38,23 +38,23 @@
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right social_links">
 							<html:li>
-								<html:a href="#" title="facebook" target="_blank">
+								<html:a href="https://www.facebook.com/tatapower/" title="facebook" target="_blank">
 									<html:image src="images/fb.png"></html:image>
 								</html:a>
 							</html:li>
 							
 							<html:li>
-								<html:a href="#" title="facebook" target="_blank">
+								<html:a href="https://twitter.com/tatapower" title="twitter" target="_blank">
 									<html:image src="images/twitter.png"></html:image>
 								</html:a>
 							</html:li>
 							<html:li>
-								<html:a href="#" title="facebook" target="_blank">
+								<html:a href="https://www.youtube.com/channel/UCCz5pvnMksWgbWh5MKMH-vQ" title="yutube" target="_blank">
 									<html:image src="images/ytube.png"></html:image>
 								</html:a>
 							</html:li>
 							<html:li>
-								<html:a href="#" title="facebook" target="_blank">
+								<html:a href="https://in.linkedin.com/company/tata-power" title="linkdin" target="_blank">
 									<html:image src="images/linkdin.png"></html:image>
 								</html:a>
 							</html:li>
