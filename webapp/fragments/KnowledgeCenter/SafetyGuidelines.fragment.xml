@@ -50,7 +50,7 @@
 									</html:ul>
 								</html:div>
 								<html:div class="col-sm-6">
-									<html:h5>You are requested to :</html:h5>
+									<html:h5>You are requested not to :</html:h5>
 									<html:ul class="red_bullet_list">
 										<html:li>Make any temporary joints in the wiring, especially without proper insulation.</html:li>
 										<html:li>Insert wires directly into the plug socket without a matching plug pin, even if only on a temporary basis.</html:li>
