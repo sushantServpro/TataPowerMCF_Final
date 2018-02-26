@@ -2159,6 +2159,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .red_bullet_list li { padding: 5px 0; }
 
+.newsLetter a { margin: 10px 0; }
 
 /*mobile view */
 
@@ -2972,4 +2973,20 @@ hr {
 
 .sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
     padding: 0 !important;
+}
+.newtabflash .sapMITBInLine .sapMITBFilter>.sapMITBText {
+    margin: 0rem 0 0.1875rem 0!important;
+}
+
+.newtabflash .sapMITBTextOnly .sapMITBFilter .sapMITBText {
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center!important;
+    width: auto;
+    overflow: visible;
+}
+
+.newtabflash .sapMITBTextOnly .sapMITBFilter {
+    margin: 0 0rem !important;
 }
