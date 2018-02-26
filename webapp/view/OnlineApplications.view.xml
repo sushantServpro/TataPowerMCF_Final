@@ -294,11 +294,11 @@
 											</html:div>
 												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="PROCEDURE &amp; GUIDELINES" press="ProcedureAndGuidlines"/></html:span>
 											</html:div>
 												<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="INSTRUCTIONS FOR SUBMITING FORM" press="InstructionsForSubmittingForm"/></html:span>
 											</html:div>
 												</html:div>
 									</html:div>
