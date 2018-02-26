@@ -2,64 +2,10 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_27">
-				<html:h4 align="center">News Letter</html:h4>
-				<html:div class="Newsletter">
-					<html:div class="row latestaddrow">
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/news.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">
-									<html:h6>Synergy Newsletter</html:h6>
-									<html:h6>Issue 1, April 2017</html:h6>
-								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/news.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">
-									<html:h6>Synergy Newsletter</html:h6>
-									<html:h6>Issue 1, April 2017</html:h6>
-								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/news.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">
-									<html:h6>Synergy Newsletter</html:h6>
-									<html:h6>Issue 1, April 2017</html:h6>
-								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/news.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">
-									<html:h6>Synergy Newsletter</html:h6>
-									<html:h6>Issue 1, April 2017</html:h6>
-								</html:div>
-							</html:div>
-						</html:div>
-					</html:div>
-					<html:div class="secondline">
+			<Panel>
+				<html:div class="container padding_bottom">
+					<html:h4 align="center">News Letter</html:h4>
+					<html:div class="Newsletter">
 						<html:div class="row latestaddrow">
 							<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
 								<html:div class="panel panel-default latestcolum">
@@ -70,32 +16,6 @@
 									</html:div>
 									<html:div class="panel-footer">
 										<html:h6>Synergy Newsletter</html:h6>
-										<html:h6>Issue 1, October 2013</html:h6>
-									</html:div>
-								</html:div>
-							</html:div>
-							<html:div class="col-xs-12 col-sm-6 col-md-3 ">
-								<html:div class="panel panel-default latestcolum">
-									<html:div class="panel-body pdfviewer">
-										<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-											<html:image src="images/news.png" alt="tata_logo"></html:image>
-										</html:a>
-									</html:div>
-									<html:div class="panel-footer">
-										<html:h6>Synergy Newsletter</html:h6>
-										<html:h6>Issue 1, March 2013</html:h6>
-									</html:div>
-								</html:div>
-							</html:div>
-							<html:div class="col-xs-12 col-sm-6 col-md-3">
-								<html:div class="panel panel-default latestcolum">
-									<html:div class="panel-body pdfviewer">
-										<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-											<html:image src="images/news.png" alt="tata_logo"></html:image>
-										</html:a>
-									</html:div>
-									<html:div class="panel-footer">
-										<html:h5>Synergy Newsletter</html:h5>
 										<html:h6>Issue 1, April 2017</html:h6>
 									</html:div>
 								</html:div>
@@ -110,6 +30,88 @@
 									<html:div class="panel-footer">
 										<html:h6>Synergy Newsletter</html:h6>
 										<html:h6>Issue 1, April 2017</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+								<html:div class="panel panel-default latestcolum">
+									<html:div class="panel-body pdfviewer">
+										<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+											<html:image src="images/news.png" alt="tata_logo"></html:image>
+										</html:a>
+									</html:div>
+									<html:div class="panel-footer">
+										<html:h6>Synergy Newsletter</html:h6>
+										<html:h6>Issue 1, April 2017</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+								<html:div class="panel panel-default latestcolum">
+									<html:div class="panel-body pdfviewer">
+										<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+											<html:image src="images/news.png" alt="tata_logo"></html:image>
+										</html:a>
+									</html:div>
+									<html:div class="panel-footer">
+										<html:h6>Synergy Newsletter</html:h6>
+										<html:h6>Issue 1, April 2017</html:h6>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+						<html:div class="secondline">
+							<html:div class="row latestaddrow">
+								<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+									<html:div class="panel panel-default latestcolum">
+										<html:div class="panel-body pdfviewer">
+											<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+												<html:image src="images/news.png" alt="tata_logo"></html:image>
+											</html:a>
+										</html:div>
+										<html:div class="panel-footer">
+											<html:h6>Synergy Newsletter</html:h6>
+											<html:h6>Issue 1, October 2013</html:h6>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="col-xs-12 col-sm-6 col-md-3 ">
+									<html:div class="panel panel-default latestcolum">
+										<html:div class="panel-body pdfviewer">
+											<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+												<html:image src="images/news.png" alt="tata_logo"></html:image>
+											</html:a>
+										</html:div>
+										<html:div class="panel-footer">
+											<html:h6>Synergy Newsletter</html:h6>
+											<html:h6>Issue 1, March 2013</html:h6>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class="col-xs-12 col-sm-6 col-md-3">
+									<html:div class="panel panel-default latestcolum">
+										<html:div class="panel-body pdfviewer">
+											<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+												<html:image src="images/news.png" alt="tata_logo"></html:image>
+											</html:a>
+										</html:div>
+										<html:div class="panel-footer">
+											<html:h5>Synergy Newsletter</html:h5>
+											<html:h6>Issue 1, April 2017</html:h6>
+										</html:div>
+									</html:div>
+								</html:div>
+								<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
+									<html:div class="panel panel-default latestcolum">
+										<html:div class="panel-body pdfviewer">
+											<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
+												<html:image src="images/news.png" alt="tata_logo"></html:image>
+											</html:a>
+										</html:div>
+										<html:div class="panel-footer">
+											<html:h6>Synergy Newsletter</html:h6>
+											<html:h6>Issue 1, April 2017</html:h6>
+										</html:div>
 									</html:div>
 								</html:div>
 							</html:div>

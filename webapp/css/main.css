@@ -2117,16 +2117,31 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .tbl_zonal .table>tbody>tr>td {
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
     font: bold 13px "Open Sans";
     padding: 10px 0;
     text-align: center;
 }
 
-.switch_over .panel-default { 
-	height: 100%; 
-	margin: 0;
+.switch_over .panel-default {
+    height: 100%;
+    margin: 0;
 }
+
+
+/*knowledge center*/
+
+.variations_pf h5 {
+    padding: 10px 0;
+    font: bold 13px "Open Sans";
+}
+
+.tbl_var_pf tbody> tr> td {
+    font: normal 13px "Open Sans";
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
 
 /*mobile view */
 
@@ -2610,7 +2625,9 @@ hr {
     margin-top: 25px;
 }
 
-.hocustomer h5 { font: bold 13px "Open Sans"; }
+.hocustomer h5 {
+    font: bold 13px "Open Sans";
+}
 
 .contactinfo {
     padding-top: 20px;
@@ -2930,9 +2947,12 @@ hr {
     padding-left: 0!important;
     padding-right: 0!important;
 }
+
 .faqone {
-  height: 13.9rem!important;
-  box-shadow: 0px 4px 3px 0px #cccccc!important;
+    height: 13.9rem!important;
+    box-shadow: 0px 4px 3px 0px #cccccc!important;
 }
 
-.sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child { padding: 0 !important; }
+.sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
+    padding: 0 !important;
+}
