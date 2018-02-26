@@ -1,12 +1,25 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
-	<content>
+		<content>
 			<html:div class="row">
-				<html:div class="col-md-6">
+				<html:div class="col-md-4">
 					<html:h3 class="vidgall">Video Gallery</html:h3>
 				</html:div>
-				<html:div class="col-md-6"></html:div>
+				<html:div class="col-md-8">
+					<html:div class="row">
+						<html:div class="col-md-6 col-sm-6 col-xs-12">
+							<html:a href="https://play.google.com/store/apps/details?id=com.tata.tatapower">
+								<html:image src="images/android.png" alt="play_store" class="mobileandoapp"></html:image>
+							</html:a>
+						</html:div>
+						<html:div class="col-md-6 col-sm-6 col-xs-12">
+							<html:a href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8">
+								<html:image src="images/ios.png" alt="app_store" class="mobileandoapp"></html:image>
+							</html:a>
+						</html:div>
+					</html:div>
+				</html:div>
 			</html:div>
 			<html:div class="row">
 				<html:div class="col-md-6">
@@ -17,7 +30,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-								<html:h4>Tatapower video1</html:h4>
+							<html:h4>Tatapower video1</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
@@ -30,10 +43,10 @@
 						</html:div>
 						<html:div class="panel-footer">
 							<html:h4>Tatapower video2</html:h4>
-								</html:div>
+						</html:div>
 					</html:div>
 				</html:div>
-					<html:div class="col-md-6">
+				<html:div class="col-md-6">
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
@@ -41,11 +54,11 @@
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-								<html:h4>Tatapower video3</html:h4>
+							<html:h4>Tatapower video3</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
-					<html:div class="col-md-6">
+				<html:div class="col-md-6">
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
@@ -53,7 +66,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-								<html:h4>Tatapower video4</html:h4>
+							<html:h4>Tatapower video4</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
