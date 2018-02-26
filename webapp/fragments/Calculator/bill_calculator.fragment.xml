@@ -1,0 +1,148 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_17">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Bill Calculator</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="bill_cal_desc">
+						<html:div class="row">
+							<html:div class="col-sm-7">
+								<html:p>
+									Select your tariff category and enter your energy consumption to help us calculate your bill. If you desire to calculate your energy
+									consumption, please
+								</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="bill_cal_opt">
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="Tarrif Category:"/>
+										<ActionSelect id="select1" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+											<items>
+												<core:Item key="{ProductId}" text="{Name}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+									<html:div class="col-sm-4">
+										<Label text="Tarrif Category:"/>
+										<DatePicker id="DP6" displayFormat="short" change="handleChange"/>
+									</html:div>
+									<html:div class="col-sm-4">
+										<Label text="Type of Customer:"/>
+										<ActionSelect id="select2" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+											<items>
+												<core:Item key="{ProductId}" text="{Name}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+									</html:div>
+									
+										<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="supply Voltage:"/>
+										<ActionSelect id="select-a" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+											<items>
+												<core:Item key="{ProductId}" text="{Name}"/>
+											</items>
+										</ActionSelect>
+									</html:div>
+									
+									
+									<html:div class="col-sm-4">
+									<Label text="Connected Load(KW):" labelFor="input-c"/>
+		                        	<Input id="input-c"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH_Total:" labelFor="input-c"/>
+		                        	<Input id="input-d"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-A:" labelFor="input-c"/>
+		                        	<Input id="input-e"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-B:" labelFor="input-c"/>
+		                        	<Input id="input-f"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-B2:" labelFor="input-c"/>
+		                        	<Input id="input-g"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-C" labelFor="input-c"/>
+		                        	<Input id="input-h"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KWH-D:" labelFor="input-c"/>
+		                        	<Input id="input-i"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="RKVAH_Total:" labelFor="input-c"/>
+		                        	<Input id="input-j"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH A:" labelFor="input-c"/>
+		                        	<Input id="input-k"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH B:" labelFor="input-c"/>
+		                        	<Input id="input-l"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH B2:" labelFor="input-c"/>
+		                        	<Input id="input-m"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH C:" labelFor="input-c"/>
+		                        	<Input id="input-n"/>
+									</html:div>
+									<html:div class="col-sm-4">
+									<Label text="KVAH D:" labelFor="input-c"/>
+		                        	<Input id="input-o"/>
+									</html:div>
+										<html:div class="col-sm-4">
+									<Label text="CMD:" labelFor="input-c"/>
+		                        	<Input id="input-p"/>
+									</html:div>
+										</html:div>
+										<html:div class="row">
+										<html:div class="col-sm-4">
+									<Label text="Consuption (Unit):" labelFor="input-c"/>
+		                        	<Input id="input-q"/>
+									</html:div>
+								</html:div>
+								<html:div class="row form_row">
+									<html:div class="col-md-2 col-md-offset-4">
+										<Button text="CALCULATE" press="onPress" class="switchcenter form-control"
+											ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									</html:div>
+									<html:div class="col-md-2">
+										<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="bill_note">
+						<html:div class="row">
+							<html:div class="col-sm-9">
+								<html:p>
+									Please Note: The billing amount generated is an estimated amount based on the type of customer selected by you. Your actual bill amount may
+									vary from this amount.
+								</html:p>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>

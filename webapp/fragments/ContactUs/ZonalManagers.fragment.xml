@@ -1,0 +1,63 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Panel >
+		<content>
+			<Panel id="pnl_021">
+				<html:div class="container-fluid">
+					<html:div class="go-green_intro">
+						<html:div class="intro_head">
+							<html:h4>Zonal Managers Operations &amp; Maintenance</html:h4>
+						</html:div>
+					</html:div>
+					<html:div class="tbl_zonal">
+						<html:div class="table-responsive">
+							<html:table class="table">
+								<html:thead>
+									<html:tr>
+										<html:th>Zone</html:th>
+										<html:th>Manager</html:th>
+										<html:th>Contact No.</html:th>
+										<html:th>Email ID</html:th>
+									</html:tr>
+								</html:thead>
+								<html:tbody>
+									<html:tr>
+										<html:td>North Zone</html:td>
+										<html:td>Mr. D S Patil</html:td>
+										<html:td>+91-22-6717 3515</html:td>
+										<html:td>patilds@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>West Zone</html:td>
+										<html:td>Mr. S V Savarkar</html:td>
+										<html:td>+91-22-6717 3311</html:td>
+										<html:td>svsavarkar@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>Metro Zone</html:td>
+										<html:td>Mr.Niranjan Khuntia</html:td>
+										<html:td>+91-22-6717 3314</html:td>
+										<html:td>niranjankhuntia@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>urban Zone</html:td>
+										<html:td>Mr. S M Javed</html:td>
+										<html:td>+91-22-6717 2244</html:td>
+										<html:td>smjaved@tatapower.com</html:td>
+									</html:tr>
+									<html:tr>
+										<html:td>East Zone</html:td>
+										<html:td>Mr. V B Patil</html:td>
+										<html:td>+91-22-6717 3313</html:td>
+										<html:td>vbpatil@tatapower.com</html:td>
+									</html:tr>
+								</html:tbody>
+								>>>>>>> d6ad136ead540e3b75f652b3eff31aa6cab86853
+							</html:table>
+						</html:div>
+					</html:div>
+				</html:div>
+			</Panel>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
