@@ -188,6 +188,14 @@
 					"pattern": "LandingFAQs",
 					"name": "LandingFAQs",
 					"target": "LandingFAQs"
+				}, {
+					"pattern": "LandingKnowledgeCenter",
+					"name": "LandingKnowledgeCenter",
+					"target": "LandingKnowledgeCenter"
+				}, {
+					"pattern": "VideoGallery",
+					"name": "VideoGallery",
+					"target": "VideoGallery"
 				}
 
 			],
@@ -347,6 +355,11 @@
 				"LandingFAQs": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "LandingFAQs",
+					"viewLevel": 20
+				},
+				"LandingKnowledgeCenter": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "LandingKnowledgeCenter",
 					"viewLevel": 20
 				}
 			}
