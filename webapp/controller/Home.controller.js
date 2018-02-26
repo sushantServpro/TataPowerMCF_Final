@@ -45,7 +45,7 @@ sap.ui.define([
 			this.mobileDropdown();
 			//$("#__panel0").hide();
 		},
-       pressOnlineApplication: function(oEvent) {
+		pressOnlineApplication: function(oEvent) {
 			this.getRouter().navTo("OnlineApplications");
 		},
 		onNavToMyAccount: function(oEvent) {
@@ -61,8 +61,7 @@ sap.ui.define([
 			this.getRouter().navTo("home");
 		},
 
-		OnNewCustomer
-		: function(oEvent) {
+		OnNewCustomer: function(oEvent) {
 			this.getRouter().navTo("NewCustomer");
 		},
 		pressTariff: function() {
@@ -90,7 +89,7 @@ sap.ui.define([
 			this.getRouter().navTo("Calculator");
 		},
 		pressFAQ: function() {
-		
+
 			this.getRouter().navTo("LandingFAQs");
 		},
 		pressGrievances: function() {
@@ -109,7 +108,9 @@ sap.ui.define([
 			this.getRouter().navTo("GreenCorner");
 		},
 		pressKnowledgeCenter: function() {
+
 			this.getRouter().navTo("LandingKnowledgeCenter");
+
 		},
 		pressRegulatoryInformation: function() {
 			this.getRouter().navTo("home");
@@ -135,13 +136,12 @@ sap.ui.define([
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");
 		},
-		
-			pressAboutUs: function() {
+
+		pressAboutUs: function() {
 			this.getRouter().navTo("AboutUs");
-		}
-,
-		
-			pressContactUs: function() {
+		},
+
+		pressContactUs: function() {
 			this.getRouter().navTo("ContactUs");
 		}
 
