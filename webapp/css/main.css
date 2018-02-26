@@ -1737,8 +1737,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 .blue_bullet_list {
     padding: 0;
     list-style-image: url(../images/blue_dot.png);
-    font-weight: bold;
-    font-size: 12px;
+    font: bold 12px "Open Sans";
 }
 
 .blue_bullet_list li {
@@ -2128,6 +2127,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 0;
 }
 
+.safety_guide_req h5 {
+    font: normal 16px "Open Sans";
+}
+
 
 /*knowledge center*/
 
@@ -2141,6 +2144,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     vertical-align: middle;
     padding: 5px 10px;
 }
+
+.safety_guide_info p {
+    padding: 10px 0;
+    margin: 0;
+    font: bold 13px "Open Sans";
+}
+
+.red_bullet_list {
+    padding: 0;
+    list-style-image: url(../images/red_dot.png);
+    font: bold 12px "Open Sans";
+}
+
+.red_bullet_list li { padding: 5px 0; }
 
 
 /*mobile view */
