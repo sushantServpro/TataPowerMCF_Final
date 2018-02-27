@@ -5,7 +5,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container padding_bottom">
+					<html:div class="container chngHeight">
 						<html:div class="row">
 							<html:div class="col-md-8 col-md-offset-2">
 								<FlexBox id="FlexboxProcedure"></FlexBox>

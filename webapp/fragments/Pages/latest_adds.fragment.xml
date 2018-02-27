@@ -3,7 +3,7 @@
 	<Panel >
 		<content>
 			<Panel>
-				<html:div class="container padding_bottom">
+				<html:div class="container">
 					<html:h4 align="center">News Letter</html:h4>
 					<html:div class="row Newsletter">
 						<html:div class="col-sm-10 col-sm-offset-1">
