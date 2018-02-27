@@ -43,7 +43,7 @@ sap.ui.define([
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EaseOfBusinessDoing"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-			else if(evt.oSource.mProperties.text === "EOOB") {
+			else if(evt.oSource.mProperties.text === "EODB Circular to Release Supply") {
 				
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EOOB"].join("."), this);
 				vbox.addItem(fragment1);
@@ -53,7 +53,7 @@ sap.ui.define([
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TrackRequestStatus"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-				else if(evt.oSource.mProperties.text === "TPC")
+				else if(evt.oSource.mProperties.text === "TPC-D Initiatives")
 				{
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TPC"].join("."), this);
 				vbox.addItem(fragment1);

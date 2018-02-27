@@ -387,7 +387,7 @@
 }
 
 .padding_bottom {
-    padding-bottom: 100px;
+    min-height: 500px;
 }
 
 .footer {
