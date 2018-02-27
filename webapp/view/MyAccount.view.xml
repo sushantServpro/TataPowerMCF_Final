@@ -108,7 +108,7 @@
 											<html:div class="col-sm-12">
 												<html:div class="row bill_payment">
 													<html:div class="col-xs-12">
-														<GenericTile class="tileLayout" press="press">
+														<GenericTile class="tileLayout" press="OnQuickPayment">
 															<TileContent>
 																<content>
 																	<html:div class="row">
@@ -116,7 +116,7 @@
 																			<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
 																		</html:div>
 																		<html:div class="col-xs-9">
-																			<html:span>quick bill payment</html:span>
+																			<html:span>Quick Bill Payment</html:span>
 																		</html:div>
 																	</html:div>
 																</content>
@@ -126,7 +126,7 @@
 												</html:div>
 												<html:div class="row your_bill">
 													<html:div class="col-xs-12">
-														<GenericTile class="tileLayout" press="press">
+														<GenericTile class="tileLayout" press="OnPayBill">
 															<TileContent>
 																<content>
 																	<html:div class="row">
@@ -145,7 +145,7 @@
 											</html:div>
 										</html:div>
 									</html:div>
-									<html:div class="col-sm-12 col-md-7 col-md-offset-2  counters">
+									<html:div class="col-sm-12 col-md-7 col-md-offset-2 counters">
 										<html:div class="row myacc_count_flex">
 											<html:div class="col-sm-9">
 												<html:div class="row">
@@ -166,7 +166,7 @@
 											<html:div class="col-sm-3">
 												<html:div class="row share_feedback">
 													<html:div class="col-xs-12 col-sm-12 col-md-12">
-														<GenericTile class="tileLayout" press="press">
+														<GenericTile class="tileLayout" press="OnShareFeedback">
 															<TileContent>
 																<content>
 																	<html:div class="row">

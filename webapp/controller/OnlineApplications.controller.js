@@ -26,36 +26,35 @@ sap.ui.define([
 		pressNewConnection: function(oEvent) {
 			this.getRouter().navTo("NewConnections");
 		},
-			pressSwitchOverConnection: function(oEvent) {
+		pressSwitchOverConnection: function(oEvent) {
 			this.getRouter().navTo("SwitchOverConnection");
 		},
-	
-			pressChangeOverConnection: function(oEvent) {
+
+		pressChangeOverConnection: function(oEvent) {
 			this.getRouter().navTo("ChangeOverConnection");
 		},
-			pressNetMetering: function(oEvent) {
+		pressNetMetering: function(oEvent) {
 			this.getRouter().navTo("NetMetering");
 		},
-			pressTariffDetails: function(oEvent) {
+		pressTariffDetails: function(oEvent) {
 			this.getRouter().navTo("TariffDetails");
 		},
-			pressAdvanceBillPayment: function(oEvent) {
+		pressAdvanceBillPayment: function(oEvent) {
 			this.getRouter().navTo("AdvanceBillPayment");
 		},
-		
-		
-			getRouter: function() {
-			return sap.ui.core.UIComponent.getRouterFor(this);
-		}
-		/**
-		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
-		 * This hook is the same one that SAPUI5 controls get after being rendered.
-		 * @memberOf tatapower.dev.view.OnlineApplications
-		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
-	,
+
+		getRouter: function() {
+				return sap.ui.core.UIComponent.getRouterFor(this);
+			}
+			/**
+			 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
+			 * This hook is the same one that SAPUI5 controls get after being rendered.
+			 * @memberOf tatapower.dev.view.OnlineApplications
+			 */
+			//	onAfterRendering: function() {
+			//
+			//	},
+			,
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		}

@@ -196,6 +196,10 @@
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
+				}, {
+					"pattern": "PayBill",
+					"name": "PayBill",
+					"target": "PayBill"
 				}
 
 			],
@@ -360,6 +364,11 @@
 				"LandingKnowledgeCenter": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "LandingKnowledgeCenter",
+					"viewLevel": 20
+				},
+				"PayBill": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PayBill",
 					"viewLevel": 20
 				}
 			}
