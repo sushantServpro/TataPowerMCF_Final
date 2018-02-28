@@ -2277,6 +2277,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: normal 13px "Open Sans";
 }
 
+.gloass_desc {
+	padding: 15px;
+	border: 1px solid #1c6db9;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.gloass_desc p {
+	padding: 5px 0;
+	font: normal 14px "Open Sans";
+}
+
+.gloass_desc p span { font-weight: bold; }
+
 
 /*mobile view */
 
