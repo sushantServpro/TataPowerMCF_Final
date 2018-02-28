@@ -2,259 +2,142 @@
 	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="tatapower.dev.controller.PayBill">
 	<App>
 		<pages>
-			<Page title="PayBill" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+			<Page title="My Account" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
 				<content>
-					<tnt:ToolHeader class="topheader">
-						<Image src="images/tata_logo.png" alt="Example picture of speakers"/>
-						<Panel class="right">
-							<Image src="images/fb.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/gplus.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/twitter.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/ytube.png" alt="Example picture of speakers"/>
-							<Image src="images/blue_dot.png" class="rightdot" alt="Example picture of speakers"/>
-							<Image src="images/linkdin.png" alt="Example picture of speakers"/>
-						</Panel>
-						<tnt:ToolHeaderUtilitySeparator/>
-						<ToolbarSpacer>
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px"/>
-							</layoutData>
-						</ToolbarSpacer>
-						<Image src="images/language.png" alt="Example picture of speakers"/>
-						<MenuButton text="English" type="Transparent">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-							<menu>
-								<Menu>
-									<items>
-										<MenuItem text="Hindi"/>
-										<MenuItem text="Marathi"/>
-									</items>
-								</Menu>
-							</menu>
-						</MenuButton>
-						<Button icon="sap-icon://search" type="Transparent" press="onHomePress" text="Search">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-						</Button>
-						<Image src="images/tata_emblem.png" alt="Example picture of speakers"/>
-					</tnt:ToolHeader>
-					<tnt:ToolHeader>
-						<Button icon="sap-icon://home" type="Transparent" press="onHomePress">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow"/>
-							</layoutData>
-						</Button>
-						<IconTabHeader id="iconTabHeader" selectedKey="invalidKey" select="onSelectTab" showOverflowSelectList="true" backgroundDesign="Transparent"
-							mode="Inline">
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true"/>
-							</layoutData>
-							<items>
-								<IconTabFilter text="About Us"></IconTabFilter>
-								<IconTabFilter text="Contact Us"></IconTabFilter>
-								<IconTabFilter text="Regulatory"></IconTabFilter>
-							</items>
-						</IconTabHeader>
-						<ImageContent class="sapUiLarge" src="images/app_store.png" description="Icon" press="press"></ImageContent>
-						<ImageContent class="sapUiLargep" src="images/play_store.png" description="Icon" press="press"></ImageContent>
-						<ToolbarSpacer>
-							<layoutData>
-								<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="16px"/>
-							</layoutData>
-						</ToolbarSpacer>
-					</tnt:ToolHeader>
-					<html:div style="margin:20px;">
-						<html:div class="customHtml" style="width: 33%; float: left; height: 180px;">
-							<html:div style="width:100%; float: left; height: 180px; background: #0b85f17d;">
-								<html:div class="prof">
-									<html:image src="images/profile.png" alt="speakers" style="text-align:center;"></html:image>
-									<html:h4 style="color:#fff;">Siddhesh Mhapankar
-									</html:h4>
-									<html:h5 style="color:#fff;">
-										Sec.13 Ghansoli Navi-mumbai
-									</html:h5>
-									<html:div style="width:100%;">
-										<html:div class="prof1" style="width:50%">
-											<html:image src="images/email.png" alt="speakers"></html:image>
-											<html:h5 style="color:#fff;">Siddhesh.m1@gmail.com
-											</html:h5>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container-fluid padding_bottom">
+						<html:div class="payBill">
+							<html:div class="payBill_head">
+								<html:h3 class="text-center">
+									<html:image src="images/pay_bill.png" alt="pay_bill"></html:image>pay your bill here</html:h3>
+							</html:div>
+							<html:div class="payBill_info">
+								<html:div class="counters">
+									<html:div class="row">
+										<html:div class="col-xs-4 col-sm-2 text-center">
+											<html:span>Consumer Number</html:span>
+											<html:h4>1234</html:h4>
 										</html:div>
-										<html:div class="prof2" style="width:49%">
-											<html:image src="images/mob.png" alt="speakers"></html:image>
-											<html:h5 style="color:#fff;">
-												+91 9000034564
-											</html:h5>
+										<html:div class="col-xs-4 col-sm-3 text-center acc_no">
+											<html:span>Consumer Name</html:span>
+											<html:h4>Abc</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-4 text-center acc_no">
+											<html:span>Consumer Email ID</html:span>
+											<html:h4>abc@gmail.com</html:h4>
+										</html:div>
+										<html:div class="col-xs-4 col-sm-3 text-center">
+											<html:span>Consumer Mobile Number</html:span>
+											<html:h4>9896959793</html:h4>
 										</html:div>
 									</html:div>
 								</html:div>
 							</html:div>
-						</html:div>
-						<html:div style="background: #2e5663; width: 65%; float: left; margin-left:10px; padding-left:10px; height: 180px; font-size:small;">
-							<html:div style="width:100%; text-align:center ">
-								<html:div style="width:33%;float:left;border-right:1px solid white">
-									<html:h5 style="color:#9bbcd4;">Consumer Number
-									</html:h5>
-									<html:h3 style="color:#fff;">
-										900867188867
-									</html:h3>
+							<html:div class="make_payment">
+								<html:p>To make payment, please select a bill first</html:p>
+								<html:div class="view_table">
+									<Table mode="MultiSelect" id="tblPayBill" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<headerToolbar>
+											<Toolbar>
+												<content>
+													<Title text="Current Bill" level="H2"/>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<Column minScreenWidth="Desktop">
+												<Text text="Bill Number"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Bill Date"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Bill Month &amp; Year"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Discount"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Net Bill Amount(Rs.)(After Discount)"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Due Date"/>
+											</Column>
+											<Column minScreenWidth="Tablet" demandPopin="true">
+												<Text text="Bill Amount"/>
+											</Column>
+											<Column minScreenWidth="Desktop">
+												<Text text="Remarks"/>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+													<Text text="{SupplierName}"/>
+													<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+													<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+														state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+													<ObjectNumber
+														number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+														unit="{CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
 								</html:div>
-								<html:div style="width:33%;float:left;border-right:1px solid white">
-									<html:h5 style="color:#9bbcd4;text-align:center;">Account Number
-									</html:h5>
-									<html:h3 style="color:#fff;text-align:center;">
-										900867188867
-									</html:h3>
-								</html:div>
-								<html:div style="width:33%;float:left;">
-									<html:h5 style="color:#9bbcd4;text-align:center;">Amount
-									</html:h5>
-									<html:h3 style="color:#ffffff; text-align:center;">₹ 790.00
-									</html:h3>
+								<html:div class="btn_pay_bill">
+									<html:div class="container-fluid">
+										<html:div class="row">
+											<html:div class="col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+												<Button text="PAY" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+									</html:div>
 								</html:div>
 							</html:div>
-							<html:div style="width:100%">
-								<html:div style="width:33%;float:left;border-right:1px solid white; text-align:center;">
-									<html:h5 style="color:#9bbcd4;">Consumer Number
-									</html:h5>
-									<html:h3 style="color:#fff;">
-										900867188867
-									</html:h3>
-								</html:div>
-								<html:div style="width:33%;float:left;border-right:1px solid white">
-									<html:h5 style="color:#9bbcd4;text-align:center;">Account Number
-									</html:h5>
-									<html:h3 style="color:#fff;text-align:center;">
-										900867188867
-									</html:h3>
-								</html:div>
-								<html:div style="width:33%;float:left;">
-									<html:h5 style="color:#9bbcd4;text-align:center;">Amount
-									</html:h5>
-									<html:h3 style="color:#ffffff; text-align:center;">₹ 790.00
-									</html:h3>
+							<html:div class="pay_bill_sec_dep">
+								<html:div class="view_table">
+									<Table id="tblSecDepo" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+										<headerToolbar>
+											<Toolbar>
+												<content>
+													<Title text="Security Deposite" level="H2"/>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+										<columns>
+											<Column minScreenWidth="Desktop">
+												<Text text="Security Deposite Bill No"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Security Deposite Due (In Rs.)"/>
+											</Column>
+											<Column minScreenWidth="Desktop" demandPopin="true">
+												<Text text="Remarks"/>
+											</Column>
+										</columns>
+										<items>
+											<ColumnListItem>
+												<cells>
+													<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+													<Text text="{SupplierName}"/>
+													<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+													<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+														state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+													<ObjectNumber
+														number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+														unit="{CurrencyCode}"/>
+												</cells>
+											</ColumnListItem>
+										</items>
+									</Table>
 								</html:div>
 							</html:div>
 						</html:div>
 					</html:div>
-					<html:div style="margin:80px;margin-top:100px">
-						<Table id="idProductsTable" inset="false">
-							<headerToolbar>
-								<Toolbar>
-									<Title text="Payment History" level="H2"/>
-								</Toolbar>
-							</headerToolbar>
-							<columns>
-								<Column width="12em">
-									<html:span>
-										Bill Number</html:span>
-								</Column>
-								<Column minScreenWidth="Tablet" demandPopin="true">
-									<html:span>
-										Bill Amount</html:span>
-								</Column>
-								<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Right">
-									<html:span>
-										Transction ID</html:span>
-								</Column>
-								<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
-									<html:span>
-										Transction Date</html:span>
-								</Column>
-								<Column hAlign="Right">
-									<html:span>
-										Payment Mode</html:span>
-								</Column>
-								<Column hAlign="Right">
-									<html:span>
-										Status</html:span>
-								</Column>
-								<Column hAlign="Right">
-									<html:span>
-										Invoice</html:span>
-								</Column>
-							</columns>
-							<items>
-								<ColumnListItem>
-									<cells>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											₹ 790.00</html:span>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											12 NOV ,17 12:23</html:span>
-										<html:span>
-											CARD</html:span>
-										<html:span>
-											Pending</html:span>
-										<html:span>
-											Download</html:span>
-									</cells>
-								</ColumnListItem>
-								<ColumnListItem>
-									<cells>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											₹ 790.00</html:span>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											12 NOV ,17 12:23</html:span>
-										<html:span>
-											CARD</html:span>
-										<html:span>
-											Pending</html:span>
-										<html:span>
-											Download</html:span>
-									</cells>
-								</ColumnListItem>
-								<ColumnListItem>
-									<cells>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											₹ 790.00</html:span>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											12 NOV ,17 12:23</html:span>
-										<html:span>
-											CARD</html:span>
-										<html:span>
-											Pending</html:span>
-										<html:span>
-											Download</html:span>
-									</cells>
-								</ColumnListItem>
-								<ColumnListItem>
-									<cells>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											₹ 790.00</html:span>
-										<html:span>
-											465659665</html:span>
-										<html:span>
-											12 NOV ,17 12:23</html:span>
-										<html:span>
-											CARD</html:span>
-										<html:span>
-											Pending</html:span>
-										<html:span>
-											Download</html:span>
-									</cells>
-								</ColumnListItem>
-							</items>
-						</Table>
-					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

@@ -2,71 +2,52 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_22">
-				<html:h4 align="center">Latest Adds</html:h4>
-				<html:div class="latest">
-					<html:div class="row latestaddrow">
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">We have chosen TataPower.And you?(Hindi)</html:div>
-							</html:div>
-						</html:div>
-						<html:div class="col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">We have chosen TataPower.And you?(Marathi)</html:div>
-							</html:div>
-						</html:div>
-						<html:div class="col-xs-12 col-sm-6 col-md-3">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
-							</html:div>
-						</html:div>
-						<html:div class=" col-xs-12 col-sm-6 col-md-3 ">
-							<html:div class="panel panel-default latestcolum">
-								<html:div class="panel-body pdfviewer">
-									<html:a href="pdf/LN.03.05-Procedure and Guidelines.pdf" target="_blank">
-										<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-									</html:a>
-								</html:div>
-								<html:div class="panel-footer">Choose Tata Power</html:div>
-							</html:div>
-						</html:div>
-					</html:div>
-					<html:div class="row moblink">
-						<html:div class=" col-xs-12 col-sm-6 col-md-6">
-							<html:div class="row">
-								<html:div class=" col-md-1">
-									<html:i class="fa fa-apple mobilefa" aria-hidden="true"></html:i>
-								</html:div>
-								<html:div class=" col-md-11">
-									<Link class="mobilelink" text="TATAPOWER Mobile App Link For IOS" target="_blank"
-										href="https://itunes.apple.com/in/app/tata-power-mobile-app/id1136636873?mt=8"/>
-								</html:div>
-							</html:div>
-						</html:div>
-						<html:div class=" col-xs-12 col-sm-6 col-md-6 ">
-							<html:div class="row">
-								<html:div class=" col-md-1">
-									<html:i class="fa fa-android mobilefa" aria-hidden="true"></html:i>
-								</html:div>
-								<html:div class=" col-md-11">
-									<Link class="mobilelink" text="TATAPOWER Mobile App Link For Android" target="_blank" href="http://www.sap.com"/>
-								</html:div>
+			<Panel>
+				<html:div class="container">
+					<html:h4 align="center">News Letter</html:h4>
+					<html:div class="row Newsletter">
+						<html:div class="col-sm-10 col-sm-offset-1">
+							<html:div class="row procedure_files switch_over newsLetter">
+								<html:a href="images/hindi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">We have chosen Tata Power. And you? (Hindi)</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/marathi-ads.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">We have chosen Tata Power. And you? (Marathi)</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/Bill-payment-at-ICICI-Bank-branches.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Bill payment at ICICI Bank branches</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="images/Choose-Tata-Power.jpg" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Choose Tata Power</html:div>
+									</html:div>
+								</html:a>
 							</html:div>
 						</html:div>
 					</html:div>

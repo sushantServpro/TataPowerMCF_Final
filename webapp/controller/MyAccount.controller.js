@@ -3,7 +3,7 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function(Controller) {
 	"use strict";
-	 jQuery.sap.includeStyleSheet("css/MyAccount.css");
+	jQuery.sap.includeStyleSheet("css/MyAccount.css");
 
 	return Controller.extend("tatapower.dev.controller.MyAccount", {
 		onHomePress: function(oEvent) {
@@ -18,8 +18,20 @@ sap.ui.define([
 			this.mobileDropdown();
 			//$("#__panel0").hide();
 		},
-	
-	OnMyAccount: function(oEvent) {
+
+		OnMyAccount: function(oEvent) {
+			this.getRouter().navTo("MyAccounts");
+		},
+		OnPayBill: function(oEvent) {
+
+			this.getRouter().navTo("PayBill");
+		},
+
+		OnQuickPayment: function(oEvent) {
+			this.getRouter().navTo("PaymentHistory");
+		},
+		OnShareFeedback: function(oEvent) {
+
 			this.getRouter().navTo("MyAccounts");
 		},
 		/**

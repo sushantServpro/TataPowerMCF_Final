@@ -2,7 +2,106 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-		
+			<html:div class="container-fluid">
+				<html:div class="go-green_intro">
+					<html:div class="intro_head">
+						<html:h4>Energy Calculator</html:h4>
+					</html:div>
+					<html:div class="energy_cal">
+						<html:div class="row">
+							<html:div class="col-sm-6 left_side">
+								<html:p>
+									Calculate your energy consumption and save to compare the actuals Compare, with your actual consumption if you had already saved your plan.
+								</html:p>
+								<html:div class="energy_cal_opts">
+									<html:div class="container-fluid">
+										<html:div class="row">
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Select Equipment" labelFor="selEquip"/>
+												<ActionSelect id="select" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+													<items>
+														<core:Item key="{ProductId}" text="{Name}"/>
+													</items>
+												</ActionSelect>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Number of Equipments" labelFor="numEquip"/>
+												<html:div class="row">
+													<html:div class="col-sm-2">
+														<Input id="numEquip" type="Text"/>
+													</html:div>
+													<html:div class="col-sm-10">
+														<Slider value="50" width="100%" min="0" max="100" showAdvancedTooltip="true" showHandleTooltip="false"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<Label text="Daily Hours of Use" labelFor="dailyUse"/>
+												<html:div class="row">
+													<html:div class="col-sm-2">
+														<Input id="dailyUse" type="Text"/>
+													</html:div>
+													<html:div class="col-sm-10">
+														<Slider value="50" width="100%" min="0" max="100" showAdvancedTooltip="true" showHandleTooltip="false"/>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<html:div class="row">
+													<html:div class="col-xs-6">
+														<html:h4>0.50</html:h4>
+														<html:p>DAILY CONSUMPTION (Units)</html:p>
+													</html:div>
+													<html:div class="col-xs-6">
+														<html:h4>0.50</html:h4>
+														<html:p>MONTHLY CONSUMPTION (Units)</html:p>
+													</html:div>
+												</html:div>
+											</html:div>
+											<html:div class="col-xs-12 energy_cal_opt">
+												<html:div class="row">
+													<html:div class="col-sm-4 col-sm-offset-4 text-center">
+														<Button text="ADD TO LIST" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+													</html:div>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="tblEquip view_table">
+						<Table id="tblEquip" inset="false" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+							<columns>
+								<Column minScreenWidth="Desktop">
+									<Text text="Equipment"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Daily Consumption Unit"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true">
+									<Text text="Monthly Consumption Unit"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<ObjectIdentifier title="{Name}" text="{ProductId}"/>
+										<Text text="{SupplierName}"/>
+										<Text text="{Width} x {Depth} x {Height} {DimUnit}"/>
+										<ObjectNumber number="{WeightMeasure}" unit="{WeightUnit}"
+											state="{ parts: [ {path: 'WeightMeasure'}, {path: 'WeightUnit'} ], formatter: 'sap.m.sample.Table.Formatter.weightState' }"/>
+										<ObjectNumber
+											number="{ parts:[{path:'Price'},{path:'CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+											unit="{CurrencyCode}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</html:div>
+				</html:div>
+			</html:div>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

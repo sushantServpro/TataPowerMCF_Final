@@ -13,30 +13,29 @@ sap.ui.define([
 		//	onInit: function() {
 		//
 		//	},
-onInit: function(evt) {
+		onInit: function(evt) {
 
-		
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Pages.register_power_failure"].join("."), this);
-				vbox.addItem(fragment1);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Pages.register_power_failure"].join("."), this);
+			vbox.addItem(fragment1);
 
 		},
-			onHomePress: function(oEvent) {
+		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-		
-			getRouter: function() {
-			return sap.ui.core.UIComponent.getRouterFor(this);
-		}
-		/**
-		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
-		 * (NOT before the first rendering! onInit() is used for that one!).
-		 * @memberOf tatapower.dev.view.RegisterPowerFailure
-		 */
-		//	onBeforeRendering: function() {
-		//
-		//	},
+
+		getRouter: function() {
+				return sap.ui.core.UIComponent.getRouterFor(this);
+			}
+			/**
+			 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
+			 * (NOT before the first rendering! onInit() is used for that one!).
+			 * @memberOf tatapower.dev.view.RegisterPowerFailure
+			 */
+			//	onBeforeRendering: function() {
+			//
+			//	},
 
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.

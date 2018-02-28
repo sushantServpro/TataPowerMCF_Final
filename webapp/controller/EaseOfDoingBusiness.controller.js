@@ -13,7 +13,7 @@ sap.ui.define([
 		//	onInit: function() {
 		//
 		//	},
-	onInit: function(evt) {
+		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
 			var oModel = new sap.ui.model.json.JSONModel("json/BusinessOfDoing.json");
@@ -23,53 +23,45 @@ sap.ui.define([
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EaseOfBusinessDoing"].join("."), this);
-				vbox.addItem(fragment1);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EaseOfBusinessDoing"].join("."), this);
+			vbox.addItem(fragment1);
 
 		},
-			onHomePress: function(oEvent) {
+		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-		
-			getRouter: function() {
+
+		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		},
-			handleButtonPress: function(evt) {
-		
+		handleButtonPress: function(evt) {
+
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
 			if (evt.oSource.mProperties.text === "Ease of Doing Business") {
-				
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EaseOfBusinessDoing"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "EOOB") {
-				
+			} else if (evt.oSource.mProperties.text === "EODB Circular to Release Supply") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EOOB"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if(evt.oSource.mProperties.text === "Track Request Status") {
-				
+			} else if (evt.oSource.mProperties.text === "Track Request Status") {
+
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TrackRequestStatus"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.text === "TPC")
-				{
+			} else if (evt.oSource.mProperties.text === "TPC-D Initiatives") {
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TPC"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.text === "Estimate Charges")
-				{
+			} else if (evt.oSource.mProperties.text === "Estimate Charges") {
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.EstimateCharges"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.text === "Statistics")
-				{
+			} else if (evt.oSource.mProperties.text === "Statistics") {
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.Statstics"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 		}
-	
+
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
 		 * (NOT before the first rendering! onInit() is used for that one!).
@@ -84,9 +76,9 @@ sap.ui.define([
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
 		 * @memberOf tatapower.dev.view.EaseOfDoingBusiness
 		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
+		// onAfterRendering: function() {
+
+		// }
 
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.

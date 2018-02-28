@@ -1724,11 +1724,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 15px !important;
     background: #888686 !important;
     color: #fff !important;
+    vertical-align: middle;
 }
 
 .view_table .sapMListTbl > thead > tr > th .sapMText {
     color: #fff !important;
     font: normal 12px "Open Sans";
+}
+
+.btn_pay_bill .row {
+    margin: 15px 0;
+}
+
+.btn_pay_bill .row bdi {
+    font: normal 14px "Open Sans";
 }
 
 
@@ -2157,9 +2166,98 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: bold 12px "Open Sans";
 }
 
-.red_bullet_list li { padding: 5px 0; }
+.red_bullet_list li {
+    padding: 5px 0;
+}
 
-.newsLetter a { margin: 10px 0; }
+.newsLetter a {
+    margin: 10px 0;
+}
+
+.payBill_info {
+    background: #335b7a;
+}
+
+.payBill_info .counters {
+    padding: 5px 0;
+}
+
+.make_payment p {
+    font: bold 14px "Open Sans";
+    margin: 0;
+    padding: 15px 0;
+}
+
+
+/*pay your bill page*/
+
+.payBill_head h3 {
+    margin: 0;
+    padding: 15px 0;
+    background: linear-gradient(to right, #d61d1c 0%, #fb605c 100%);
+    color: #fff;
+    text-transform: uppercase;
+    font: bold 18px "Open Sans";
+}
+
+.payBill_head h3 img {
+    padding: 0 10px;
+}
+
+.chngHeight {
+    height: 100%;
+}
+
+.bottomFooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/*energy calculator*/
+
+.energy_cal .left_side p {
+    padding: 10px 0;
+    margin: 0;
+    font: normal 13px "Open Sans";
+}
+
+.energy_cal_opts {
+    paddin: 15px 0;
+    background: #0b96fb24;
+}
+
+.energy_cal_opts label {
+    margin: 0;
+    padding: 10px 0 0px;
+}
+
+.energy_cal_opts label bdi {
+    font: bold 13px "Open Sans";
+}
+
+.energy_cal_opts .sapMActionSelect {
+    display: block;
+}
+
+.energy_cal_opt {
+    margin: 10px 0;
+}
+
+.energy_cal_opt h4 {
+    font: bold 22px "Open Sans";
+    margin: 0;
+}
+
+.energy_cal .left_side .energy_cal_opt p {
+    font: bold 13px "Open Sans";
+}
+
+.tblEquip {
+    margin: 20px 0;
+}
+
 
 /*mobile view */
 
@@ -2974,6 +3072,7 @@ hr {
 .sapMITB .sapMITBItemNoCount.sapMITBFilter:last-child {
     padding: 0 !important;
 }
+
 .newtabflash .sapMITBInLine .sapMITBFilter>.sapMITBText {
     margin: 0rem 0 0.1875rem 0!important;
 }
@@ -2990,10 +3089,12 @@ hr {
 .newtabflash .sapMITBTextOnly .sapMITBFilter {
     margin: 0 0rem !important;
 }
-.mobileandoapp{
-	width:100%;
-	height:auto;
+
+.mobileandoapp {
+    width: 100%;
+    height: auto;
 }
-.energysaver h4{
-	color:#1c77c7;
+
+.energysaver h4 {
+    color: #1c77c7;
 }
