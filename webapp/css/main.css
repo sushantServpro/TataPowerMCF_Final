@@ -2215,6 +2215,48 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 
+/*energy calculator*/
+
+.energy_cal .left_side p {
+    padding: 10px 0;
+    margin: 0;
+    font: normal 13px "Open Sans";
+}
+
+.energy_cal_opts {
+    paddin: 15px 0;
+    background: #0b96fb24;
+}
+
+.energy_cal_opts label {
+    margin: 0;
+    padding: 10px 0 0px;
+}
+
+.energy_cal_opts label bdi {
+    font: bold 13px "Open Sans";
+}
+
+.energy_cal_opts .sapMActionSelect {
+    display: block;
+}
+
+.energy_cal_opt {
+    margin: 10px 0;
+}
+
+.energy_cal_opt h4 {
+    font: bold 22px "Open Sans";
+    margin: 0;
+}
+
+.energy_cal .left_side .energy_cal_opt p {
+	font: bold 13px "Open Sans";
+}
+
+.tblEquip { margin: 20px 0; }
+
+
 /*mobile view */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
