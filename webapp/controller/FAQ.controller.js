@@ -44,7 +44,7 @@ sap.ui.define([
 				vbox.addItem(fragment1);
 			} else if (evt.oSource.mProperties.text === "Energry Saving") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.ElectricGlossary"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.EnergySaving"].join("."), this);
 				vbox.addItem(fragment1);
 			} else if (evt.oSource.mProperties.text === "Online Payment") {
 

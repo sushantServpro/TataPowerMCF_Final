@@ -2,79 +2,28 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_39">
-				<html:div class="container-fluid">
-					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Areas of Power Supply</html:h4>
-						</html:div>
-					</html:div>
-					<html:div class="area_pwr_supply">
-						<html:div class="row">
-							<html:div class="col-sm-6">
-								<html:div class="pwr_dist_spl_chart">
-									<html:h4>Power Supply Distribution Chart</html:h4>
-									<html:ul class="nav nav-tabs nav-stacked">
-										<html:li>
-											<html:a href="#" target="_blank" title="Schematic Display of Interconnected Stations to Enhance Reliability and Redundancy">
-												<html:div class="row">
-													<html:div class="col-xs-10">Schematic Display of Interconnected Stations to Enhance Reliability &amp; Redundancy</html:div>
-													<html:div class="col-xs-2 text-right">
-														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
-													</html:div>
-												</html:div>
-											</html:a>
-										</html:li>
-										<html:li>
-											<html:a href="#" target="_blank" title="Automatic Islanding System">
-												<html:div class="row">
-													<html:div class="col-xs-10">Automatic Islanding System</html:div>
-													<html:div class="col-xs-2 text-right">
-														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
-													</html:div>
-												</html:div>
-											</html:a>
-										</html:li>
-										<html:li>
-											<html:a href="#" target="_blank" title="Typical Setup for HT Consumer">
-												<html:div class="row">
-													<html:div class="col-xs-10">Typical Setup for HT Consumer</html:div>
-													<html:div class="col-xs-2 text-right">
-														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
-													</html:div>
-												</html:div>
-											</html:a>
-										</html:li>
-										<html:li>
-											<html:a href="#" target="_blank" title="Typical Setup for LT / Residential Consumer">
-												<html:div class="row">
-													<html:div class="col-xs-10">Typical Setup for LT / Residential Consumer</html:div>
-													<html:div class="col-xs-2 text-right">
-														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
-													</html:div>
-												</html:div>
-											</html:a>
-										</html:li>
-										<html:li>
-											<html:a href="#" target="_blank" title="Customer Segmentation">
-												<html:div class="row">
-													<html:div class="col-xs-10">Customer Segmentation</html:div>
-													<html:div class="col-xs-2 text-right">
-														<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
-													</html:div>
-												</html:div>
-											</html:a>
-										</html:li>
-									</html:ul>
-								</html:div>
-							</html:div>
-							<html:div class="col-sm-6">
-								<html:image src="images/about_map.gif" alt="about_map" class="img-responsive"></html:image>
-							</html:div>
-						</html:div>
-					</html:div>
-				</html:div>
-			</Panel>
+			<html:h3 align="center">Energy Saving</html:h3>
+			<html:h5>Mumbai is the one Indian city that has always enjoyed uninterrupted, 24-hour power supply. Something that we in Mumbai are rightly proud of. However, following the severe power shortage faced by State of Maharashtra and the city's unprecedented lifestyle boom, this envied status of uninterrupted power is under threat. While efforts are on to plug the power deficit of 400-500 MW in Mumbai through alternate resources, with summer around the corner, we could be in for a power shortage crisis during the peak hours of 10 am - 8 pm.
+
+But it doesn't have to be that way, if we act now. A few simple steps and we can avoid power cuts. But before we list out those steps, just ask yourself, "Am I willing to do my bit for the future of our great city?" I think we all know the answer.</html:h5>
+		<html:div class="energysaver">
+			<html:h4>Shift consumption away from the 10 am - 8 pm peak times: </html:h4>
+			<html:h5>Let's avoid adding to the power demand during this peak time. By simply using some of our common electrical appliances before and after this time band. Washing machines, geysers, irons, water pumps in buildings - all can be shifted without much inconvenience.</html:h5>
+			
+		</html:div>
+			<html:div class="energysaver">
+			<html:h4>ACs at 26º C</html:h4>
+			<html:h5>ACs are possibly the biggest cause of any summer power crisis. Every time one more AC is switched on and every time the temperature is lowered by one more degree, a huge load is added to the system. We can however work towards uninterrupted power - if we give up 'freezing' for 'cool enough'. Let's all go 26 this summer - it's actually quite comfortable.</html:h5>
+			
+		</html:div>
+			<html:div class="energysaver">
+			<html:h4>Switch off from the plug point</html:h4>
+			<html:h5>Whenever we leave a plug point 'ON' after switching an electrical appliance 'OFF' with the remote, power is still being consumed in 'stand-by mode'. And no small amount either - these little wastages account for an unbelievable 5% of the city's power consumption. You will agree that's a sheer waste. So, after usage, let's switch off our ACs, TVs, washing machines, microwaves, geysers and mobile chargers from the plug point. Every single time.
+
+            It is up to each one of us to make the change - if you will, Mumbai will!
+			</html:h5>
+			
+		</html:div>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

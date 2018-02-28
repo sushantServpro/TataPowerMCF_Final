@@ -24,8 +24,9 @@
 							</html:a>
 						</html:div>
 					</html:div>
-				</html:div>
-			</Panel>
-		</content>
+					
+            	</html:div>
+				</Panel>
+				</content>
 	</Panel>
 </core:FragmentDefinition>

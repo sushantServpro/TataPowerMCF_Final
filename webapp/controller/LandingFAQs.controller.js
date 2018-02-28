@@ -31,8 +31,10 @@ sap.ui.define([
 			,
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
+		},
+	onBillingRelatedQueries: function(oEvent) {
+			this.getRouter().navTo("FAQ");
 		}
-
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
 		 * (NOT before the first rendering! onInit() is used for that one!).
