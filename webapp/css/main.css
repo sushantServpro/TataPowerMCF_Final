@@ -2258,6 +2258,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     margin: 20px 0;
 }
 
+.energy_saving_desc .row {
+    padding: 10px 0;
+}
+
+.energy_saving_desc img {
+    display: inline-block;
+}
+
+.energy_saving_desc h4 { color: #1c6db9; }
+
+.energy_saving_desc p {
+    font: normal 13px "Open Sans";
+}
+
 
 /*mobile view */
 
