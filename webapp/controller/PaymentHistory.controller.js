@@ -18,6 +18,29 @@ sap.ui.define([
 			this.mobileDropdown();
 			//$("#__panel0").hide();
 		},
+		pressbilldesk: function() {
+			window.location.href = 'https://pgi.billdesk.com/pgidsk/PGIMerchantPayment';
+		},
+
+		pressTechprocess: function() {
+			window.location.href = 'https://www.tpsl-india.in/PaymentGateway/txnreq.pg?';
+		},
+
+		pressCitrus: function() {
+			window.location.href = 'https://checkout.citruspay.com/ssl/checkout/';
+		},
+		
+		pressPaytm: function() {
+			window.location.href = 'https://secure.paytm.in/oltp-web/processTransaction';
+		},
+
+		pressItzcash: function() {
+			window.location.href = 'http://demo.itzcash.com/payment/merchant/jsp/Process.jsp';
+		},
+		
+		pressUpi: function() {
+			window.location.href = 'http://180.92.171.239:7031/UPITataPower/merchantPaymentGateway.html';
+		},
 
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.

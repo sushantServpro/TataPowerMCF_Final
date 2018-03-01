@@ -24,7 +24,7 @@ sap.ui.define([
 
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.Knowledgecenter"].join("."), this);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.how_to_read_bill"].join("."), this);
 			vbox.addItem(fragment1);
 		},
 
@@ -43,7 +43,7 @@ sap.ui.define([
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.how_to_read_bill"].join("."), this);
 					vbox.addItem(fragment1);
-				} else if (evt.oSource.mProperties.text === "Knowledge Center") {
+				} else if (evt.oSource.mProperties.text === "Fuel Adjustment Charge") {
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.Knowledgecenter"].join("."), this);
 					vbox.addItem(fragment1);
