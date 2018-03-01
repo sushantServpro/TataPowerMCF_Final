@@ -11,72 +11,7 @@
 							<content>
 								<Panel id="pnl_15">
 									<html:div class="container-fluid">
-										<html:div class="row middlebox share_feedbk">
-											<html:div class="content">
-												<html:div class="row">
-													<html:div class="col-sm-7 col-md-6">
-														<html:div class="row">
-															<html:div class="col-sm-6">
-																<html:div class="row bill_payment">
-																	<html:div class="col-xs-12">
-																		<GenericTile class="tileLayout" press="press">
-																			<TileContent>
-																				<content>
-																					<html:div class="row">
-																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_online_bill.png" alt="speakers" class="img-repsonsive"></html:image>
-																						</html:div>
-																						<html:div class="col-xs-9">
-																							<html:span>quick bill payment</html:span>
-																						</html:div>
-																					</html:div>
-																				</content>
-																			</TileContent>
-																		</GenericTile>
-																	</html:div>
-																</html:div>
-															</html:div>
-															<html:div class="col-sm-6">
-																<html:div class="row your_bill">
-																	<html:div class="col-xs-12">
-																		<GenericTile class="tileLayout" press="press">
-																			<TileContent>
-																				<content>
-																					<html:div class="row">
-																						<html:div class="col-xs-3">
-																							<html:image src="images/myac_pay_bill.png" alt="myac_pay_bill" class="img-repsonsive"></html:image>
-																						</html:div>
-																						<html:div class="col-xs-9">
-																							<html:span>pay your bill here</html:span>
-																						</html:div>
-																					</html:div>
-																				</content>
-																			</TileContent>
-																		</GenericTile>
-																	</html:div>
-																</html:div>
-															</html:div>
-														</html:div>
-													</html:div>
-													<html:div class="col-sm-5 col-md-6 counters">
-														<html:div class="row">
-															<html:div class="col-xs-4 col-sm-4 text-center">
-																<html:span>Consumer Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-															<html:div class="col-xs-4 col-sm-4 text-center acc_no">
-																<html:span>Account Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-															<html:div class="col-xs-4 col-sm-4 text-center">
-																<html:span>Meter Number</html:span>
-																<html:h4>1234</html:h4>
-															</html:div>
-														</html:div>
-													</html:div>
-												</html:div>
-											</html:div>
-										</html:div>
+										
 										<html:div class="share_ur_feed">
 											<html:div class="row">
 												<html:h4>Please share your feedback</html:h4>
