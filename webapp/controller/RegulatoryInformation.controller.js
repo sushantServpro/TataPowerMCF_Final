@@ -16,15 +16,15 @@ sap.ui.define([
 		onInit: function(evt) {
 
 			// set explored app's demo model on this sample
-			var oModel = new sap.ui.model.json.JSONModel("json/FAQ.json");
-			
+			var oModel = new sap.ui.model.json.JSONModel("json/RegulatoryInformation.json");
+
 			this.getView().setModel(oModel);
 			var vbox1 = this.getView().byId("Flexboxview");
 			var fragment = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.NewConnectionSideMenu"].join("."), this);
 			vbox1.addItem(fragment);
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.BillingRelatedQuaries"].join("."), this);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.RegulatoryInformation.RegulatoryFillings"].join("."), this);
 			vbox.addItem(fragment1);
 		},
 		onHomePress: function(oEvent) {
@@ -38,33 +38,21 @@ sap.ui.define([
 
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			if (evt.oSource.mProperties.text === "Billing Related Queries") {
+			if (evt.oSource.mProperties.text === "Regulatory Fillings") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.BillingRelatedQuaries"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.RegulatoryInformation.RegulatoryFillings"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Energry Saving") {
+			} else if (evt.oSource.mProperties.text === "Regulatory Information") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.EnergySaving"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.RegulatoryInformation.RegulatoryInformation"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Online Payment") {
+			} else if (evt.oSource.mProperties.text === "Consumer Rights Statement") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.OnlinePayment"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.RegulatoryInformation.ConsumerRightsStatement"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Power Failure Problems") {
+			} else if (evt.oSource.mProperties.text === "Schedule of Charges") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.PowerFailureProblem"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Power Related Queries") {
-
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.PowerRelatedQuaries"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Safety Tips") {
-
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.Saftytips"].join("."), this);
-				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Electricity Glossary") {
-
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.ElectricGlossary"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.RegulatoryInformation.ScheduleOfCharges"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 
