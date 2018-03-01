@@ -3,7 +3,7 @@ sap.ui.define([
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("tatapower.dev.controller.FAQ", {
+	return Controller.extend("tatapower.dev.controller.RegulatoryInformation", {
 
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.

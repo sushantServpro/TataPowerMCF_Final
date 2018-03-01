@@ -292,7 +292,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressPaymentOption">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressPaymentOptions">
 									<TileContent>
 										<content>
 											<html:div class="innerpic home_service_menu">

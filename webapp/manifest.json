@@ -204,10 +204,22 @@
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
+				},{
+					"pattern": "ApplicationForms",
+					"name": "ApplicationForms",
+					"target": "ApplicationForms"
+				},{
+					"pattern": "VideoGallery",
+					"name": "VideoGallery",
+					"target": "VideoGallery"
+				},{
+					"pattern": "PaymentOptions",
+					"name": "PaymentOptions",
+					"target": "PaymentOptions"
 				}, {
-					"pattern": "PayBill",
-					"name": "PayBill",
-					"target": "PayBill"
+					"pattern": "RegulatoryInformation",
+					"name": "RegulatoryInformation",
+					"target": "RegulatoryInformation"
 				}
 
 			],
@@ -243,6 +255,21 @@
 				"NewCustomer": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "NewCustomer",
+					"viewLevel": 2
+				},
+				"ApplicationForms": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ApplicationForms",
+					"viewLevel": 2
+				},
+				"PaymentOptions": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PaymentOptions",
+					"viewLevel": 2
+				},
+				"RegulatoryInformation": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "RegulatoryInformation",
 					"viewLevel": 2
 				},
 				"PaymentHistory": {

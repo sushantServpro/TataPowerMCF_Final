@@ -99,10 +99,10 @@ sap.ui.define([
 			this.getRouter().navTo("Landingdigitalservice");
 		},
 		pressApplicationForms: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("ApplicationForms");
 		},
-		pressPaymentOption: function() {
-			this.getRouter().navTo("home");
+		pressPaymentOptions: function() {
+			this.getRouter().navTo("PaymentOptions");
 		},
 		pressGreenCorner: function() {
 			this.getRouter().navTo("GreenCorner");
@@ -113,7 +113,7 @@ sap.ui.define([
 
 		},
 		pressRegulatoryInformation: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("RegulatoryInformation");
 		},
 		pressTrainedWireman: function() {
 			this.getRouter().navTo("Wireman");
