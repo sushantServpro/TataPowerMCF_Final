@@ -83,7 +83,7 @@ sap.ui.define([
 			this.getRouter().navTo("EaseOfDoingBusiness");
 		},
 		pressCustomercare: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("Writetocustomercare");
 		},
 		pressBillcalulator: function() {
 			this.getRouter().navTo("Calculator");
@@ -96,7 +96,7 @@ sap.ui.define([
 			this.getRouter().navTo("Grievances");
 		},
 		pressDigitalServices: function() {
-			this.getRouter().navTo("home");
+			this.getRouter().navTo("Landingdigitalservice");
 		},
 		pressApplicationForms: function() {
 			this.getRouter().navTo("home");

@@ -2502,6 +2502,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         display: flex;
         flex-wrap: wrap;
     }
+    .smalltiledigital {
+  
+    margin-top: 80px!important;
+}
 }
 
 
@@ -3130,4 +3134,18 @@ hr {
 
 .energysaver h4 {
     color: #1c77c7;
+}
+
+.digitalone .sapMTileCntContent {
+    height: 3.875rem;
+    margin-bottom: 0!important;
+    margin-top: 3!important;
+    padding-left: 3!important;
+    padding-right: 0!important;
+}
+
+.digitalone {
+    height: 9rem!important;
+    box-shadow: 0px 4px 3px 0px #cccccc!important;
+    border-radius:10px 10px  !important;
 }

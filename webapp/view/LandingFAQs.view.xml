@@ -110,7 +110,7 @@
 									</TileContent>
 								</GenericTile>
 							</html:div>
-								<html:div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-4 smalltile">
+								<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
 									<TileContent>
 										<content>

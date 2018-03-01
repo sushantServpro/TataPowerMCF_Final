@@ -94,6 +94,10 @@
 					"pattern": "AboutUs",
 					"name": "AboutUs",
 					"target": "AboutUs"
+				},{
+					"pattern": "Writetocustomercare",
+					"name": "Writetocustomercare",
+					"target": "Writetocustomercare"
 				}, {
 					"pattern": "EaseOfDoingBusiness",
 					"name": "EaseOfDoingBusiness",
@@ -188,6 +192,10 @@
 					"pattern": "LandingFAQs",
 					"name": "LandingFAQs",
 					"target": "LandingFAQs"
+				},{
+					"pattern": "Landingdigitalservice",
+					"name": "Landingdigitalservice",
+					"target": "Landingdigitalservice"
 				}, {
 					"pattern": "LandingKnowledgeCenter",
 					"name": "LandingKnowledgeCenter",
@@ -212,7 +220,16 @@
 					"viewName": "NotFound",
 					"transition": "show"
 				},
-
+	"Landingdigitalservice": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Landingdigitalservice",
+					"viewLevel": 2
+				},
+"Writetocustomercare": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Writetocustomercare",
+					"viewLevel": 2
+				},
 				"MyAccount": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "MyAccount",

@@ -1,0 +1,73 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tatapower.dev.controller.Landingdigitalservice"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Landing FAQ" showNavButton="true" navButtonPress="onNavBack" showHeader="false">
+				<content>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
+					<html:div class="container chngHeight">
+						<html:div class="row dividetiles">
+							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltiledigital">
+							
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout digitalone" press="pressSms">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/digi_emal.png" alt="speakers "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>SMS</html:h4>
+													<html:h4>Service</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							
+							</html:div>
+							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltiledigital">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout digitalone" press="pressAndroid">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/androidnew.png"  alt="speakers"></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Download</html:h4>
+														<html:h4>Android App</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltiledigital">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout digitalone" press="pressIos">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/iosnew.png" alt="speakers "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Download</html:h4>
+													<html:h4>iOS App</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+								</html:div>
+								</html:div>
+									
+					
+							<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
+						</content>
+					</Page>
+				</pages>
+			</App>
+</mvc:View>
