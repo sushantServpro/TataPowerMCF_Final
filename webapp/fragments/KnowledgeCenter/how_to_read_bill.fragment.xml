@@ -2,19 +2,27 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_34">
+			<Panel>
 				<html:div class="row">
-					<html:div class="col-xs-12 col-sm-6 col-md-3">
-						<ImageContent class="pro_img_cont" src="images/read_bill.png" description="Profile image" press="pressKnowledgeCenter"></ImageContent>
-					</html:div>
-					<html:div class="col-xs-12 col-sm-6 col-md-3">
-						<ImageContent class="pro_img_cont" src="images/charge.png" description="Profile image" press="pressKnowledgeCenter"></ImageContent>
-					</html:div>
-					<html:div class="col-xs-12 col-sm-6 col-md-3">
-						<ImageContent class="pro_img_cont" src="images/factory.png" description="Profile image" press="pressKnowledgeCenter"></ImageContent>
-					</html:div>
-					<html:div class="col-xs-12 col-sm-6 col-md-3">
-						<ImageContent class="pro_img_cont" src="images/safety_01.png" description="Profile image" press="pressKnowledgeCenter"></ImageContent>
+					<html:div class="newtabflash">
+						<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+							<items>
+								<IconTabFilter text="Bill Part 1">
+									<html:div class="col-md-12">
+										<html:object>
+											<html:embed src="flash/Knowledge Centre - Tata Power Consumer Care Portal (1).swf" width="100%" height="500"></html:embed>
+										</html:object>
+									</html:div>
+								</IconTabFilter>
+								<IconTabFilter text="Bill Part 2">
+									<html:div class="col-md-12">
+										<html:object>
+											<html:embed src="flash/Knowledge Centre - Tata Power Consumer Care Portal (2).swf" width="100%" height="500"></html:embed>
+										</html:object>
+									</html:div>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>
 					</html:div>
 				</html:div>
 			</Panel>
