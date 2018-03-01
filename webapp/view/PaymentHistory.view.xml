@@ -40,7 +40,7 @@
 								<html:div class="container-fluid">
 									<html:div class="row payFlex">
 										<html:div class="col-sm-2 pay_tile">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressbilldesk">
 												<TileContent>
 													<content>
 														<html:div class="row">
@@ -64,7 +64,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-2 pay_tile">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressCitrus">
 												<TileContent>
 													<content>
 														<html:div class="row">
@@ -87,7 +87,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-2 pay_tile">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressPaytm">
 												<TileContent>
 													<content>
 														<html:div class="row">
@@ -111,7 +111,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-2 pay_tile">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressTechprocess">
 												<TileContent>
 													<content>
 														<html:div class="row">
@@ -133,7 +133,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-2 pay_tile">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressItzcash">
 												<TileContent>
 													<content>
 														<html:div class="row">
@@ -144,7 +144,7 @@
 													</content>
 												</TileContent>
 											</GenericTile>
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressUpi">
 												<TileContent>
 													<content>
 														<html:div class="row">
