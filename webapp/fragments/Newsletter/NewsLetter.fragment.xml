@@ -8,74 +8,14 @@
 					<html:div class="row Newsletter">
 						<html:div class="col-sm-10 col-sm-offset-1">
 							<html:div class="row procedure_files switch_over newsLetter">
-								<html:a href="pdf/Synergy_April_2017.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="pdf/synergy-Issue1-March-2011.pdf" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>
 												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 											</html:div>
 										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, April 2017</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/Synergy_April_2015.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, April 2015</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/synergy-Issue1-october-2014.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, October 2014</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/synergy-Issue1-march-2014.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2014</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/synergy-Issue1-oct-2013.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, October 2013</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/synergy-Issue1-march-2013.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2013</html:div>
-									</html:div>
-								</html:a>
-								<html:a href="pdf/synergy-Issue1-march-2012.pdf" target="_blank" class="col-sm-3 col-md-3">
-									<html:div class="panel panel-default">
-										<html:div class="panel-body pdfviewer">
-											<html:div>
-												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
-											</html:div>
-										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2012</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2011</html:div>
 									</html:div>
 								</html:a>
 								<html:a href="pdf/synergy-Issue2-oct-2011.pdf" target="_blank" class="col-sm-3 col-md-3">
@@ -88,14 +28,74 @@
 										<html:div class="panel-footer">Synergy Newsletter – Issue 2, October 2011</html:div>
 									</html:div>
 								</html:a>
-								<html:a href="pdf/synergy-Issue1-March-2011.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:a href="pdf/synergy-Issue1-march-2012.pdf" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">
 										<html:div class="panel-body pdfviewer">
 											<html:div>
 												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
 											</html:div>
 										</html:div>
-										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2011</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2012</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/synergy-Issue1-march-2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2013</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/synergy-Issue1-oct-2013.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, October 2013</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/synergy-Issue1-march-2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, March 2014</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/synergy-Issue1-october-2014.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, October 2014</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Synergy_April_2015.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, April 2015</html:div>
+									</html:div>
+								</html:a>
+								<html:a href="pdf/Synergy_April_2017.pdf" target="_blank" class="col-sm-3 col-md-3">
+									<html:div class="panel panel-default">
+										<html:div class="panel-body pdfviewer">
+											<html:div>
+												<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+											</html:div>
+										</html:div>
+										<html:div class="panel-footer">Synergy Newsletter – Issue 1, April 2017</html:div>
 									</html:div>
 								</html:a>
 							</html:div>
