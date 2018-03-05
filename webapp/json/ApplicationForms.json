@@ -15,6 +15,15 @@
 	"text": "Application For Shifting of Service",
 	"ref": "sap-icon://attachment-html"
 }, {
-	"text": "Consumer Charter",
+	"text": "Work completion and Test Report",
+	"ref": "sap-icon://attachment-html"
+},{
+	"text": "Meter Testing Request Form",
+	"ref": "sap-icon://attachment-html"
+},{
+	"text": "Address Correction Form",
+	"ref": "sap-icon://attachment-html"
+},{
+	"text": "Permanent Disconnection Form",
 	"ref": "sap-icon://attachment-html"
 }]

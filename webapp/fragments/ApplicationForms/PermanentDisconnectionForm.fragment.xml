@@ -7,11 +7,11 @@
 					<html:div class=" col-md-12">
 						<html:div class="go-green_intro">
 							<html:div class="intro_head">
-								<html:h4>Change of Name</html:h4>
+								<html:h4>Permanent Disconnection Form</html:h4>
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/Schedule_of_Charges.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/Disconnection-form.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -19,7 +19,7 @@
 										</html:div>
 									</html:div>
 									<html:div class="panel-footer">
-										Application Form
+										Permanent Disconnection Form
 									</html:div>
 								</html:div>
 							</html:a>

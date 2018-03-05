@@ -10,6 +10,20 @@
 								<html:h4>Consumer Rights Statement</html:h4>
 							</html:div>
 						</html:div>
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/Electricity_Consumer's_-_Rights_Statement.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Consumer Rights Statement
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
 					</html:div>
 				</html:div>
 			</Panel>

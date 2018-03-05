@@ -58,9 +58,17 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.ApplicationForShiftingOfService"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Consumer Charter") {
+			} else if (evt.oSource.mProperties.text === "Meter Testing Request Form") {
 
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.ConsumerCharter"].join("."), this);
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.MeterTestingRequestForm"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Address Correction Form") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.AddressCorrectionForm"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Permanent Disconnection Form") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.PermanentDisconnectionForm"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 
