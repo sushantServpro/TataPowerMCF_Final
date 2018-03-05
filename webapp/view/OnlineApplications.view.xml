@@ -199,7 +199,7 @@
 										</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/load_enhance.png" text="Load Enhancement">
+								<IconTabFilter icon="images/load_reduce.png" text="Load Enhancement">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Load Enhancement</html:h4>
@@ -212,7 +212,7 @@
 										</html:div>
 									</html:div>
 								</IconTabFilter>
-								<IconTabFilter icon="images/load_reduce.png" text="Load Reduction">
+								<IconTabFilter icon="images/load_enhance.png" text="Load Reduction">
 									<html:div class="container">
 										<html:div class="newconnectiontxt">
 											<html:h4>Load Reduction</html:h4>

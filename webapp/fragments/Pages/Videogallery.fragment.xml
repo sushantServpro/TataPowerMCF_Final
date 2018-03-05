@@ -26,11 +26,11 @@
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
-								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PyBJwuAdQ1w"></html:iframe>
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-							<html:h4>Tatapower video1</html:h4>
+							<html:h4>Tata Power Corporate Anthem</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
@@ -38,11 +38,11 @@
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
-								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-uAmBr7fwdk"></html:iframe>
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Uk5jhbY7jE"></html:iframe>
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-							<html:h4>Tatapower video2</html:h4>
+							<html:h4>Customer event movie</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
@@ -50,11 +50,12 @@
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
-								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gOkvLfKpAeU"></html:iframe>
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-							<html:h4>Tatapower video3</html:h4>
+							<html:h4>Video Message on Electrical Safety by </html:h4>
+							<html:h4>	Mr.Ashok Sethi, COO &amp; ED , Tata Power</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
@@ -62,11 +63,37 @@
 					<html:div class="panel panel-default">
 						<html:div class="panel-body videogallery">
 							<html:div class="embed-responsive embed-responsive-16by9">
-								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYNRwN4Any8"></html:iframe>
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OJAWa3mFbPo"></html:iframe>
 							</html:div>
 						</html:div>
 						<html:div class="panel-footer">
-							<html:h4>Tatapower video4</html:h4>
+							<html:h4>Tata Power Club Enerji- Celebrating</html:h4>
+						<html:h4>	10 years of Conservation</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+					<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pgR2y_cfl5Q"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Tata Power Mobile App Tutorial</html:h4>
+						</html:div>
+					</html:div>
+				</html:div>
+					<html:div class="col-md-6">
+					<html:div class="panel panel-default">
+						<html:div class="panel-body videogallery">
+							<html:div class="embed-responsive embed-responsive-16by9">
+								<html:iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HEPMxQsE7bQ"></html:iframe>
+							</html:div>
+						</html:div>
+						<html:div class="panel-footer">
+							<html:h4>Factors that increases</html:h4>
+						<html:h4>	Power Consumption</html:h4>
 						</html:div>
 					</html:div>
 				</html:div>
