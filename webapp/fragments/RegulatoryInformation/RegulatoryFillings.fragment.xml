@@ -10,6 +10,70 @@
 								<html:h4>Regulatory Fillings</html:h4>
 							</html:div>
 						</html:div>
+						<html:ul class="nav nav-tabs nav-stacked row regulatory_fill">
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/public-notice.aspx" target="_blank"
+									title="ARR/APR Filing">
+									<html:div class="row">
+										<html:div class="col-xs-10">ARR/APR Filing</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="https://www.tatapower.com/corporate/regulatory/regulatory-mumbai.aspx" target="_blank" title="Fuel Adjustment Charge">
+									<html:div class="row">
+										<html:div class="col-xs-10">Fuel Adjustment Charge</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/pdf/overall-performance_indices_fy14.pdf" target="_blank"
+									title="Reliability Indices">
+									<html:div class="row">
+										<html:div class="col-xs-10">Reliability Indices</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/cgrf-half-yearly-report.aspx" target="_blank" title="CGRF Half Yearly Report">
+									<html:div class="row">
+										<html:div class="col-xs-10">CGRF Half Yearly Report</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/sop-report.aspx" target="_blank" title="Standard of Performance">
+									<html:div class="row">
+										<html:div class="col-xs-10">Standard of Performance</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/open-access-status.asp" target="_blank" title="Open Access Status">
+									<html:div class="row">
+										<html:div class="col-xs-10">Open Access Status</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+						</html:ul>
 					</html:div>
 				</html:div>
 			</Panel>

@@ -10,6 +10,20 @@
 								<html:h4>Distribution Franchise Agreement</html:h4>
 							</html:div>
 						</html:div>
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/Govt_Acc_Meter_Testing_Lab.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Distribution Franchise Agreement
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
 					</html:div>
 				</html:div>
 			</Panel>

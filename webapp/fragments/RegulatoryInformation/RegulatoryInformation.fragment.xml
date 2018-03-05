@@ -10,6 +10,105 @@
 								<html:h4>Regulatory Information</html:h4>
 							</html:div>
 						</html:div>
+						<html:ul class="nav nav-tabs nav-stacked row regulatory_fill">
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/electricity-amendments.aspx" target="_blank" title="Electricity Act and Amendments">
+									<html:div class="row">
+										<html:div class="col-xs-10">Electricity Act and Amendments</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.tatapower.com/regulations/pdf/Standards_of_performanance.pdf" target="_blank" title="Standard of Performance">
+									<html:div class="row">
+										<html:div class="col-xs-10">Standard of Performance</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://mercindia.org.in/Regulations.htm" target="_blank" title="MERC Regulation">
+									<html:div class="row">
+										<html:div class="col-xs-10">MERC Regulation</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://www.mercindia.org.in/Orders_2012.htm" target="_blank" title="MERC Order">
+									<html:div class="row">
+										<html:div class="col-xs-10">MERC Order</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://aptel.gov.in/judgements.html" target="_blank" title="Appllate Tribunal Orders">
+									<html:div class="row">
+										<html:div class="col-xs-10">Appllate Tribunal Orders</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+							<html:li class="col-sm-6">
+								<html:a href="http://courtnic.nic.in/courtnicsc.asp" target="_blank" title="Supreme Court Orders">
+									<html:div class="row">
+										<html:div class="col-xs-10">Supreme Court Orders</html:div>
+										<html:div class="col-xs-2 text-right">
+											<html:image src="images/next_arrow.png" alt="next_arrow" class="img-responsive"></html:image>
+										</html:div>
+									</html:div>
+								</html:a>
+							</html:li>
+						</html:ul>
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/Maharashtra_Electricity_Duty_Act_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Maharashtra Electricity Duty</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/ED_Notification.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										ED Notification
+									</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/Tourism_policy_MTDC_2016.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										 Tourism Policy MTDC
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
 					</html:div>
 				</html:div>
 			</Panel>
