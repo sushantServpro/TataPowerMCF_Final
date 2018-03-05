@@ -31,7 +31,9 @@
 							<html:p class="text-center">We have partnered with leading Customer appliance manufacturers to offer you energy efficient appliances. We
 								offer Energy Audits at discounted rates for our Industrial and Commercial customers. Energy Audit will identify energy saving potential at
 								your premises by monitoring and analyzing your energy consumption. Tata Power offers a heavy discount of 75% on the Energy Audit Cost.</html:p>
-							<html:h5 class="text-center"><html:span class="br_green_bold">BE GREEN</html:span> by enrolling for our energy efficiency programme.</html:h5>
+							<html:h5 class="text-center">
+								<html:span class="br_green_bold">BE GREEN</html:span>
+								by enrolling for our energy efficiency programme.</html:h5>
 						</html:div>
 						<html:div class="dear_consumer">
 							<html:h5 class="text-center">Dear Consumer</html:h5>
@@ -39,6 +41,52 @@
 								Alternatively, you might also wish to call our 24X7 Toll Free Number (1800-209-5161) to get information and register for the Tata Power DSM
 								Programmes.</html:p>
 						</html:div>
+					</html:div>
+					<html:div class="usefull_links">
+						<IconTabBar id="idIconTabBarNoIcons" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+							<items>
+								<IconTabFilter text="News Update">
+									<html:ul class="inti_list">
+										<html:li>
+											<html:a href="pdf/dsm_natl_innovative_energy_saving_service_award.pdf" target="_blank">
+												Tata Power DSM Programme bags National Award for 'Innovative Energy Service Award' at the CII national Award for Energy Management</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="pdf/EC_Week_Report.pdf" target="_blank">
+												Tata Power DSM Cell celebrates Energy Conservation Week 2014</html:a>
+										</html:li>
+									</html:ul>
+								</IconTabFilter>
+								<IconTabFilter text="Useful Links">
+									<html:ul class="inti_list">
+										<html:li>
+											<html:a href="http://www.mercindia.org.in/" target="_blank">
+												Maharshtra Electricity Regulatory Commission (MERC)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.mahaurja.com/" target="_blank">
+												Maharshtra Energy Development Agency (Mahaurja)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.mercindia.org.in/" target="_blank">
+												Central Electricity Regulatory Commission (CERC)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://powermin.nic.in/" target="_blank">
+												Ministry of Power</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://beeindia.in/" target="_blank">
+												Bureau of Energy Efficiency (BEE)</html:a>
+										</html:li>
+										<html:li>
+											<html:a href="http://www.eeslindia.org/" target="_blank">
+												Energy Efficiency Services Limited (EESL)</html:a>
+										</html:li>
+									</html:ul>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>
 					</html:div>
 				</html:div>
 			</Panel>
