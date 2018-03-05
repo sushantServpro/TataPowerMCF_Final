@@ -1971,20 +1971,26 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     border: none;
 }
 
-.pwr_dist_spl_chart .nav-stacked li {
+.pwr_dist_spl_chart .nav-stacked li,
+.regulatory_fill li a {
     border: 1px solid #ddd;
     box-shadow: 1px 2px 2px 0px #ddd;
     margin: 10px 0;
 }
 
+.regulatory_fill li { 
+	padding: 15px;
+	float: left; 
+}
+
 .pwr_dist_spl_chart .nav-stacked li a,
-.electricity_act .nav-stacked li a {
+.electricity_act .nav-stacked li a,
+.regulatory_fill li a {
     padding: 15px;
     margin: 0 !important;
     color: #000 !important;
     border: none !important;
-    font-weight: bold;
-    font-size: 13px;
+    font: bold 13px "Open Sans";
 }
 
 .pwr_dist_spl_chart .nav-stacked li a img,
