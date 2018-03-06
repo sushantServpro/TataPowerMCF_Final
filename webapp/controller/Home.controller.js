@@ -1,4 +1,4 @@
-sap.ui.define([
+ sap.ui.define([
 	"tatapower/dev/controller/BaseController"
 ], function(BaseController) {
 	"use strict";
@@ -135,6 +135,10 @@ sap.ui.define([
 		},
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");
+		},
+		pressSafetyathome: function() {
+	
+			this.getRouter().navTo("Safetyathome");
 		},
 
 		pressAboutUs: function() {

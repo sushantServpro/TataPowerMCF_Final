@@ -159,7 +159,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressSafeAtHome">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressSafetyathome">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">

@@ -94,7 +94,7 @@
 					"pattern": "AboutUs",
 					"name": "AboutUs",
 					"target": "AboutUs"
-				},{
+				}, {
 					"pattern": "Writetocustomercare",
 					"name": "Writetocustomercare",
 					"target": "Writetocustomercare"
@@ -169,6 +169,10 @@
 					"name": "SeniorLeadership",
 					"target": "SeniorLeadership"
 				}, {
+					"pattern": "Safetyathome",
+					"name": "Safetyathome",
+					"target": "Safetyathome"
+				}, {
 					"pattern": "SwitchOverConnection",
 					"name": "SwitchOverConnection",
 					"target": "SwitchOverConnection"
@@ -192,7 +196,7 @@
 					"pattern": "LandingFAQs",
 					"name": "LandingFAQs",
 					"target": "LandingFAQs"
-				},{
+				}, {
 					"pattern": "Landingdigitalservice",
 					"name": "Landingdigitalservice",
 					"target": "Landingdigitalservice"
@@ -204,15 +208,15 @@
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
-				},{
+				}, {
 					"pattern": "ApplicationForms",
 					"name": "ApplicationForms",
 					"target": "ApplicationForms"
-				},{
+				}, {
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
-				},{
+				}, {
 					"pattern": "PaymentOptions",
 					"name": "PaymentOptions",
 					"target": "PaymentOptions"
@@ -232,12 +236,12 @@
 					"viewName": "NotFound",
 					"transition": "show"
 				},
-	"Landingdigitalservice": {
+				"Landingdigitalservice": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Landingdigitalservice",
 					"viewLevel": 2
 				},
-"Writetocustomercare": {
+				"Writetocustomercare": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Writetocustomercare",
 					"viewLevel": 2
@@ -364,6 +368,11 @@
 				"SeniorLeadership": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "SeniorLeadership",
+					"viewLevel": 19
+				},
+				"Safetyathome": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Safetyathome",
 					"viewLevel": 19
 				},
 				"VideoGallery": {
