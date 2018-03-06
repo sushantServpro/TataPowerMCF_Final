@@ -2374,6 +2374,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .uRated span { font-weight: bold; }
 
+.feed_rating .ques_div .sapMRISel { color: #3191e6 !important; }
+
 .feedRatingFlex .ques_div {
 	height: 100%;
 	margin: 0;
