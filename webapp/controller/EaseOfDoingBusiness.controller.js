@@ -59,6 +59,9 @@ sap.ui.define([
 			} else if (evt.oSource.mProperties.text === "Statistics") {
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.Statstics"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Track Request Status") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TrackRequestStatus"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 		}
 

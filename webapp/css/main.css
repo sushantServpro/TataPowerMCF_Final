@@ -1674,9 +1674,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 .eob_apply .sapMBtnContent bdi,
 .eob_new_con .sapMBtnContent bdi,
 .audit_reg .sapMBtnContent bdi {
-    font: bold 14px "Open Sans";
+    font: bold 12px "Open Sans";
     text-shadow: none;
-    padding: 5px 0;
+    padding: 8px 0;
     height: auto;
     display: inline-block;
 }
@@ -2372,14 +2372,65 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: normal 13px "Open Sans";
 }
 
-.uRated span { font-weight: bold; }
+.uRated span {
+    font-weight: bold;
+}
 
-.feed_rating .ques_div .sapMRISel { color: #3191e6 !important; }
+.feed_rating .ques_div .sapMRISel {
+    color: #3191e6 !important;
+}
 
 .feedRatingFlex .ques_div {
-	height: 100%;
-	margin: 0;
+    height: 100%;
+    margin: 0;
 }
+
+.off_ln_pymt {
+    padding: 25px 0;
+}
+
+.off_search_result h5 {
+    font: normal 13px "Open Sans";
+    color: #3a3a3a;
+}
+
+.ele_drop_box,
+.tata_drop_box {
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.ele_drop_box h4,
+.tata_drop_box h4,
+.off_pay_opt h5 {
+    font: bold 13px "Open Sans";
+}
+
+.off_pay_opt {
+    padding: 5px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.off_pay_opt p,
+.more_off_pay_opt p {
+    font: normal 12px "Open Sans";
+}
+
+.off_pay_opt p a,
+.more_off_pay_opt p a {
+    color: #3191e6;
+}
+
+.drop_box {
+    list-style-image: url('../images/location.png');
+    font: normal 13px "Open Sans";
+}
+
+.drop_box li {
+    padding: 5px 0;
+}
+
 
 /*mobile view */
 
@@ -2594,6 +2645,13 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .smalltiledigital {
         margin-top: 80px!important;
+    }
+    .off_pay_opt {
+        border-left: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -3238,18 +3296,19 @@ hr {
     box-shadow: 0px 4px 3px 0px #cccccc!important;
     border-radius: 10px 10px !important;
 }
-.saftybanner{
-	padding:10px 0;
+
+.saftybanner {
+    padding: 10px 0;
 }
-.saftybtnicon  .sapMBtnIcon::before {
+
+.saftybtnicon .sapMBtnIcon::before {
     content: attr(data-sap-ui-icon-content);
     speak: none;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
-    color:#fff!important;
-}
-.safety{
-padding: 1.15rem 2rem!important;
-
+    color: #fff!important;
 }
 
+.safety {
+    padding: 1.15rem 2rem!important;
+}

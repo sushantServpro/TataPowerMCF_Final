@@ -21,7 +21,7 @@
 											<html:h5>Demand Side Management</html:h5>
 											<html:p>Demand-side management (DSM) refers to cooperative activities...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="handleButtonPress"/>
 											</html:div>
 										</html:div>
 									</html:div>
