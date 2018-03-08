@@ -2,7 +2,23 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_01">
+			<Panel>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="gri_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_grievances.png" alt="icon_grievances" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Consumer Grievance Redressal Forum</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
 				<html:div class="procedure_head">
 					<html:h4>Consumer Grievance Redressal Forum(For Mumbai Consumers Only)</html:h4>
 					<html:p>Tata Power has constituted a Consumer Grievance Redressal Forum (CGRF) in accordance with sub-section (5) of Section 42 of the Act

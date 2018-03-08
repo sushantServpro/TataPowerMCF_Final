@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_15">
+			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="row middlebox share_feedbk">
 						<html:div class="content">
@@ -165,6 +165,11 @@
 										<html:div class="ques_area">
 											<TextArea placeholder="Please enter your suggestion" growing="true" growingMaxLines="7" width="100%"/>
 										</html:div>
+									</html:div>
+								</html:div>
+								<html:div>
+									<html:div class="col-md-2 col-md-offset-5 text-center">
+										<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 									</html:div>
 								</html:div>
 							</html:div>

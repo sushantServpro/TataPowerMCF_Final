@@ -8,8 +8,10 @@
 }, {
 	"text": "DSM Programme",
 	"ref": "sap-icon://attachment-html"
-}
-, {
+}, {
 	"text": "Energry Convervation",
+	"ref": "sap-icon://attachment-html"
+}, {
+	"text": "Contact",
 	"ref": "sap-icon://attachment-html"
 }]

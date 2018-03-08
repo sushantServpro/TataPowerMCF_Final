@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_13">
+			<Panel>
 				<html:h5 align="center">Lead Management System</html:h5>
 				<html:h6 align="center">Create New Lead</html:h6>
 				<html:div class="col-md-2 col-md-offset-5 leadmgt">

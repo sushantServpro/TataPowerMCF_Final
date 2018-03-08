@@ -2,9 +2,9 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-				<html:object>
-    <html:embed src="flash/future-initiative.swf" width="100%" height="500"></html:embed>
-</html:object>
+			<html:object>
+				<html:embed src="flash/future-initiative.swf" width="100%" height="500"></html:embed>
+			</html:object>
 		</content>
 	</Panel>
 </core:FragmentDefinition>

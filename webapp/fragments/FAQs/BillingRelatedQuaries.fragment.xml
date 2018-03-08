@@ -3,8 +3,22 @@
 	<Panel >
 		<content>
 			<html:div>
-				<html:h4>FAQs</html:h4>
-				<html:h4 class="faqheader">Frequently Ask Question On Billing query</html:h4>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="faq_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Bill Related Queries</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
 				<Panel expandable="true" expanded="false" headerText="How is the consumption of electricity billed?" width="auto"
 					class="sapUiResponsiveMargin">
 					<content >
@@ -473,29 +487,25 @@
 							<html:ul>
 								<html:li>
 									<html:h5>
-										
 										The meters of all customers are read once every month.
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-										
 										The meter readings are recorded area-wise and on particular dates.
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-										
-										If the intimation regarding a new customer is received after the metering cycle in that area is completed, the new customer's metering would appear only in the next cycle of reading.
+										If the intimation regarding a new customer is received after the metering cycle in that area is completed, the new customer's metering would
+										appear only in the next cycle of reading.
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-										
-									If the bill is not received even after 2 months of initial power connection, you should contact "Call Center" immediately.
+										If the bill is not received even after 2 months of initial power connection, you should contact "Call Center" immediately.
 									</html:h5>
 								</html:li>
-								
 							</html:ul>
 						</html:div>
 					</content>
@@ -505,9 +515,8 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-							The customer should contact the "Call Centrer" or Consumer Relations Dept. and collect a duplicate bill.
-
-                             The duplicate bill will be sent to him by courier or fax.
+								The customer should contact the "Call Centrer" or Consumer Relations Dept. and collect a duplicate bill. The duplicate bill will be sent to
+								him by courier or fax.
 							</html:h5>
 						</html:div>
 					</content>
@@ -517,7 +526,7 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-							The customer should contact the "Call Centre" and the matter will be attended to.
+								The customer should contact the "Call Centre" and the matter will be attended to.
 							</html:h5>
 						</html:div>
 					</content>
@@ -527,198 +536,199 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-						You may register your complaint at Call Centre. On receipt of the complaint, the meter readings will be checked and necessary action will be taken and informed to the customer.
+								You may register your complaint at Call Centre. On receipt of the complaint, the meter readings will be checked and necessary action will be
+								taken and informed to the customer.
 							</html:h5>
 						</html:div>
 					</content>
 				</Panel>
-				<Panel expandable="true" expanded="false" headerText="What should be done if the current bill shows arrears even though the previous bill has been paid within the stipulated period?" width="auto"
+				<Panel expandable="true" expanded="false"
+					headerText="What should be done if the current bill shows arrears even though the previous bill has been paid within the stipulated period?"
+					width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:ul>
+								<html:li>
+									<html:h5>
+										While printing the electricity bill, payment details up to a certain date only are considered.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										Payments made after this date will, therefore, not be reflected in the new bill.
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										If the copy of the receipt of the earlier payment made is submitted to the Consumer Relations Department, necessary corrections would be
+										made on the bill and the balance amount will be accepted.
+									</html:h5>
+								</html:li>
+							</html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false"
+					headerText="Why does a bill indicate nil or low units even though the consumption has been regular?" width="auto"
+					class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								This can be due to the meter or the metering installation becoming defective. To avoid getting a bigger amended bill later on, bring this to
+								the company's notice immediately by contacting the "Call Center". Lower bill may also be due to wrong reading taken for billing, due to
+								human error, although every care is taken to avoid such errors.
+							</html:h5>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Why does a bill appear to be in excess of the usual?" width="auto"
 					class="sapUiResponsiveMargin">
 					<content>
 						<html:div class="textpara">
 							<html:ul>
 								<html:li>
 									<html:h5>
-										
-										While printing the electricity bill, payment details up to a certain date only are considered.
+										Normally high bills are due to higher consumption, because of some new electrical equipment added or some festivals or special occasions,
+										like a marriage in the family or, change of weather etc.
 									</html:h5>
 								</html:li>
-									<html:li>
-									<html:h5>
-										
-									Payments made after this date will, therefore, not be reflected in the new bill.
-									</html:h5>
-								</html:li>
-									<html:li>
-									<html:h5>
-								
-									If the copy of the receipt of the earlier payment made is submitted to the Consumer Relations Department, necessary corrections would be made on the bill and the balance amount will be accepted.
-									</html:h5>
-								</html:li>
-						</html:ul>	
-						</html:div>
-					</content>
-				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Why does a bill indicate nil or low units even though the consumption has been regular?" width="auto"
-					class="sapUiResponsiveMargin">
-					<content>
-						<html:div class="textpara">
-							<html:h5>
-					This can be due to the meter or the metering installation becoming defective. To avoid getting a bigger amended bill later on, bring this to the company's notice immediately by contacting the "Call Center". Lower bill may also be due to wrong reading taken for billing, due to human error, although every care is taken to avoid such errors.
-							</html:h5>
-						</html:div>
-					</content>
-				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Why does a bill appear to be in excess of the usual?" width="auto"
-					class="sapUiResponsiveMargin">
-					<content>
-						<html:div class="textpara">
-								<html:ul>
 								<html:li>
 									<html:h5>
-										
-									Normally high bills are due to higher consumption, because of some new electrical equipment added or some festivals or special occasions, like a marriage in the family or, change of weather etc.
-									</html:h5>
-								</html:li>
-									<html:li>
-									<html:h5>
-										
 										If not, compare your unit consumption with earlier bills preferably for similar period.
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-										
-									Use the ready reckoner available on the website to estimate your consumption.
-									</html:h5>
-								</html:li>
-									<html:li>
-									<html:h5>
-										
-								Even if the unit consumption is normal, the bill amount can increase due to tariff revision, increase in FAC or Government duty.
+										Use the ready reckoner available on the website to estimate your consumption.
 									</html:h5>
 								</html:li>
 								<html:li>
 									<html:h5>
-										
-								An excess bill could also be due to incorrect reading taken for billing.
+										Even if the unit consumption is normal, the bill amount can increase due to tariff revision, increase in FAC or Government duty.
 									</html:h5>
 								</html:li>
 								<html:li>
 									<html:h5>
-										
-								This can be verified by checking the reading on your meter.
+										An excess bill could also be due to incorrect reading taken for billing.
 									</html:h5>
 								</html:li>
 								<html:li>
 									<html:h5>
-										
-									If not satisfied, contact the "Call Center" and the matter will be investigated further.
+										This can be verified by checking the reading on your meter.
 									</html:h5>
 								</html:li>
-								
+								<html:li>
+									<html:h5>
+										If not satisfied, contact the "Call Center" and the matter will be investigated further.
+									</html:h5>
+								</html:li>
 							</html:ul>
 						</html:div>
 					</content>
 				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Does the Tata Power meter reader go every month to read the meter, or is the bill prepared on estimated consumption every alternate month?" width="auto"
-					class="sapUiResponsiveMargin">
+				<Panel expandable="true" expanded="false"
+					headerText="Does the Tata Power meter reader go every month to read the meter, or is the bill prepared on estimated consumption every alternate month?"
+					width="auto" class="sapUiResponsiveMargin">
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-					The meters of all customers are read once in a month. The meter readings are recorded area-wise and on particular dates. Hence the bills that are send to the customers are based on actual consumption of the customer in the particular month.
+								The meters of all customers are read once in a month. The meter readings are recorded area-wise and on particular dates. Hence the bills
+								that are send to the customers are based on actual consumption of the customer in the particular month.
 							</html:h5>
 						</html:div>
 					</content>
 				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Why does the bill show that the units have been consumed even though the premises were unoccupied and locked?
-" width="auto"
+				<Panel expandable="true" expanded="false"
+					headerText="Why does the bill show that the units have been consumed even though the premises were unoccupied and locked? " width="auto"
 					class="sapUiResponsiveMargin">
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-					Upon receiving the complaint through the "Call Centre", the meter reading will be checked and the meter tested. If meter tests healthy, it would mean that the meter had recorded correctly. The responsibility of the customer's main switch rests on the customer. If someone has used electricity supply tapping from this main switch, the company is not responsible and the owner has to pay for the units recorded. It is, therefore, in owner's interest to keep the meter under lock and key with access to the responsible authorised personnel only.
+								Upon receiving the complaint through the "Call Centre", the meter reading will be checked and the meter tested. If meter tests healthy, it
+								would mean that the meter had recorded correctly. The responsibility of the customer's main switch rests on the customer. If someone has
+								used electricity supply tapping from this main switch, the company is not responsible and the owner has to pay for the units recorded. It
+								is, therefore, in owner's interest to keep the meter under lock and key with access to the responsible authorised personnel only.
 							</html:h5>
 						</html:div>
 					</content>
 				</Panel>
-					<Panel expandable="true" expanded="false" headerText="How is billing adjustment made for the defective metering period?" width="auto"
+				<Panel expandable="true" expanded="false" headerText="How is billing adjustment made for the defective metering period?" width="auto"
 					class="sapUiResponsiveMargin">
 					<content>
 						<html:div class="textpara">
-							<html:h5>The meter will be tested on a dispute raised by the customer on payment of testing fees. If it is found to be beyond the tolerance limits, the testing fees will be refunded. If the meter or metering installation develops a fault or ceases to register the actual consumption or maximum demand, the consumption during the defective period will be assessed based on the MERC guidelines and necessary correction will be given as applicable.
-
-If you apprehend that the meter is not functioning correctly, report immediately so that checking and rectification can be carried out.
-
-If the meter or metering installation is found tampered with, the Company would assess the consumption and bill for the same.
-Penalty will also be changed as per Electricity Act. If a person tampers with company's installation the person is liable for imprisonment and or
-fine as per the Electricity Act.	
-
-                      </html:h5>
-						</html:div>
-					</content>
-				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Can a customer replace the main supply fuse installed by the company?" width="auto"
-					class="sapUiResponsiveMargin">
-					<content>
-						<html:div class="textpara">
-							<html:h5>
-					The meter boards, main cut-outs, fuse, etc., should on no account be interfered with by any one other than the Company's authorised representative. The seals, which are fixed on the meters and the Company's apparatus, must never be tampered with. The Company seals are placed to protect their apparatus. Should this be ignored or disobeyed or disregarded, the customer shall render himself liable to a penalty under the new Electricity Act, 2003.
-
-                    If a person tampers with the Company's installation the person is liable for imprisonment and/or fine as per the Electricity Act.
+							<html:h5>The meter will be tested on a dispute raised by the customer on payment of testing fees. If it is found to be beyond the tolerance
+								limits, the testing fees will be refunded. If the meter or metering installation develops a fault or ceases to register the actual
+								consumption or maximum demand, the consumption during the defective period will be assessed based on the MERC guidelines and necessary
+								correction will be given as applicable. If you apprehend that the meter is not functioning correctly, report immediately so that checking
+								and rectification can be carried out. If the meter or metering installation is found tampered with, the Company would assess the consumption
+								and bill for the same. Penalty will also be changed as per Electricity Act. If a person tampers with company's installation the person is
+								liable for imprisonment and or fine as per the Electricity Act.
 							</html:h5>
 						</html:div>
 					</content>
 				</Panel>
-					<Panel expandable="true" expanded="false" headerText="Provision under Electricity Act 2003." width="auto"
+				<Panel expandable="true" expanded="false" headerText="Can a customer replace the main supply fuse installed by the company?" width="auto"
 					class="sapUiResponsiveMargin">
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-						he relevant part from the new Electricity Act 2003 is quoted as below :
-                       PART - XIV : OFFENCES AND PENALTIES
-
-                       Theft of electricity - 135.
+								The meter boards, main cut-outs, fuse, etc., should on no account be interfered with by any one other than the Company's authorised
+								representative. The seals, which are fixed on the meters and the Company's apparatus, must never be tampered with. The Company seals are
+								placed to protect their apparatus. Should this be ignored or disobeyed or disregarded, the customer shall render himself liable to a penalty
+								under the new Electricity Act, 2003. If a person tampers with the Company's installation the person is liable for imprisonment and/or fine
+								as per the Electricity Act.
 							</html:h5>
-								<html:ul>
+						</html:div>
+					</content>
+				</Panel>
+				<Panel expandable="true" expanded="false" headerText="Provision under Electricity Act 2003." width="auto" class="sapUiResponsiveMargin">
+					<content>
+						<html:div class="textpara">
+							<html:h5>
+								he relevant part from the new Electricity Act 2003 is quoted as below : PART - XIV : OFFENCES AND PENALTIES Theft of electricity - 135.
+							</html:h5>
+							<html:ul>
 								<html:li>
 									<html:h5>
-										
 										Whoever, dishonestly.
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-										
-									taps, makes or causes to be made any connection with overhead, underground or under water lines or cables, or service wires, or service facilities of a licensee; or
-									</html:h5>
-								</html:li>
-									<html:li>
-									<html:h5>
-										
-									tampers a meter, installs or uses a tampered meter, current transformer, loop connection or any other device or method which interferes with accurate or proper registration, calibration or metering of electric current or otherwise results in a manner whereby electricity is stolen or wasted; or
-									</html:h5>
-								</html:li>
-									<html:li>
-									<html:h5>
-										
-								damages or destroys an electric meter, apparatus, equipment , or wire or causes or allows any of them to be so damaged or destroyed as to interfere with the proper or accurate metering of electricity,
-
-so as to abstract or consume or use electricity, shall be punishable with imprisonment for a term which may extend to three years or with fine or with both:
-
-Provided that in a case where the load abstracted, consumed, or used or attempted abstraction or attempted consumption or attempted use,
+										taps, makes or causes to be made any connection with overhead, underground or under water lines or cables, or service wires, or service
+										facilities of a licensee; or
 									</html:h5>
 								</html:li>
 								<html:li>
 									<html:h5>
-										
-									does not exceed 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such theft of electricity and in the event of second or subsequent conviction the fine imposed shall not be less than six times the financial gain on account of such theft of electricity;
+										tampers a meter, installs or uses a tampered meter, current transformer, loop connection or any other device or method which interferes with
+										accurate or proper registration, calibration or metering of electric current or otherwise results in a manner whereby electricity is stolen
+										or wasted; or
 									</html:h5>
 								</html:li>
-									<html:li>
+								<html:li>
 									<html:h5>
-									exceeds 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such theft of electricity and in the event of second or subsequent conviction, the sentence shall be imprisonment for a term not less than six months but which may extend to five years and with fine not less than six times the financial gain on account of such theft of electricity:
-Provided further that if it is proved that any artificial means or means not authorised by the Board or licensee exist for the abstraction, consumption or use of electricity by the customer, it shall be presumed, until the contrary is proved that any abstraction, consumption or use of electricity has been dishonestly caused by such customer.
+										damages or destroys an electric meter, apparatus, equipment , or wire or causes or allows any of them to be so damaged or destroyed as to
+										interfere with the proper or accurate metering of electricity, so as to abstract or consume or use electricity, shall be punishable with
+										imprisonment for a term which may extend to three years or with fine or with both: Provided that in a case where the load abstracted,
+										consumed, or used or attempted abstraction or attempted consumption or attempted use,
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										does not exceed 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such
+										theft of electricity and in the event of second or subsequent conviction the fine imposed shall not be less than six times the financial
+										gain on account of such theft of electricity;
+									</html:h5>
+								</html:li>
+								<html:li>
+									<html:h5>
+										exceeds 10 kilowatt, the fine imposed on first conviction shall not be less than three times the financial gain on account of such theft of
+										electricity and in the event of second or subsequent conviction, the sentence shall be imprisonment for a term not less than six months but
+										which may extend to five years and with fine not less than six times the financial gain on account of such theft of electricity: Provided
+										further that if it is proved that any artificial means or means not authorised by the Board or licensee exist for the abstraction,
+										consumption or use of electricity by the customer, it shall be presumed, until the contrary is proved that any abstraction, consumption or
+										use of electricity has been dishonestly caused by such customer.
 									</html:h5>
 								</html:li>
 							</html:ul>

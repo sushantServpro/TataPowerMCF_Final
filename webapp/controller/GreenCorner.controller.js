@@ -45,6 +45,10 @@ sap.ui.define([
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.GreenCorner.Conserve"].join("."), this);
 					vbox.addItem(fragment1);
+				} else if (evt.oSource.mProperties.text === "Know More") {
+
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.AboutDSM"].join("."), this);
+					vbox.addItem(fragment1);
 				}
 
 			}

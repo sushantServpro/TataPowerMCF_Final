@@ -8,7 +8,10 @@
 }, {
 	"text": "Apply Online",
 	"ref": "sap-icon://attachment-html"
-},  {
+}, {
+	"text": "Track Request Status",
+	"ref": "sap-icon://attachment-html"
+}, {
 	"text": "TPC-D Initiatives",
 	"ref": "sap-icon://attachment-html"
 }, {

@@ -14,17 +14,98 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic">
-													<!--<items>-->
-													<!--	<MenuItem text="add" press="onHomePress"/>-->
-													<!--	<MenuItem text="subtract" press="onHomePress"/>-->
-													<!--	<MenuItem text="multiply" press="onHomePress"/>-->
-													<!--</items>-->
+												<MenuItem text="New Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressNewOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressNewPro"/>
+														<MenuItem text="Application Form" press="pressNewApp"/>
+														<MenuItem text="Standard Drawings" press="pressNewDraw"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
 												</MenuItem>
-												<MenuItem text="complex">
-													<!--<items>-->
-													<!--	<MenuItem text="square" press="onHomePress"/>-->
-													<!--</items>-->
+												<MenuItem text="Change Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressChangeOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressChangePro"/>
+														<MenuItem text="Application Form" press="pressChangeApp"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Switch Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressSwitchOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressSwitchPro"/>
+														<MenuItem text="Application Form" press="pressSwitchApp"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Net Metering">
+													<items>
+														<MenuItem text="Apply Online" press="pressNetOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressNetPro"/>
+														<MenuItem text="Application Form" press="pressNetApp"/>
+														<MenuItem text="Check Distribution Capacity" press="pressCheckDistCap"/>
+														<MenuItem text="Model Connection Agreement" press="pressConAgg"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Open Access">
+													<items>
+														<MenuItem text="Short Term" press="pressShortTerm"/>
+														<MenuItem text="Medium/Long Term" press="pressShortTerm"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Reconnection">
+													<items>
+														<MenuItem text="Apply Online" press="pressReconOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Advance Bill Payment">
+													<items>
+														<MenuItem text="Apply Online" press="pressAdvBillOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressAdvBillPro"/>
+														<MenuItem text="Instructions for Submitting Form" press="pressAdvBillInst"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Register &amp; Get Rewarded">
+													<items>
+														<MenuItem text="Apply Online" press="pressReconOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Permanent Disconnection">
+													<items>
+														<MenuItem text="Apply Online" press="pressDisConOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressDisConBillPro"/>
+														<MenuItem text="Instructions for Submitting Form" press="pressDisConInst"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Load Enhancement">
+													<items>
+														<MenuItem text="Apply Online" press="pressLoadEnhasOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Load Reduction">
+													<items>
+														<MenuItem text="Apply Online" press="pressLoadRedctOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Tariff Category Change">
+													<items>
+														<MenuItem text="Apply Online" press="pressTariffCatOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Max Demand Enhancement">
+													<items>
+														<MenuItem text="Apply Online" press="pressMaxDemandOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Meter Shifting">
+													<items>
+														<MenuItem text="Apply Online" press="pressMeterShiftOline"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Meter Testing">
+													<items>
+														<MenuItem text="Apply Online" press="pressMeterTestOline"/>
+													</items>
 												</MenuItem>
 											</items>
 										</Menu>
@@ -130,7 +211,6 @@
 												<MenuItem text="Assessment Officer vigilance" press="pressContactUs"></MenuItem>
 												<MenuItem text="Call Center Number" press="pressContactUs"></MenuItem>
 												<MenuItem text="Customer Relation Center" press="pressContactUs"></MenuItem>
-												<MenuItem text="Feedback" press="pressContactUs"></MenuItem>
 												<MenuItem text="HOD Customer Services" press="pressContactUs"></MenuItem>
 												<MenuItem text="Zonal Managers" press="pressContactUs"></MenuItem>
 												<MenuItem text="Zones And Areas" press="pressContactUs"></MenuItem>

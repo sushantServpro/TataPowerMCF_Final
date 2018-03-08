@@ -5,16 +5,17 @@
 		"text": "Energry Saving",
 		"ref": "sap-icon://attachment-html"
 
-	},
+	}, {
+		"text": "Online Payment",
+		"ref": "sap-icon://attachment-html"
 
-	{
+	}, {
 		"text": "Power Failure Problems",
 		"ref": "sap-icon://attachment-html"
 	}, {
 		"text": "Power Related Queries",
 		"ref": "sap-icon://attachment-html"
-	},
-	{
+	}, {
 		"text": "Safety Tips",
 		"ref": "sap-icon://attachment-html"
 	}, 

@@ -31,17 +31,17 @@ sap.ui.define([
 			var vbox1 = this.getView().byId("Flexboxview");
 			var fragment = sap.ui.xmlfragment(["tatapower.dev.fragments.NewConnection.NewConnectionSideMenu"].join("."), this);
 			vbox1.addItem(fragment);
-var vbox = this.getView().byId("FlexboxProcedure");
+			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.RegisterEbill"].join("."), this);
-				vbox.addItem(fragment1);
+			var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.RegisterEbill"].join("."), this);
+			vbox.addItem(fragment1);
 		},
 
 		handleButtonPress: function(evt) {
 
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
-			
+
 			if (evt.oSource.mProperties.text === "Register For E-Bill") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.RegisterEbill"].join("."), this);
@@ -66,15 +66,18 @@ var vbox = this.getView().byId("FlexboxProcedure");
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.ViewandPayBillOnline"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-			else if (evt.oSource.mProperties.text === "Please Share your feedback") {
+			} else if (evt.oSource.mProperties.text === "Please Share your feedback") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.PleaseShareYourFeedback"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Write to SL form") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.MyAccount.WriteToSlForm"].join("."), this);
 				vbox.addItem(fragment1);
 			}
 
 		},
-		
+
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
