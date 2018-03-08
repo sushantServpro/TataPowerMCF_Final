@@ -5,8 +5,19 @@
 			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Bill Calculator</html:h4>
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="bill_calc_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Bill Calculator</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 						</html:div>
 					</html:div>
 					<html:div class="bill_cal_desc">
@@ -43,9 +54,8 @@
 											</items>
 										</ActionSelect>
 									</html:div>
-									</html:div>
-									
-										<html:div class="row">
+								</html:div>
+								<html:div class="row">
 									<html:div class="col-sm-4">
 										<Label text="supply Voltage:"/>
 										<ActionSelect id="select-a" items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
@@ -54,69 +64,67 @@
 											</items>
 										</ActionSelect>
 									</html:div>
-									
-									
 									<html:div class="col-sm-4">
-									<Label text="Connected Load(KW):" labelFor="input-c"/>
-		                        	<Input id="input-c"/>
+										<Label text="Connected Load(KW):" labelFor="input-c"/>
+										<Input id="input-c"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH_Total:" labelFor="input-c"/>
-		                        	<Input id="input-d"/>
+										<Label text="KWH_Total:" labelFor="input-c"/>
+										<Input id="input-d"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-A:" labelFor="input-c"/>
-		                        	<Input id="input-e"/>
+										<Label text="KWH-A:" labelFor="input-c"/>
+										<Input id="input-e"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-B:" labelFor="input-c"/>
-		                        	<Input id="input-f"/>
+										<Label text="KWH-B:" labelFor="input-c"/>
+										<Input id="input-f"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-B2:" labelFor="input-c"/>
-		                        	<Input id="input-g"/>
+										<Label text="KWH-B2:" labelFor="input-c"/>
+										<Input id="input-g"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-C" labelFor="input-c"/>
-		                        	<Input id="input-h"/>
+										<Label text="KWH-C" labelFor="input-c"/>
+										<Input id="input-h"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KWH-D:" labelFor="input-c"/>
-		                        	<Input id="input-i"/>
+										<Label text="KWH-D:" labelFor="input-c"/>
+										<Input id="input-i"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="RKVAH_Total:" labelFor="input-c"/>
-		                        	<Input id="input-j"/>
+										<Label text="RKVAH_Total:" labelFor="input-c"/>
+										<Input id="input-j"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH A:" labelFor="input-c"/>
-		                        	<Input id="input-k"/>
+										<Label text="KVAH A:" labelFor="input-c"/>
+										<Input id="input-k"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH B:" labelFor="input-c"/>
-		                        	<Input id="input-l"/>
+										<Label text="KVAH B:" labelFor="input-c"/>
+										<Input id="input-l"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH B2:" labelFor="input-c"/>
-		                        	<Input id="input-m"/>
+										<Label text="KVAH B2:" labelFor="input-c"/>
+										<Input id="input-m"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH C:" labelFor="input-c"/>
-		                        	<Input id="input-n"/>
+										<Label text="KVAH C:" labelFor="input-c"/>
+										<Input id="input-n"/>
 									</html:div>
 									<html:div class="col-sm-4">
-									<Label text="KVAH D:" labelFor="input-c"/>
-		                        	<Input id="input-o"/>
+										<Label text="KVAH D:" labelFor="input-c"/>
+										<Input id="input-o"/>
 									</html:div>
-										<html:div class="col-sm-4">
-									<Label text="CMD:" labelFor="input-c"/>
-		                        	<Input id="input-p"/>
+									<html:div class="col-sm-4">
+										<Label text="CMD:" labelFor="input-c"/>
+										<Input id="input-p"/>
 									</html:div>
-										</html:div>
-										<html:div class="row">
-										<html:div class="col-sm-4">
-									<Label text="Consuption (Unit):" labelFor="input-c"/>
-		                        	<Input id="input-q"/>
+								</html:div>
+								<html:div class="row">
+									<html:div class="col-sm-4">
+										<Label text="Consuption (Unit):" labelFor="input-c"/>
+										<Input id="input-q"/>
 									</html:div>
 								</html:div>
 								<html:div class="row form_row">
