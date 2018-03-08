@@ -14,42 +14,50 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="basic">
-													<!--<items>-->
-													<!--	<MenuItem text="add" press="onHomePress"/>-->
-													<!--	<MenuItem text="subtract" press="onHomePress"/>-->
-													<!--	<MenuItem text="multiply" press="onHomePress"/>-->
-													<!--</items>-->
+												<MenuItem text="New Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressNewOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressNewPro"/>
+														<MenuItem text="Application Form" press="pressNewApp"/>
+														<MenuItem text="Standard Drawings" press="pressNewDraw"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
 												</MenuItem>
-												<MenuItem text="complex">
+												<MenuItem text="Change Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressChangeOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressChangePro"/>
+														<MenuItem text="Application Form" press="pressChangeApp"/>
+														<MenuItem text="FAQs" press="pressFAQ"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Switch Over Connection">
+													<items>
+														<MenuItem text="Apply Online" press="pressSwitchOnline"/>
+														<MenuItem text="Procedure &amp; Guidelines" press="pressSwitchPro"/>
+														<MenuItem text="Application Form" press="pressSwitchApp"/>
+													</items>
+												</MenuItem>
+												<MenuItem text="Net Metering">
 													<!--<items>-->
 													<!--	<MenuItem text="square" press="onHomePress"/>-->
 													<!--</items>-->
 												</MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
-							</html:li>
-							<html:li>
-								<MenuButton text="Tarrif Details" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="basic"></MenuItem>
-												<MenuItem text="complex"></MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
-							</html:li>
-							<html:li>
-								<MenuButton text="Digital Service" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="basic"></MenuItem>
-												<MenuItem text="complex"></MenuItem>
+												<MenuItem text="Open Access">
+													<!--<items>-->
+													<!--	<MenuItem text="square" press="onHomePress"/>-->
+													<!--</items>-->
+												</MenuItem>
+												<MenuItem text="Reconnection">
+													<!--<items>-->
+													<!--	<MenuItem text="square" press="onHomePress"/>-->
+													<!--</items>-->
+												</MenuItem>
+												<MenuItem text="Advance Bill Payment">
+													<!--<items>-->
+													<!--	<MenuItem text="square" press="onHomePress"/>-->
+													<!--</items>-->
+												</MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -122,7 +130,6 @@
 									</menu>
 								</MenuButton>
 							</html:li>
-						
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right user_prof">
 							<html:li>

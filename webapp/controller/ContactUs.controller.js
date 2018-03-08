@@ -50,10 +50,6 @@ sap.ui.define([
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.CustomerRelation"].join("."), this);
 					vbox.addItem(fragment1);
-				} else if (evt.oSource.mProperties.text === "Feedback") {
-
-					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.Feedback"].join("."), this);
-					vbox.addItem(fragment1);
 				} else if (evt.oSource.mProperties.text === "HOD Customer Services") {
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContactUs.HODCustomerServices"].join("."), this);

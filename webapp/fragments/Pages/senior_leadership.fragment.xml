@@ -30,7 +30,7 @@
 								<html:p class="mdname">COO &amp; Executive Director</html:p>
 							</html:div>
 							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
-								<Button icon="sap-icon://edit" press="onPress" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+								<Button icon="sap-icon://edit" press="pressOpenPopUp" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
 							</html:div>
 						</html:div>
 					</html:div>

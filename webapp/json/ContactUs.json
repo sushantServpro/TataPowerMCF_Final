@@ -9,9 +9,6 @@
 	"text": "Customer Relations Center",
 	"ref": "sap-icon://attachment-html"
 }, {
-	"text": "Feedback",
-	"ref": "sap-icon://attachment-html"
-}, {
 	"text": "HOD Customer Services",
 	"ref": "sap-icon://attachment-html"
 }, {
@@ -21,5 +18,3 @@
 	"text": "Zones and Areas",
 	"ref": "sap-icon://attachment-html"
 }]
-
-
