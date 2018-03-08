@@ -125,7 +125,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class="col-xs-12 col-sm-6 col-md-3 smalltile">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressPowerOutage">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout one" press="pressShedulepoweroutage">
 									<TileContent>
 										<content>
 											<html:div class="row home_ten_menu">
@@ -413,7 +413,7 @@
 								</GenericTile>
 							</html:div>
 							<html:div class=" col-xs-6 col-xs-offset-3 col-sm-4 col-md-2 cubetube">
-								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressNewsForyou">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressNewsforyou">
 									<TileContent>
 										<content>
 											<html:div class="innerpic home_service_menu">

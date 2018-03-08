@@ -18,7 +18,7 @@
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Billing Related</html:h4>
-													<html:h4>Quaries</html:h4>
+													<html:h4>Queries</html:h4>
 												</html:div>
 											</html:div>
 										</content>
@@ -86,7 +86,7 @@
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Power Related</html:h4>
-														<html:h4>Quaries</html:h4>
+														<html:h4>Queries</html:h4>
 												</html:div>
 											</html:div>
 										</content>
@@ -121,6 +121,40 @@
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Online</html:h4>
 													<html:h4>Payment</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/new_conn.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>New </html:h4>
+													<html:h4>Connection</html:h4>
+												</html:div>
+											</html:div>
+										</content>
+									</TileContent>
+								</GenericTile>
+							</html:div>
+							<html:div class="col-xs-12 col-sm-6 col-md-4 smalltile">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
+									<TileContent>
+										<content>
+											<html:div class="row home_ten_menu">
+												<html:div class="col-xs-8 col-sm-8 col-md-8">
+													<html:image src="images/changeover_conn.png" alt="speakers " style="width:100%;height:auto; "></html:image>
+												</html:div>
+												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
+													<html:h4>Change Over</html:h4>
+													<html:h4>Connection</html:h4>
 												</html:div>
 											</html:div>
 										</content>

@@ -110,6 +110,10 @@
 					"pattern": "Grievances",
 					"name": "Grievances",
 					"target": "Grievances"
+				},{
+					"pattern": "Newsforyou",
+					"name": "Newsforyou",
+					"target": "Newsforyou"
 				}, {
 					"pattern": "KnowledgeCenter",
 					"name": "KnowledgeCenter",
@@ -169,6 +173,10 @@
 					"name": "SeniorLeadership",
 					"target": "SeniorLeadership"
 				}, {
+					"pattern": "Shedulepoweroutage",
+					"name": "Shedulepoweroutage",
+					"target": "Shedulepoweroutage"
+				},{
 					"pattern": "Safetyathome",
 					"name": "Safetyathome",
 					"target": "Safetyathome"
@@ -271,6 +279,11 @@
 					"viewName": "PaymentOptions",
 					"viewLevel": 2
 				},
+				"Newsforyou": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Newsforyou",
+					"viewLevel": 2
+				},
 				"RegulatoryInformation": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "RegulatoryInformation",
@@ -368,6 +381,11 @@
 				"SeniorLeadership": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "SeniorLeadership",
+					"viewLevel": 19
+				},
+				"Shedulepoweroutage": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Shedulepoweroutage",
 					"viewLevel": 19
 				},
 				"Safetyathome": {

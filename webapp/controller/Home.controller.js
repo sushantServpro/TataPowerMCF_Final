@@ -1,4 +1,4 @@
- sap.ui.define([
+sap.ui.define([
 	"tatapower/dev/controller/BaseController"
 ], function(BaseController) {
 	"use strict";
@@ -70,9 +70,7 @@
 		pressPowerFailure: function() {
 			this.getRouter().navTo("RegisterPowerFailure");
 		},
-		pressPowerOutage: function() {
-			this.getRouter().navTo("home");
-		},
+	
 		pressBeGreen: function() {
 			this.getRouter().navTo("BeGreen");
 		},
@@ -112,6 +110,11 @@
 			this.getRouter().navTo("LandingKnowledgeCenter");
 
 		},
+		pressShedulepoweroutage: function() {
+
+			this.getRouter().navTo("Shedulepoweroutage");
+
+		},
 		pressRegulatoryInformation: function() {
 			this.getRouter().navTo("RegulatoryInformation");
 		},
@@ -130,8 +133,8 @@
 		pressNewsletter: function() {
 			this.getRouter().navTo("Newsletter");
 		},
-		pressNewsForyou: function() {
-			this.getRouter().navTo("home");
+		pressNewsforyou: function() {
+			this.getRouter().navTo("Newsforyou");
 		},
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");

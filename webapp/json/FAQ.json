@@ -17,10 +17,21 @@
 	{
 		"text": "Safety Tips",
 		"ref": "sap-icon://attachment-html"
-	}, {
+	}, 
+	{
 		"text": "Electricity Glossary",
 		"ref": "sap-icon://attachment-html"
+	},
+	{
+		"text": "Online Payment",
+		"ref": "sap-icon://attachment-html"
+	},
+	{
+		"text": "New Connection",
+		"ref": "sap-icon://attachment-html"
+	},
+	{
+		"text": "Change over Connection",
+		"ref": "sap-icon://attachment-html"
 	}
-	
 ]
-

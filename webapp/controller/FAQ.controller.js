@@ -66,6 +66,14 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.ElectricGlossary"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "New Connection") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.Newconnection"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Change over Connection") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.FAQs.Changeoverconnection"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 
 		}
