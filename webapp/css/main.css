@@ -2449,11 +2449,19 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .bill_calc_bg {
-    background: linear-gradient(to right, #fb6e2b 15%, #fff 85%) !important
+    background: linear-gradient(to right, #fb6e2b 15%, #fff 85%) !important;
 }
 
 .faq_bg {
-    background: linear-gradient(to right, #f39434 15%, #fff 85%) !important
+    background: linear-gradient(to right, #f39434 15%, #fff 85%) !important;
+}
+
+.gri_bg {
+    background: linear-gradient(to right, #b652e5 15%, #fff 85%) !important;
+}
+
+.app_form_bg {
+    background: linear-gradient(to right, #3d93f5 15%, #fff 85%) !important;
 }
 
 
