@@ -6,8 +6,19 @@
 				<html:div>
 					<html:div class=" col-md-12">
 						<html:div class="go-green_intro">
-							<html:div class="intro_head">
-								<html:h4>Consumer Rights Statement</html:h4>
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="reg_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_regulatory.png" alt="icon_regulatory" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Consumer Rights Statement</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">

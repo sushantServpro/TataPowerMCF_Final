@@ -5,8 +5,19 @@
 			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Conserve</html:h4>
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="grn_cor border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_green_corn.png" alt="icon_green_corn" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Conserv</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 						</html:div>
 					</html:div>
 					<html:div class="green_explore">

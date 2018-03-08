@@ -3,7 +3,22 @@
 	<Panel >
 		<content>
 			<Panel>
-				<html:h4>Trained Wiremen</html:h4>
+				<html:div class="go-green_intro">
+					<html:div class="row intro_head">
+						<html:div class="col-xs-12">
+							<html:div class="wire_bg border_rad_icon">
+								<html:div class="row icon_row_flex">
+									<html:div class="col-xs-2">
+										<html:image src="images/icon_trained_wreman.png" alt="icon_trained_wreman" class="img-responsive"></html:image>
+									</html:div>
+									<html:div class="col-xs-10">
+										<html:h4>Trained Wireman</html:h4>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
 				<html:h6>Please enter all related information For us to help you better.</html:h6>
 				<html:div class="row wiremanfind">
 					<html:div class="col-md-6">

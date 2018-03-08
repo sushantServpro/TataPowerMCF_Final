@@ -2464,6 +2464,22 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     background: linear-gradient(to right, #3d93f5 15%, #fff 85%) !important;
 }
 
+.pay_opt_bg {
+    background: linear-gradient(to right, #fc7127 15%, #fff 85%) !important;
+}
+
+.grn_cor {
+    background: linear-gradient(to right, #48a515 15%, #fff 85%) !important;
+}
+
+.reg_bg {
+    background: linear-gradient(to right, #8c8c8c 15%, #fff 85%) !important;
+}
+
+.wire_bg {
+    background: linear-gradient(to right, #127e93 15%, #fff 85%) !important;
+}
+
 
 /*mobile view */
 

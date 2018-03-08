@@ -3,17 +3,19 @@
 	<Panel >
 		<content>
 			<Panel>
-				<html:div class="container-fluid">
-					<html:div class="go-green_intro">
-						<html:div class="row intro_head">
-							<html:div class="col-xs-12">
-								<html:div class="faq_bg border_rad_icon">
-									<html:div class="row icon_row_flex">
-										<html:div class="col-xs-2">
-											<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
-										</html:div>
-										<html:div class="col-xs-10">
-											<html:h4>Online Payment</html:h4>
+				<content>
+					<html:div class="container-fluid">
+						<html:div class="go-green_intro">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="faq_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>Online Payment</html:h4>
+											</html:div>
 										</html:div>
 									</html:div>
 								</html:div>
@@ -131,4 +133,6 @@
 					</html:div>
 				</content>
 			</Panel>
-		</core:FragmentDefinition>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
