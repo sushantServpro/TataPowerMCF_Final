@@ -27,14 +27,14 @@
 
 .sapUiMnu.sapUiMnuCozySupport.sapUiSizeCozy .sapUiMnuItm {
     height: auto !important;
-    padding: 5px 10px;
-    font: bold 13px "Open Sans";
+    padding: 0 10px;
+    font: normal 13px "Open Sans";
     text-transform: capitalize;
     background: #0b96fb24;
 }
 
 .sapUiMnu.sapUiMnuCozySupport.sapUiSizeCozy .sapUiMnuItmSbMnu {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .navbar-header {

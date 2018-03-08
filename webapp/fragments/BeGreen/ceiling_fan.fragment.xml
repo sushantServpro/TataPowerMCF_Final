@@ -1,8 +1,8 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 	xmlns:html="http://www.w3.org/1999/xhtml">
-	<Panel >
+	<Panel>
 		<content>
-			<Panel id="pnl_28">
+			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="go-green_intro audit_prog">
 						<html:div class="intro_head">

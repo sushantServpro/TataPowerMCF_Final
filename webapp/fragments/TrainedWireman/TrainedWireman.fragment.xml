@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_35">
+			<Panel>
 				<html:h4>Trained Wiremen</html:h4>
 				<html:h6>Please enter all related information For us to help you better.</html:h6>
 				<html:div class="row wiremanfind">

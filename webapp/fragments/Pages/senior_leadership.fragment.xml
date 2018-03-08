@@ -2,7 +2,7 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<Panel id="pnl_26">
+			<Panel>
 				<html:p class="senleader">Dear Friend,</html:p>
 				<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
 					with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>
