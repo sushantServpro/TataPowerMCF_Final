@@ -5,8 +5,19 @@
 			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Introduction</html:h4>
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="be_green_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Introduction</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 						</html:div>
 						<html:div class="intro_img">
 							<html:image src="images/be_green_banner.png" alt="be_green_banner" class="img-responsive"></html:image>

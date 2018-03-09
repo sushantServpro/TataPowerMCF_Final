@@ -2,7 +2,20 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel >
 		<content>
-			<html:h4 align="center">Safety at Home</html:h4>
+			<html:div class="row intro_head">
+				<html:div class="col-xs-12">
+					<html:div class="safe_bg border_rad_icon">
+						<html:div class="row icon_row_flex">
+							<html:div class="col-xs-2">
+								<html:image src="images/icon_safety_athome.png" alt="icon_safety_athome" class="img-responsive"></html:image>
+							</html:div>
+							<html:div class="col-xs-10">
+								<html:h4>Safety at Home</html:h4>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
+			</html:div>
 			<html:div class="saftybanner">
 				<html:image src="images/safety_banner.png" alt="safety_banner" class="img-responsive"></html:image>
 			</html:div>

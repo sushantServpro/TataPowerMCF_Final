@@ -3,6 +3,20 @@
 	<Panel >
 		<content>
 			<Panel>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="news_for_u_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_news_foryou.png" alt="icon_news_foryou" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>News for You</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
 				<html:p class="senleader">Dear Friend,</html:p>
 				<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
 					with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>

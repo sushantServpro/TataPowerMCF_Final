@@ -2448,6 +2448,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     color: #fff;
 }
 
+.eodb_desc {
+    padding: 0 15px;
+}
+
 .bill_calc_bg {
     background: linear-gradient(to right, #fb6e2b 15%, #fff 85%) !important;
 }
@@ -2478,6 +2482,54 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .wire_bg {
     background: linear-gradient(to right, #127e93 15%, #fff 85%) !important;
+}
+
+.tariff_bg {
+    background: linear-gradient(to right, #d258b7 15%, #fff 85%) !important;
+}
+
+.eodb_bg {
+    background: linear-gradient(to right, #1759a1 15%, #fff 85%) !important;
+}
+
+.be_green_bg {
+    background: linear-gradient(to right, #7bb103 15%, #fff 85%) !important;
+}
+
+.safe_bg {
+    background: linear-gradient(to right, #32a7be 15%, #fff 85%) !important;
+}
+
+.reg_pow_bg {
+    background: linear-gradient(to right, #8ab7c3 15%, #fff 85%) !important;
+}
+
+.sch_pow_bg {
+    background: linear-gradient(to right, #3891f8 15%, #fff 85%) !important;
+}
+
+.write_bg {
+    background: linear-gradient(to right, #d75c36 15%, #fff 85%) !important;
+}
+
+.digi_bg {
+    background: linear-gradient(to right, #3d93f5 15%, #fff 85%) !important;
+}
+
+.video_bg {
+    background: linear-gradient(to right, #f9545f 15%, #fff 85%) !important;
+}
+
+.latest_ad_bg {
+    background: linear-gradient(to right, #e8b705 15%, #fff 85%) !important;
+}
+
+.news_let_bg {
+    background: linear-gradient(to right, #0b63b8 15%, #fff 85%) !important;
+}
+
+.news_for_u_bg {
+	background: linear-gradient(to right, #e8ab05 15%, #fff 85%) !important;
 }
 
 

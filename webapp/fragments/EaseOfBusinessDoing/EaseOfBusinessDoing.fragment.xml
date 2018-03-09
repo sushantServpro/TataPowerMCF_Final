@@ -5,8 +5,19 @@
 			<Panel>
 				<html:div class="container-fluid">
 					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Ease of Doing Business (EODB)</html:h4>
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="eodb_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_eodb.png" alt="icon_eodb" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Ease of Doing Business</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 						</html:div>
 					</html:div>
 					<html:div class="eodb_desc">

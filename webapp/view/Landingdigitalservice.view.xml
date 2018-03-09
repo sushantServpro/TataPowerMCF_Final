@@ -8,8 +8,23 @@
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
 					<html:div class="container chngHeight">
 						<html:div class="row dividetiles">
+							<html:div class="col-xs-12">
+								<html:div class="row intro_head">
+									<html:div class="col-xs-12">
+										<html:div class="digi_bg border_rad_icon">
+											<html:div class="row icon_row_flex">
+												<html:div class="col-xs-2">
+													<html:image src="images/icon_digitl_srvces.png" alt="icon_digitl_srvces" class="img-responsive"></html:image>
+												</html:div>
+												<html:div class="col-xs-10">
+													<html:h4>Digital Service</html:h4>
+												</html:div>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltiledigital">
-							
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout digitalone" press="pressSms">
 									<TileContent>
 										<content>
@@ -25,7 +40,6 @@
 										</content>
 									</TileContent>
 								</GenericTile>
-							
 							</html:div>
 							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltiledigital">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout digitalone" press="pressAndroid">
@@ -33,11 +47,11 @@
 										<content>
 											<html:div class="row home_ten_menu">
 												<html:div class="col-xs-8 col-sm-8 col-md-8">
-													<html:image src="images/androidnew.png"  alt="speakers"></html:image>
+													<html:image src="images/androidnew.png" alt="speakers"></html:image>
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Download</html:h4>
-														<html:h4>Android App</html:h4>
+													<html:h4>Android App</html:h4>
 												</html:div>
 											</html:div>
 										</content>
@@ -61,13 +75,11 @@
 									</TileContent>
 								</GenericTile>
 							</html:div>
-								</html:div>
-								</html:div>
-									
-					
-							<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
-						</content>
-					</Page>
-				</pages>
-			</App>
+						</html:div>
+					</html:div>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
 </mvc:View>

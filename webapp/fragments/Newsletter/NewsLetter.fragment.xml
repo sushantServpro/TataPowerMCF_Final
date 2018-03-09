@@ -4,9 +4,22 @@
 		<content>
 			<Panel>
 				<html:div class="container padding_bottom">
-					<html:h4 align="center">News Letter</html:h4>
 					<html:div class="row Newsletter">
 						<html:div class="col-sm-10 col-sm-offset-1">
+							<html:div class="row intro_head">
+								<html:div class="col-xs-12">
+									<html:div class="news_let_bg border_rad_icon">
+										<html:div class="row icon_row_flex">
+											<html:div class="col-xs-2">
+												<html:image src="images/icon_newsletter.png" alt="icon_newsletter" class="img-responsive"></html:image>
+											</html:div>
+											<html:div class="col-xs-10">
+												<html:h4>News Letter</html:h4>
+											</html:div>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 							<html:div class="row procedure_files switch_over newsLetter">
 								<html:a href="pdf/synergy-Issue1-March-2011.pdf" target="_blank" class="col-sm-3 col-md-3">
 									<html:div class="panel panel-default">

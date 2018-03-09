@@ -3,9 +3,19 @@
 	<Panel >
 		<content>
 			<Panel>
-				<html:div class="rpg">
-					<html:h5>
-						Register Power Failure</html:h5>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="reg_pow_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_regster_pwr_flre.png" alt="icon_regster_pwr_flre" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Register Power Failure</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
 				</html:div>
 				<html:div class="registerpf">
 					<html:h6 align="center" style="color:red">* Indicate Mondatory fields</html:h6>

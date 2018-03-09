@@ -62,6 +62,9 @@ sap.ui.define([
 			} else if (evt.oSource.mProperties.text === "Track Request Status") {
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.TrackRequestStatus"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Apply Online") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.EaseOfBusinessDoing.ApplyOnline"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 		}
 

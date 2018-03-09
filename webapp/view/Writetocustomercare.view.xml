@@ -10,12 +10,22 @@
 						<Panel >
 							<content>
 								<Panel id="pnl_15">
-									<html:div class="container-fluid">
-										
-										<html:div class="share_ur_feed">
-											<html:div class="row">
-												<html:h4>Please share your feedback</html:h4>
+									<html:div class="row intro_head">
+										<html:div class="col-xs-12">
+											<html:div class="write_bg border_rad_icon">
+												<html:div class="row icon_row_flex">
+													<html:div class="col-xs-2">
+														<html:image src="images/icon_write_to_cc.png" alt="icon_write_to_cc" class="img-responsive"></html:image>
+													</html:div>
+													<html:div class="col-xs-10">
+														<html:h4>Write to Customer Care</html:h4>
+													</html:div>
+												</html:div>
 											</html:div>
+										</html:div>
+									</html:div>
+									<html:div class="container-fluid">
+										<html:div class="share_ur_feed">
 											<html:div class="row feedbk_ques">
 												<html:div class="container-fluid">
 													<html:div class="row quesn">
