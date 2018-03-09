@@ -4,8 +4,22 @@
 		<content>
 			<Panel id="pnl_04">
 				<html:div>
-					<html:h4>NEW CONNECTION FAQs</html:h4>
-					<html:h4 class="faqheader">Frequently Ask Question On New Power Supply</html:h4>
+					<html:div class="go-green_intro">
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="faq_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>New Connection</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
 					<Panel expandable="true" expanded="false" headerText="Can Tata Power give power supply in Mumbai? And in which areas?" width="auto"
 						class="sapUiResponsiveMargin">
 						<content >
@@ -76,8 +90,8 @@
 							</html:div>
 						</content>
 					</Panel>
-					<Panel expandable="true" width="auto" expanded="false" headerText="Who can apply for New Power Supply? What are the documents to be submitted?"
-						class="sapUiResponsiveMargin">
+					<Panel expandable="true" width="auto" expanded="false"
+						headerText="Who can apply for New Power Supply? What are the documents to be submitted?" class="sapUiResponsiveMargin">
 						<content>
 							<html:div class="textpara">
 								<html:h5>Builders / Developers / Owners of new projects can apply for new power supply. Applicant needs to submit Power Supply Request From
