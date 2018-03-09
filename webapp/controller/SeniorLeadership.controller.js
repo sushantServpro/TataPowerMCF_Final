@@ -3,7 +3,7 @@ sap.ui.define([
 	'jquery.sap.global',
 	'sap/m/MessageToast',
 	'sap/ui/core/Fragment'
-], function(MessageToast, Fragment, Controller) {
+], function(Controller, MessageToast, Fragment) {
 	"use strict";
 
 	return Controller.extend("tatapower.dev.controller.SeniorLeadership", {
@@ -30,23 +30,6 @@ sap.ui.define([
 
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
-		},
-
-		_getDialog: function() {
-			if (!this._oDialog) {
-				this._oDialog = sap.ui.xmlfragment("tatapower.dev.fragments.Pages.senior_leadership_form", this);
-				this.getView().addDependent(this._oDialog);
-			}
-			return this._oDialog;
-		},
-		pressOpenPopUp: function() {
-			this._getDialog().open();
-		},
-
-		handleConfirm: function(oEvent) {
-			if (oEvent.getParameters().filterString) {
-				MessageToast.show(oEvent.getParameters().filterString);
-			}
 		}
 
 	});

@@ -2529,7 +2529,11 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .news_for_u_bg {
-	background: linear-gradient(to right, #e8ab05 15%, #fff 85%) !important;
+    background: linear-gradient(to right, #e8ab05 15%, #fff 85%) !important;
+}
+
+.sr_bg {
+    background: linear-gradient(to right, #e59305 15%, #fff 85%) !important;
 }
 
 

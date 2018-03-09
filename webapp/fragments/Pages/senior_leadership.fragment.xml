@@ -3,6 +3,20 @@
 	<Panel >
 		<content>
 			<Panel>
+				<html:div class="row intro_head">
+					<html:div class="col-xs-12">
+						<html:div class="sr_bg border_rad_icon">
+							<html:div class="row icon_row_flex">
+								<html:div class="col-xs-2">
+									<html:image src="images/icon_writeto_srleadership.png" alt="icon_writeto_srleadership" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-xs-10">
+									<html:h4>Write to Senior Leadership</html:h4>
+								</html:div>
+							</html:div>
+						</html:div>
+					</html:div>
+				</html:div>
 				<html:p class="senleader">Dear Friend,</html:p>
 				<html:p class="senleader">We welcome you to this forum where you can share your opinion, unresolved complaint, query and feedback directly
 					with our seniorleaders, steering this special channel. The senior leaders who are a part of this forum are:</html:p>
@@ -30,7 +44,7 @@
 								<html:p class="mdname">COO &amp; Executive Director</html:p>
 							</html:div>
 							<html:div class="col-md-3 col-md-offset-3 lead_btn_write">
-								<Button icon="sap-icon://edit" press="pressOpenPopUp" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
+								<Button icon="sap-icon://edit" press="press" ariaLabelledBy="actionButtonLabel" class="switchcenter write" text="WRITE"/>
 							</html:div>
 						</html:div>
 					</html:div>
