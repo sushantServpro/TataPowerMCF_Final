@@ -21,7 +21,7 @@
 						</html:div>
 					</html:div>
 					<html:div class="green_explore">
-						<html:div class="row">
+						<html:div class="row grn_exp_row">
 							<html:div class="col-sm-6">
 								<html:div class="green_explore_lst">
 									<html:div class="row">

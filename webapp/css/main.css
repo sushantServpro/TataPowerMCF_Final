@@ -1946,12 +1946,14 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     height: 100%;
 }
 
-.green_knw_more .sapMLnk {
+.green_knw_more .sapMLnk,
+.green_knw_more a {
     color: #000 !important;
     font: bold 12px "Open Sans" !important;
 }
 
-.green_knw_more .sapMLnk:after {
+.green_knw_more .sapMLnk:after,
+.green_knw_more a:after {
     content: '';
     padding: 0 5px;
     margin: 0 10px;
@@ -1959,7 +1961,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     vertical-align: middle;
 }
 
-.green_knw_more .sapMLnk:hover {
+.green_knw_more .sapMLnk:hover,
+.green_knw_more a:hover {
     text-decoration: none !important;
 }
 
@@ -2536,6 +2539,45 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     background: linear-gradient(to right, #e59305 15%, #fff 85%) !important;
 }
 
+.btnGo {
+    margin-top: 10px;
+}
+
+
+/*green corner sub menus*/
+
+.green_build_desc p {
+    padding: 10px 0;
+    margin: 0;
+    font: normal 14px "Open Sans";
+}
+
+.green_build_desc .gbd_head {
+    font: bold 14px "Open Sans";
+}
+
+.green_build_desc p span {
+    padding: 5px 0;
+    display: block;
+}
+
+.green_build_desc p span a,
+.green_build_desc p a {
+    color: #3191e6;
+    font: bold 14px "Open Sans";
+}
+
+.green_build_desc h5 {
+    font: bold 14px "Open Sans";
+    color: #2483db;
+}
+
+.reg_bill_row {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 
 /*mobile view */
 
@@ -2744,7 +2786,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     }
     .regulatory_info .row,
     .switch_over,
-    .feedRatingFlex {
+    .feedRatingFlex,
+    .grn_exp_row {
         display: flex;
         flex-wrap: wrap;
     }

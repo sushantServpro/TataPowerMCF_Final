@@ -21,7 +21,7 @@
 						</html:div>
 					</html:div>
 					<html:div class="green_explore">
-						<html:div class="row">
+						<html:div class="row grn_exp_row">
 							<html:div class="col-sm-6">
 								<html:div class="green_explore_lst">
 									<html:div class="row">
@@ -48,7 +48,7 @@
 											<html:h5>Energy Conservation</html:h5>
 											<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<html:a href="pdf/energy-cons-booklet.pdf" target="_blank">Know More</html:a>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -96,7 +96,7 @@
 											<html:h5>Tata Power Club Energy</html:h5>
 											<html:p>With the increasing demand for ENERGY, effective management ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<html:a href="http://www.clubenerji.com/" target="_blank">Know More</html:a>
 											</html:div>
 										</html:div>
 									</html:div>
