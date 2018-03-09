@@ -2578,6 +2578,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     justify-items: center;
 }
 
+.pow_conm h4 {
+    font: bold 14px "Open Sans";
+}
+
 
 /*mobile view */
 
