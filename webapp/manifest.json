@@ -110,7 +110,7 @@
 					"pattern": "Grievances",
 					"name": "Grievances",
 					"target": "Grievances"
-				},{
+				}, {
 					"pattern": "Newsforyou",
 					"name": "Newsforyou",
 					"target": "Newsforyou"
@@ -176,7 +176,7 @@
 					"pattern": "Shedulepoweroutage",
 					"name": "Shedulepoweroutage",
 					"target": "Shedulepoweroutage"
-				},{
+				}, {
 					"pattern": "Safetyathome",
 					"name": "Safetyathome",
 					"target": "Safetyathome"
@@ -232,6 +232,14 @@
 					"pattern": "RegulatoryInformation",
 					"name": "RegulatoryInformation",
 					"target": "RegulatoryInformation"
+				}, {
+					"pattern": "TermOfUse",
+					"name": "TermOfUse",
+					"target": "TermOfUse"
+				}, {
+					"pattern": "PrivacyPolicy",
+					"name": "PrivacyPolicy",
+					"target": "PrivacyPolicy"
 				}
 
 			],
@@ -440,6 +448,16 @@
 				"PayBill": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "PayBill",
+					"viewLevel": 20
+				},
+				"TermOfUse": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "TermOfUse",
+					"viewLevel": 20
+				},
+				"PrivacyPolicy": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PrivacyPolicy",
 					"viewLevel": 20
 				}
 			}

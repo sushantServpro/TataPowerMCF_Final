@@ -408,6 +408,11 @@
     padding: 0 15px;
     color: #fff;
     font: bold 14px "Open Sans";
+    vertical-align: middle;
+}
+
+.term a:hover {
+    text-decoration: none !important;
 }
 
 .rightreserve h5 {
@@ -2580,6 +2585,20 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 
 .pow_conm h4 {
     font: bold 14px "Open Sans";
+}
+
+.terms_of_use h4 {
+    font: bold 18px "Open Sans";
+}
+
+.tou_desc p {
+    padding: 10px 0;
+    font: normal 14px "Open Sans";
+}
+
+.tou_desc h5 {
+    font: bold 14px "Open Sans";
+    color: #2483db;
 }
 
 

@@ -70,7 +70,7 @@ sap.ui.define([
 		pressPowerFailure: function() {
 			this.getRouter().navTo("RegisterPowerFailure");
 		},
-	
+
 		pressBeGreen: function() {
 			this.getRouter().navTo("BeGreen");
 		},
@@ -140,7 +140,7 @@ sap.ui.define([
 			this.getRouter().navTo("SeniorLeadership");
 		},
 		pressSafetyathome: function() {
-	
+
 			this.getRouter().navTo("Safetyathome");
 		},
 
@@ -150,6 +150,12 @@ sap.ui.define([
 
 		pressContactUs: function() {
 			this.getRouter().navTo("ContactUs");
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
 	});
