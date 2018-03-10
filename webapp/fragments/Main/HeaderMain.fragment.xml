@@ -24,15 +24,15 @@
 							</html:li>
 							<html:li>
 								<MenuButton text="English" buttonMode="Split" class="btn_lang">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="English"/>
-												<MenuItem text="Hindi"/>
-												<MenuItem text="Marathi"/>
-											</items>
-										</Menu>
-									</menu>
+									<!--<menu>-->
+									<!--	<Menu itemSelected="onMenuAction">-->
+									<!--		<items>-->
+									<!--			<MenuItem text="English"/>-->
+									<!--			<MenuItem text="Hindi"/>-->
+									<!--			<MenuItem text="Marathi"/>-->
+									<!--		</items>-->
+									<!--	</Menu>-->
+									<!--</menu>-->
 								</MenuButton>
 							</html:li>
 						</html:ul>
