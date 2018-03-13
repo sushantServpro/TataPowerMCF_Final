@@ -2622,6 +2622,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     color: #2483db;
 }
 
+.pow_conm {
+	font: normal 13px "Open Sans";
+}
 
 /*mobile view */
 
