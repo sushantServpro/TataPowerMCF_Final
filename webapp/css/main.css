@@ -356,7 +356,28 @@
 }
 
 .sidetile {
-    margin-top: -4px!important;
+    height: 31%;
+}
+
+.home_side_menu,
+.home_side_menu_flex {
+    height: 100%;
+}
+
+.home_side_menu_flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    font: normal 16px "Open Sans";
+}
+
+.sidetile .sapMGT.OneByOne,
+.sidetile .sapMGT.OneByOne .sapMGTContent,
+.sidetile .sapMGT.OneByOne .sapMGTContent .sapMTileCnt,
+.sidetile .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent {
+    height: 100% !important;
+    margin: 0 !important;
 }
 
 .bannerdown {
@@ -2810,7 +2831,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .regulatory_info .row,
     .switch_over,
     .feedRatingFlex,
-    .grn_exp_row {
+    .grn_exp_row,
+    .home_slider_box {
         display: flex;
         flex-wrap: wrap;
     }
@@ -2823,6 +2845,17 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .home_slider_box_flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .sidetile {
+        padding-right: 0;
+    }
+    .sidetitle_mar {
+        margin: 10px 0;
     }
 }
 

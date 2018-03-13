@@ -7,33 +7,45 @@
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid topheader">
-						<html:div class="row">
+						<html:div class="row home_slider_box">
 							<html:div class="col-md-2">
-								<html:div class="row">
+								<html:div class="row home_slider_box_flex">
 									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile">
 										<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout twox" press="onNavToQuickBill">
 											<tileContent>
 												<TileContent>
 													<content>
 														<html:div class="home_side_menu">
-															<html:image src="images/online_bill.png" alt="speakers" style="margin-top:20px"></html:image>
-															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">QUICK BILL</html:h4>
-															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">PAYMENT</html:h4>
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/online_bill.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>QUICK BILL</html:h4>
+																	<html:h4 >PAYMENT</html:h4>
+																</html:div>
+															</html:div>
 														</html:div>
 													</content>
 												</TileContent>
 											</tileContent>
 										</GenericTile>
 									</html:div>
-									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile">
+									<html:div class="col-xs-12 col-sm-4 col-md-12 sidetile sidetitle_mar">
 										<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout onex" press="onNavToMyAccount">
 											<tileContent>
 												<TileContent>
 													<content>
 														<html:div class="home_side_menu">
-															<html:image src="images/my_ac.png" alt="speakers" style="margin-top:20px"></html:image>
-															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">MY</html:h4>
-															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">ACCOUNT</html:h4>
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/my_ac.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>MY</html:h4>
+																	<html:h4 >ACCOUNT</html:h4>
+																</html:div>
+															</html:div>
 														</html:div>
 													</content>
 												</TileContent>
@@ -46,9 +58,15 @@
 												<TileContent>
 													<content>
 														<html:div class="home_side_menu">
-															<html:image src="images/pay_bill.png" alt="speakers" style="margin-top:20px"></html:image>
-															<html:h4 style="position: absolute; top: 10px; left: 72px; color: #fff; font-size: 14px;">NEW</html:h4>
-															<html:h4 style="position: absolute; top: 30px; left: 72px; color: #fff; font-size: 14px;">CUSTOMER</html:h4>
+															<html:div class="row home_side_menu_flex">
+																<html:div class="col-sm-3">
+																	<html:image src="images/pay_bill.png" alt="speakers"></html:image>
+																</html:div>
+																<html:div class="col-sm-9">
+																	<html:h4>NEW</html:h4>
+																	<html:h4>CUSTOMER</html:h4>
+																</html:div>
+															</html:div>
 														</html:div>
 													</content>
 												</TileContent>
@@ -57,7 +75,7 @@
 									</html:div>
 								</html:div>
 							</html:div>
-							<html:div class="col-md-10 carosol">
+							<html:div class="col-md-10">
 								<Carousel class="sapUiContentPadding" loop="true">
 									<pages>
 										<Image src="images/2.png" alt="Example picture of speakers"/>
@@ -183,7 +201,7 @@
 													<html:image src="images/ease_business.png" alt="speakers " style="width:100%;height:auto; "></html:image>
 												</html:div>
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
-													<html:h4>Easy of</html:h4>
+													<html:h4>Ease of</html:h4>
 													<html:h4>Doing</html:h4>
 													<html:h4>Business</html:h4>
 												</html:div>
@@ -268,7 +286,7 @@
 										<content>
 											<html:div class="innerpic home_service_menu">
 												<html:image src="images/digital_services.png" alt="speakers " class="innertileimg"></html:image>
-												<html:h4 class="innertext">Digital Service</html:h4>
+												<html:h4 class="innertext">Digital Services</html:h4>
 												<html:div class="green_knw_more text-right">
 													<Link text="Know More" press="handleLinkPress"/>
 												</html:div>

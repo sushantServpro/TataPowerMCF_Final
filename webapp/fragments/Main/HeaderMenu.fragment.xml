@@ -126,7 +126,7 @@
 								</MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="Digital Service" buttonMode="Split" useDefaultActionOnly="true">
+								<MenuButton text="Digital Services" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
