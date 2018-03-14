@@ -44,7 +44,7 @@ sap.ui.define([
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.AboutDSM"].join("."), this);
 				vbox.addItem(fragment1);
 			}
-			else if(evt.oSource.mProperties.text === "DSM Programme") {
+			else if(evt.oSource.mProperties.text === "DSM Programmes") {
 				
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.DSMProgrammes"].join("."), this);
 				vbox.addItem(fragment1);

@@ -59,6 +59,11 @@ sap.ui.define([
 			this.getRouter().navTo("home");
 		}
 
+,
+	onOpenAccess: function(oEvent) {
+			this.getRouter().navTo("OpenAccess");
+		}
+
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
 		 * @memberOf tatapower.dev.view.OnlineApplications

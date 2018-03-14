@@ -122,7 +122,7 @@
 										<html:div class="row pagelinkage">
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">
-													<Link class="linknewcon" text="SHORT TERM" target="_blank" href="#"/></html:span>
+													<Link class="linknewcon" text="SHORT TERM" press="onOpenAccess"/></html:span>
 											</html:div>
 											<html:div class="col-md-6">
 												<html:span class="glyphicon glyphicon-triangle-right newconfa" aria-hidden="true">

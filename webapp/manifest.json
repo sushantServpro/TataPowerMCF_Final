@@ -240,6 +240,12 @@
 					"pattern": "PrivacyPolicy",
 					"name": "PrivacyPolicy",
 					"target": "PrivacyPolicy"
+				},
+
+				{
+					"pattern": "OpenAccess",
+					"name": "OpenAccess",
+					"target": "OpenAccess"
 				}
 
 			],
@@ -458,6 +464,11 @@
 				"PrivacyPolicy": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "PrivacyPolicy",
+					"viewLevel": 20
+				},
+				"OpenAccess": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "OpenAccess",
 					"viewLevel": 20
 				}
 			}

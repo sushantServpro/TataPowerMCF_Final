@@ -13,7 +13,7 @@
 											<html:image src="images/icon_be_green.png" alt="icon_be_green" class="img-responsive"></html:image>
 										</html:div>
 										<html:div class="col-xs-10">
-											<html:h4>Energy Conversion</html:h4>
+											<html:h4>Energy Conservation</html:h4>
 										</html:div>
 									</html:div>
 								</html:div>

@@ -2,7 +2,9 @@
 
 /*landing page*/
 
-.sapMCrsl .sapMCrslControlsBottom { display: none !important; }
+.sapMCrsl .sapMCrslControlsBottom {
+    display: none !important;
+}
 
 .headerMainPanel {
     display: block !important;
@@ -10,6 +12,10 @@
 
 .headerMenu {
     display: block !important;
+}
+
+.topheader {
+    margin-top: -20px;
 }
 
 .headerMenu .sapMPanelContent,
@@ -180,7 +186,6 @@
 .resposive_nav .navbar-default {
     height: auto;
     background: #0b96fb24;
-    margin: 0;
 }
 
 .header_two .navbar-header {
@@ -2622,8 +2627,9 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .pow_conm {
-	font: normal 13px "Open Sans";
+    font: normal 13px "Open Sans";
 }
+
 
 /*mobile view */
 
@@ -3517,4 +3523,29 @@ hr {
 
 .safety {
     padding: 1.15rem 2rem!important;
+}
+
+.open_access_form_heading {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.open_access_form_heading h6 {
+    font: bold 13px "Open Sans";
+    color: #269cf3;
+}
+
+.boxpad_row {
+    padding-top: 5px;
+}
+
+.short_term_tbl .sapMTB .sapMTitle {
+    font-weight: bold;
+    font-size: 13px !important;
+    font-family: "Open Sans";
+    color: #269cf3;
+}
+
+.boxpad_row .sapMBtnText>.sapMBtnIcon {
+    color: #fff;
 }
