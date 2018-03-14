@@ -2,6 +2,8 @@
 
 /*landing page*/
 
+.sapMCrsl .sapMCrslControlsBottom { display: none !important; }
+
 .headerMainPanel {
     display: block !important;
 }
@@ -178,6 +180,7 @@
 .resposive_nav .navbar-default {
     height: auto;
     background: #0b96fb24;
+    margin: 0;
 }
 
 .header_two .navbar-header {
@@ -349,10 +352,6 @@
     height: 20rem!important;
     border-radius: 10px!important;
     box-shadow: 0px 4px 3px 0px #cccccc!important;
-}
-
-.topheader {
-    margin-top: -20px!important;
 }
 
 .sidetile {

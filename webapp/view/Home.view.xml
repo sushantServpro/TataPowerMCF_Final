@@ -153,7 +153,7 @@
 												<html:div class="col-xs-4 col-sm-4 col-md-4 home_service_menu">
 													<html:h4>Schedule</html:h4>
 													<html:h4>Power</html:h4>
-													<html:h4>Outage</html:h4>
+													<html:h4>Outages</html:h4>
 												</html:div>
 											</html:div>
 										</content>
