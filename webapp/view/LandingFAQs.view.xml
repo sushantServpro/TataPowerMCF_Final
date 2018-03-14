@@ -6,7 +6,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container chngHeight">
+					<html:div class="container">
 						<html:div class="row dividetiles">
 							<html:div class=" col-xs-12 col-sm-6 col-md-4 smalltile">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout faqone" press="onBillingRelatedQueries">
