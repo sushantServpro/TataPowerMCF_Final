@@ -3365,7 +3365,7 @@ hr {
     width: 30rem!important;
     color: #333333!important;
     text-shadow: 0 0 0.125rem #ffffff!important;
-    font-size: 12px!important;
+    font: bold 13px "Open Sans" !important;
 }
 
 .innertabvst .sapMITBFilter .sapMITBText:hover {
@@ -3377,7 +3377,7 @@ hr {
     width: 30rem!important;
     color: #16a7f7!important;
     text-shadow: 0 0 0.125rem #ffffff!important;
-    font-size: 12px!important;
+    font: bold 13px "Open Sans" !important;
 }
 
 .innertabvst .sapMITBSelected>.sapMITBContentArrow {
@@ -3412,8 +3412,12 @@ hr {
     left: 0;
 }
 
+.intabnc {
+    padding: 15px;
+}
+
 .intabnc p {
-    font-size: 12px;
+    font: normal 13px "Open Sans";
 }
 
 .vidgall {
@@ -3548,4 +3552,16 @@ hr {
 
 .boxpad_row .sapMBtnText>.sapMBtnIcon {
     color: #fff;
+}
+
+.intabnc .blue_bullet_list {
+    padding-left: 15px;
+}
+
+.intabnc .blue_bullet_list li {
+    font: normal 13px "Open Sans";
+}
+
+.intabnc .blue_bullet_list ul {
+    list-style: circle;
 }
