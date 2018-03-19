@@ -8,6 +8,62 @@
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
 					<html:div class="container-fluid onl_app_frm">
 						<html:h5 align="center">Online Applications</html:h5>
+						<html:div class="row">
+							<html:div class="col-sm-10 col-sm-offset-1">
+								<html:div class="new_online_app_menu">
+									<html:div class="row new_online_app_menu">
+										<html:div class="col-sm-3">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/new_connection.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>New Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/change_connection.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Changeover Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/switchover_connection.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Switchover Connection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/net_metering.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Net Metering</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
+						</html:div>
 						<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
 							<items>
 								<IconTabFilter icon="images/new_connection.png" text="New connection">

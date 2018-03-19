@@ -3565,3 +3565,34 @@ hr {
 .intabnc .blue_bullet_list ul {
     list-style: circle;
 }
+
+.new_online_app_menu .sapMGT.OneByOne,
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent,
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt,
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent {
+    width: 100%;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+}
+
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent {
+    padding: 0 !important;
+}
+
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent h4 {
+	padding: 10px 0 5px;
+	margin: 0;
+	font: bold 14px "Open Sans";
+}
+
+.new_online_app_menu .tileLayout {
+    padding: 15px !important;
+    border: 1px solid #7ed0ff;
+    border-radius: 10px;
+}
