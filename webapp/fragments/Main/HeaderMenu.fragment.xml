@@ -126,68 +126,10 @@
 								</MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="Digital Services" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="sms"></MenuItem>
-												<MenuItem text="Android app"></MenuItem>
-												<MenuItem text="IOS app"></MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
+								<MenuButton text="Digital Champions" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="My Account" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="View Bill Online"></MenuItem>
-												<MenuItem text="Consumption"></MenuItem>
-												<MenuItem text="Payment Recipt"></MenuItem>
-												<MenuItem text="My Account statement "></MenuItem>
-												<MenuItem text="Register for E-Service"></MenuItem>
-												<MenuItem text="Register for E-Bill"></MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
-							</html:li>
-							<html:li>
-								<MenuButton text="Payment Options" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="NACH"></MenuItem>
-												<MenuItem text="NACH Application Form"></MenuItem>
-												<MenuItem text=" Online Payment"></MenuItem>
-												<MenuItem text=" Payment Status "></MenuItem>
-												<MenuItem text=" Offline Payment Options"></MenuItem>
-												<MenuItem text=" Online Payment Receipt"></MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
-							</html:li>
-							<html:li>
-								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="true">
-									<menu>
-										<Menu itemSelected="onMenuAction">
-											<items>
-												<MenuItem text="Billing Related Queries"></MenuItem>
-												<MenuItem text="Energry Saving"></MenuItem>
-												<MenuItem text=" Power Failure Problems"></MenuItem>
-												<MenuItem text=" Power Related Queries"></MenuItem>
-												<MenuItem text=" Safety Tips"></MenuItem>
-												<MenuItem text=" Electricity Glossary "></MenuItem>
-												<MenuItem text=" Online Payment"></MenuItem>
-												<MenuItem text=" New Connection"></MenuItem>
-												<MenuItem text="Change over Connection"></MenuItem>
-											</items>
-										</Menu>
-									</menu>
-								</MenuButton>
+								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="true"></MenuButton>
 							</html:li>
 							<html:li>
 								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">
