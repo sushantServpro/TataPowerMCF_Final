@@ -2657,6 +2657,17 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     color: #3191e6;
 }
 
+.newDigiService {
+    margin: 10px 0;
+}
+
+.newDigiService img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #1a68b2;
+    border-radius: 10px;
+}
+
 
 /*mobile view */
 
@@ -2867,7 +2878,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .switch_over,
     .feedRatingFlex,
     .grn_exp_row,
-    .home_slider_box {
+    .home_slider_box,
+    .newDigiServices .row {
         display: flex;
         flex-wrap: wrap;
     }
