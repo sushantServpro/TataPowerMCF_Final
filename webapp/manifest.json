@@ -99,6 +99,10 @@
 					"name": "Writetocustomercare",
 					"target": "Writetocustomercare"
 				}, {
+					"pattern": "Loginpage",
+					"name": "Loginpage",
+					"target": "Loginpage"
+				}, {
 					"pattern": "EaseOfDoingBusiness",
 					"name": "EaseOfDoingBusiness",
 					"target": "EaseOfDoingBusiness"
@@ -266,6 +270,11 @@
 				"Writetocustomercare": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Writetocustomercare",
+					"viewLevel": 2
+				},
+				"Loginpage": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Loginpage",
 					"viewLevel": 2
 				},
 				"MyAccount": {

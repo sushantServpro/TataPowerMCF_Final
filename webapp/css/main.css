@@ -124,6 +124,16 @@
     font-family: "Open Sans";
 }
 
+.sapMImageContent{
+
+    position: relative;
+    height: 3.875rem !important;
+    width: 4rem!important;
+    outline: none;
+}
+
+
+
 #__field0-reset {
     display: none;
 }
@@ -3595,4 +3605,45 @@ hr {
     padding: 15px !important;
     border: 1px solid #7ed0ff;
     border-radius: 10px;
+}
+
+.logintab .sapMITBTextOnly .sapMITBFilter {
+    margin: 0 0rem!important ;
+}
+
+.logintab .sapMITBInLine .sapMITBFilter>.sapMITBText {
+   margin: 0rem 40px 1.1875rem 40px !important;
+    text-aling:center !important;
+}
+
+.logintab .sapMITBFilter .sapMITBText {
+    line-height: 2.4375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 0 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 25rem!important;
+    color: #333333!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 15px!important;
+    text-align:left!important;
+}
+.logintab .sapMITBFilter .sapMITBText:hover {
+   line-height: 2.4375rem!important;
+    overflow: hidden!important;
+    padding: 1.575rem 0 0!important;
+    position: relative!important;
+    text-overflow: ellipsis!important;
+    width: 25rem!important;
+    color: #fff!important;
+   text-shadow: 0 0 0.125rem #ffffff!important;
+    font-size: 15px!important;
+    text-align:left!important;
+}
+.loginbtn{
+	margin-top:20px;
+}
+
+.onlinebox{
+	margin-top:30px;
 }

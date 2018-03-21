@@ -12,8 +12,8 @@
 							<html:div class="col-sm-10 col-sm-offset-1">
 								<html:div class="new_online_app_menu">
 									<html:div class="row new_online_app_menu">
-										<html:div class="col-sm-3">
-											<GenericTile class="tileLayout" press="press">
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNewConnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -24,8 +24,8 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
-										<html:div class="col-sm-3">
-											<GenericTile class="tileLayout" press="press">
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressChangeOverConnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -36,8 +36,8 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
-										<html:div class="col-sm-3">
-											<GenericTile class="tileLayout" press="press">
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressSwitchOverConnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -48,8 +48,8 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
-										<html:div class="col-sm-3">
-											<GenericTile class="tileLayout" press="press">
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNetMetering">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -60,11 +60,155 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
+											<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="onOpenAccess">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/open_access.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Open access</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/reconnection.png" alt="connection" class="img-responsive"></html:image>
+															<html:h4>Reconnection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressAdvanceBillPayment">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/advance_bill_payment.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Advance Bill Payment</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/reword_connection.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Register Now and Get Rewarded</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+											<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNewConnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/permannt_discnnction.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Permanent Disconnection</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/load_reduce.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Load Enhancement</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/load_enhance.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Load Reduction</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/tariff_cat_chnge.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Tariff Category Change</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+											<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="pressNewConnection">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/max_demand_enhance.png" alt="new_connection" class="img-responsive"></html:image>
+															<html:h4>Contract Maximum Demand Enhancement</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/max_demand_reduce.png" alt="change_connection" class="img-responsive"></html:image>
+															<html:h4>Contract Maximum Demand Reduction </html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/meter_shifting.png" alt="switchover_connection" class="img-responsive"></html:image>
+															<html:h4>Meter Shifting</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
+										<html:div class="col-sm-3 onlinebox">
+											<GenericTile class="tileLayout" press="press">
+												<TileContent>
+													<content>
+														<html:div class="online_tile_img">
+															<html:image src="images/meter_testing.png" alt="net_metering" class="img-responsive"></html:image>
+															<html:h4>Meter Testing</html:h4>
+														</html:div>
+													</content>
+												</TileContent>
+											</GenericTile>
+										</html:div>
 									</html:div>
 								</html:div>
 							</html:div>
 						</html:div>
-						<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
+					<!--	<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
 							<items>
 								<IconTabFilter icon="images/new_connection.png" text="New connection">
 									<html:div class="container">
@@ -355,7 +499,7 @@
 									</html:div>
 								</IconTabFilter>
 							</items>
-						</IconTabBar>
+						</IconTabBar>-->
 					</html:div>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
 				</content>

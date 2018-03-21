@@ -226,7 +226,7 @@
 								<html:h5>Guest</html:h5>
 							</html:li>
 							<html:li>
-								<html:image src="images/profile.png" alt="profile" class="img-responsive"></html:image>
+						<ImageContent class="img-responsive" src="images/profile.png" description="profileimg" press="pressLoginpage"></ImageContent>
 							</html:li>
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right mobile_store">

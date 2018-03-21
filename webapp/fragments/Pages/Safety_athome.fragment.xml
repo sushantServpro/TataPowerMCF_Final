@@ -34,45 +34,50 @@
 							<html:h5>Please use power plugs equipped with Earth Leakage Circuit Breaker (ELCB) which is also called Residual</html:h5>
 							<html:h5>current circuit breaker (RCCB).</html:h5>
 							<html:div class="row">
-								<html:div class="col-md-3 col-sm-offset-3">
-									<html:image src="images/safety1.jpg" alt="safety_banner" class="img-responsive"></html:image>
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_circute.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
-								<html:div class="col-md-3">
-									<html:image src="images/safety2.jpg" alt="safety_banner" class="img-responsive"></html:image>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_circute.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+							</html:div>
+								<html:h5>Please follow correct specifications when replacing electrical fuses.</html:h5>
+							<html:div class="row">
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_fuse.png" alt="safety_banner" class="img-responsive"></html:image>
+								</html:div>
+								<html:div class="col-md-4">
+									<html:image src="images/a_two_fuse.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 							<html:h5>Please do not use any electrical appliance without an Earth wire connection.</html:h5>
 							<html:div class="row">
 								<html:div class="col-md-4 col-sm-offset-2">
-									<html:image src="images/safety5.jpg" alt="safety_banner" class="img-responsive">Earth wire connected to equipment body</html:image>
+									<html:image src="images/a_wire_yellow.png" alt="safety_banner" class="img-responsive">Earth wire connected to equipment body</html:image>
 								</html:div>
 								<html:div class="col-md-4">
-									<html:image src="images/safety6.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/a_wire_yellow_one.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 							<html:h5>Please ensure switch boards at a safe height and out of reach of children.</html:h5>
 							<html:div class="row">
-								<html:div class="col-md-2 col-sm-offset-2">
-									<html:image src="images/safety7.jpg" alt="safety_banner" class="img-responsive"></html:image>
-								</html:div>
-								<html:div class="col-md-2">
-									<html:image src="images/safety8.jpg" alt="safety_banner" class="img-responsive"></html:image>
+								<html:div class="col-md-4 col-sm-offset-2">
+									<html:image src="images/a_one_child.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 								<html:div class="col-md-4">
-									<html:image src="images/safety9.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/a_two_child.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
+							
 							</html:div>
 							<html:h5>Please cover all unused electrical outlets or use electrical outlets with inbuilt shutters.</html:h5>
 							<html:div class="row">
 								<html:div class="col-md-4 col-sm-offset-2">
-									<html:image src="images/safety10.jpg" alt="safety_banner" class="img-responsive"></html:image>
-								</html:div>
-								<html:div class="col-md-2">
-									<html:image src="images/safety11.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/a_one_close.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 								<html:div class="col-md-4">
-									<html:image src="images/safety12.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/a_two_close.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
+								
 							</html:div>
 						</html:div>
 					</content>
@@ -93,7 +98,7 @@
 							<html:h5>Please do not overload circuits and install additional circuits if needed.</html:h5>
 							<html:div class="row">
 								<html:div class="col-md-4 col-sm-offset-4">
-									<html:image src="images/safety14.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/c_one_overload.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 							<html:h5>Please do not replace the electrical fuse unless the fault is identified &amp; rectified.</html:h5>
@@ -101,10 +106,10 @@
 								electrical appliance.</html:h5>
 							<html:div class="row">
 								<html:div class="col-md-4 col-sm-offset-2">
-									<html:image src="images/safety15.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/c_twooverload.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 								<html:div class="col-md-4">
-									<html:image src="images/safety16.jpg" alt="safety_banner" class="img-responsive"></html:image>
+									<html:image src="images/c_one_insert_wire.png" alt="safety_banner" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 							<html:div class="row">
@@ -121,7 +126,7 @@
 									</html:ul>
 								</html:div>
 								<html:div class="col-md-4">
-									<html:image src="images/safety17.jpg" alt="safety" class="img-responsive"></html:image>
+									<html:image src="images/c_insert_wire.png" alt="safety" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 						</html:div>
@@ -141,10 +146,10 @@
 							</html:h5>
 							<html:div class="row">
 								<html:div class="col-md-4 col-sm-offset-2">
-									<html:image src="images/safety18.jpg" alt="safety" class="img-responsive"></html:image>
+									<html:image src="images/d_emergency_one.png" alt="safety" class="img-responsive"></html:image>
 								</html:div>
 								<html:div class="col-md-6">
-									<html:image src="images/safety19.jpg" alt="safety" class="img-responsive"></html:image>
+									<html:image src="images/d_emergency_two.png" alt="safety" class="img-responsive"></html:image>
 								</html:div>
 							</html:div>
 						</html:div>

@@ -83,6 +83,9 @@ sap.ui.define([
 		pressCustomercare: function() {
 			this.getRouter().navTo("Writetocustomercare");
 		},
+	    pressLoginpage: function() {
+			this.getRouter().navTo("Loginpage");
+		},
 		pressBillcalulator: function() {
 			this.getRouter().navTo("Calculator");
 		},
@@ -134,7 +137,7 @@ sap.ui.define([
 			this.getRouter().navTo("Newsletter");
 		},
 		pressNewsforyou: function() {
-			this.getRouter().navTo("Newsforyou");
+			window.location.href="https://www.tatapower.com/media/media-releases.aspx";
 		},
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");
