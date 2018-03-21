@@ -2630,6 +2630,33 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: normal 13px "Open Sans";
 }
 
+.frmInputHeight .sapMInputDivWrapper {
+    height: auto !important;
+}
+
+.frmInputHeight .sapMInputDivWrapper input {
+    height: 34px;
+}
+
+.frmInputHeight .sapMInputDivWrapper input,
+.frmInputHeight .sapMInputDivWrapper textarea {
+    font: normal 13px "Open Sans";
+}
+
+.frmInputHeight .form_row {
+    padding-bottom: 10px;
+}
+
+.writeCustDesc p {
+    padding: 10px;
+    font: normal 13px "open Sans";
+}
+
+.writeCustDesc p a {
+    font: bold 13px "open Sans";
+    color: #3191e6;
+}
+
 
 /*mobile view */
 
@@ -3586,9 +3613,9 @@ hr {
 }
 
 .new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent h4 {
-	padding: 10px 0 5px;
-	margin: 0;
-	font: bold 14px "Open Sans";
+    padding: 10px 0 5px;
+    margin: 0;
+    font: bold 14px "Open Sans";
 }
 
 .new_online_app_menu .tileLayout {

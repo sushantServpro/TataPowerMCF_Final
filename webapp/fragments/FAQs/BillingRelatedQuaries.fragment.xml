@@ -12,7 +12,7 @@
 										<html:image src="images/icon_calulator.png" alt="icon_calulator" class="img-responsive"></html:image>
 									</html:div>
 									<html:div class="col-xs-10">
-										<html:h4>Bill Related Queries</html:h4>
+										<html:h4>Billing Related Queries</html:h4>
 									</html:div>
 								</html:div>
 							</html:div>

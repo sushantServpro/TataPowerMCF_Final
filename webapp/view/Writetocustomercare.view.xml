@@ -24,113 +24,97 @@
 											</html:div>
 										</html:div>
 									</html:div>
-									<html:div class="container-fluid">
-										<html:div class="share_ur_feed">
-											<html:div class="row feedbk_ques">
-												<html:div class="container-fluid">
-													<html:div class="row quesn">
-														<html:div class="ques_no">
-															<html:h5>
-																Based on your experience of our website, How would you like to rate on ease of website?
-																<html:span class="req_star">*</html:span>
-															</html:h5>
-														</html:div>
-														<html:div class="row ques_ans">
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques1" text="Very Difficult" selected="true"/>
-																<html:span class="feed_img">
-																	<html:image src="images/red_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques1" text="Difficult"/>
-																<html:span class="feed_img">
-																	<html:image src="images/yellow_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques1" text="Easy"/>
-																<html:span class="feed_img">
-																	<html:image src="images/blue_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques1" text="Very Easy"/>
-																<html:span class="feed_img">
-																	<html:image src="images/green_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-														</html:div>
+									<html:div class="registerpf frmInputHeight">
+										<html:h4 class="text-center">Query/Complaints/Request Form(For Mumbai Consumer Only)</html:h4>
+										<html:h6 align="center" style="color:red">* Indicate Mondatory fields</html:h6>
+										<html:div class="row form_row">
+											<html:div class="col-md-6">
+												<html:div class="row">
+													<html:div class="col-md-9">
+														<Label text="Consumer Number" labelFor="input-a"/>
+														<Input id="cnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 													</html:div>
-													<html:div class="row quesn">
-														<html:div class="ques_no">
-															<html:h5>
-																Based on your experience of our website, How would you like to rate us on the quality of website?
-																<html:span class="req_star">*</html:span>
-															</html:h5>
-														</html:div>
-														<html:div class="row ques_ans">
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques2" text="Very Difficult"/>
-																<html:span class="feed_img">
-																	<html:image src="images/red_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques2" text="Difficult" selected="true"/>
-																<html:span class="feed_img">
-																	<html:image src="images/yellow_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques2" text="Easy"/>
-																<html:span class="feed_img">
-																	<html:image src="images/blue_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-															<html:div class="col-sm-3">
-																<RadioButton groupName="ques2" text="Very Easy"/>
-																<html:span class="feed_img">
-																	<html:image src="images/green_smile.png" alt="be_green_banner"></html:image>
-																</html:span>
-															</html:div>
-														</html:div>
+													<html:div class="col-md-3">
+														<Button type="Accept" text="Enter" class="switchcenter rpfbtn" press="onPress"
+															ariaDescribedBy="acceptButtonDescription genericButtonDescription"></Button>
 													</html:div>
 												</html:div>
 											</html:div>
-											<html:div class="row form_row">
-												<html:div class="col-sm-4">
-													<Label text="Consumer Number" labelFor="consm_num"/>
-													<Input id="consm_num" required="true" placeholder="Enter"/>
-												</html:div>
-												<html:div class="col-sm-8">
-													<html:div class="feed_category">
-														<Label text="Category" labelFor="mobile_num"/>
+											<html:div class="col-md-6">
+												<Label text="Consumer Name" labelFor="input-a"/>
+												<Input id="ncInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-md-6">
+												<Label text="Consumer Category" labelFor="input-a"/>
+												<MultiComboBox selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish"
+													items="{ path: '/ProductCollection', sorter: { path: 'Name' } }">
+													<core:Item key="{ProductId}" text="{Name}"/>
+												</MultiComboBox>
+											</html:div>
+											<html:div class="col-md-6">
+												<Label text="Landline Number" labelFor="input-a"/>
+												<Input id="landline" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-md-6">
+												<Label text="Mobile Number" labelFor="input-a"/>
+												<Input id="mobnumberInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+											<html:div class="col-md-6">
+												<Label text="Email ID" labelFor="input-a"/>
+												<Input id="emidInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-sm-4">
+												<html:h6>Query Category</html:h6>
+											</html:div>
+											<html:div class="col-sm-8">
+												<html:div class="row">
+													<html:div class="col-xs-4">
+														<RadioButton groupName="query_cat" text="Query"/>
 													</html:div>
-													<html:div class="row cat_opt">
-														<html:div class="col-sm-3">
-															<RadioButton groupName="cat" text="Residential"/>
-														</html:div>
-														<html:div class="col-sm-3">
-															<RadioButton groupName="cat" text="Commercial" selected="true"/>
-														</html:div>
-														<html:div class="col-sm-3">
-															<RadioButton groupName="cat" text="Industrial"/>
-														</html:div>
-														<html:div class="col-sm-3">
-															<RadioButton groupName="cat" text="Other"/>
-														</html:div>
+													<html:div class="col-xs-4">
+														<RadioButton groupName="query_cat" text="Complaint"/>
+													</html:div>
+													<html:div class="col-xs-4">
+														<RadioButton groupName="query_cat" text="Request"/>
 													</html:div>
 												</html:div>
 											</html:div>
-											<html:div class="row form_row">
-												<html:div class="col-md-2 col-md-offset-4">
-													<Button text="SUBMIT" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-												</html:div>
-												<html:div class="col-md-2">
-													<Button text="NOT NOW" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
-												</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-xs-12">
+												<Label text="Please describe your query/complaint" labelFor="purpose"/>
+												<TextArea placeholder="Enter" growing="true" growingMaxLines="7" width="100%"/>
 											</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-sm-6">
+												<Label text="Image Verification" labelFor="captcha"/>
+											</html:div>
+											<html:div class="col-sm-6">
+												<Label text="Enter Image Verification Code" labelFor="captcha"/>
+												<Input type="Number" id="captcha1" required="true" placeholder="Enter"/>
+											</html:div>
+										</html:div>
+										<html:div class="row form_row">
+											<html:div class="col-md-2 col-md-offset-5 text-center">
+												<Button text="SUBMIT" press="onPress" class="switchcenter rpfbtn" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+											</html:div>
+										</html:div>
+										<html:div class="row form_row writeCustDesc">
+											<html:p>
+												For any requests/complaints pertaining to Tata Power Delhi Distribution Ltd (TPDDL), the consumers may please mark their mail to
+												<html:a href="mailto:ccag@tatapower-ddl.com" title="Mail Us">ccag@tatapower-ddl.com</html:a>
+												OR at TPDDL website with
+												<html:a href="http://www.tatapower-ddl.com/" title="Tata Power DDl" target="_blank">http://www.tatapower-ddl.com/</html:a>
+												to enable timely resolution.TPDDL has an independent Complaint Management Process to ensure complaint resolution in line with regulations
+												and customer satisfaction.
+											</html:p>
 										</html:div>
 									</html:div>
 								</Panel>

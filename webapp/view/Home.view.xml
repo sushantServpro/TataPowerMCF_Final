@@ -468,7 +468,7 @@
 								<html:h5>
 									<Link text="Terms of Use" press="pressTermsOfUse"/>
 									|
-									<Link text="Private Policy" press="pressPrivacyPolicy"/>
+									<Link text="Privacy Policy" press="pressPrivacyPolicy"/>
 									|
 									<Link text="Site Map" press="handleLinkPress"/>
 								</html:h5>
