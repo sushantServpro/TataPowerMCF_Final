@@ -38,7 +38,7 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ContractMaximumDemandEnhancement.ApplyOnline"].join("."), this);
 				vbox.addItem(fragment1);
-			} 
+			}
 		}
 
 		/**
