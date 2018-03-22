@@ -150,12 +150,11 @@
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>
-												<MenuItem text="Assessment Officer vigilance" press="pressContactUs"></MenuItem>
-												<MenuItem text="Call Center Number" press="pressContactUs"></MenuItem>
-												<MenuItem text="Customer Relation Center" press="pressContactUs"></MenuItem>
 												<MenuItem text="HOD Customer Services" press="pressContactUs"></MenuItem>
-												<MenuItem text="Zonal Managers" press="pressContactUs"></MenuItem>
-												<MenuItem text="Zones And Areas" press="pressContactUs"></MenuItem>
+												<MenuItem text="HOD Commercial" press="pressContactUs"></MenuItem>
+												<MenuItem text="Vigilance Head" press="pressContactUs"></MenuItem>
+												<MenuItem text="Zonal Head" press="pressContactUs"></MenuItem>
+												<MenuItem text="Call Center Number" press="pressContactUs"></MenuItem>
 											</items>
 										</Menu>
 									</menu>
@@ -168,7 +167,7 @@
 								<html:h5>Guest</html:h5>
 							</html:li>
 							<html:li>
-						<ImageContent class="img-responsive" src="images/profile.png" description="profileimg" press="pressLoginpage"></ImageContent>
+								<ImageContent class="img-responsive" src="images/profile.png" description="profileimg" press="pressLoginpage"></ImageContent>
 							</html:li>
 						</html:ul>
 						<html:ul class="nav navbar-nav navbar-right mobile_store">
