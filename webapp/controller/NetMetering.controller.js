@@ -46,6 +46,10 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ProcedureAndGuidlines"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Apply Online") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.NetMetering.ApplyOnline"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 
 		},
