@@ -2215,6 +2215,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: bold 13px "Open Sans";
     padding: 10px 0;
     text-align: center;
+    vertical-align: middle;
 }
 
 .switch_over .panel-default {
