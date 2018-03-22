@@ -60,7 +60,7 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
-											<html:div class="col-sm-3 onlinebox">
+										<html:div class="col-sm-3 onlinebox">
 											<GenericTile class="tileLayout" press="onOpenAccess">
 												<TileContent>
 													<content>
@@ -102,13 +102,16 @@
 													<content>
 														<html:div class="online_tile_img">
 															<html:image src="images/reword_connection.png" alt="net_metering" class="img-responsive"></html:image>
-															<html:h4>Register Now and Get Rewarded</html:h4>
+															<html:h4>Register Now and
+																<html:span>
+																	Get Rewarded</html:span>
+															</html:h4>
 														</html:div>
 													</content>
 												</TileContent>
 											</GenericTile>
 										</html:div>
-											<html:div class="col-sm-3 onlinebox">
+										<html:div class="col-sm-3 onlinebox">
 											<GenericTile class="tileLayout" press="pressNewConnection">
 												<TileContent>
 													<content>
@@ -156,13 +159,15 @@
 												</TileContent>
 											</GenericTile>
 										</html:div>
-											<html:div class="col-sm-3 onlinebox">
+										<html:div class="col-sm-3 onlinebox">
 											<GenericTile class="tileLayout" press="pressNewConnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
 															<html:image src="images/max_demand_enhance.png" alt="new_connection" class="img-responsive"></html:image>
-															<html:h4>Contract Maximum Demand Enhancement</html:h4>
+															<html:h4>Contract Maximum
+																<html:span>Demand Enhancement</html:span>
+															</html:h4>
 														</html:div>
 													</content>
 												</TileContent>
@@ -174,7 +179,9 @@
 													<content>
 														<html:div class="online_tile_img">
 															<html:image src="images/max_demand_reduce.png" alt="change_connection" class="img-responsive"></html:image>
-															<html:h4>Contract Maximum Demand Reduction </html:h4>
+															<html:h4>Contract Maximum
+																<html:span>Demand Reduction</html:span>
+															</html:h4>
 														</html:div>
 													</content>
 												</TileContent>
@@ -208,7 +215,7 @@
 								</html:div>
 							</html:div>
 						</html:div>
-					<!--	<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
+						<!--	<IconTabBar expanded="{device>/isNoPhone}" class="sapUiSmallMarginBottom sapUiResponsiveContentPadding">
 							<items>
 								<IconTabFilter icon="images/new_connection.png" text="New connection">
 									<html:div class="container">
