@@ -124,15 +124,12 @@
     font-family: "Open Sans";
 }
 
-.sapMImageContent{
-
+.sapMImageContent {
     position: relative;
     height: 3.875rem !important;
     width: 4rem!important;
     outline: none;
 }
-
-
 
 #__field0-reset {
     display: none;
@@ -2215,6 +2212,7 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     font: bold 13px "Open Sans";
     padding: 10px 0;
     text-align: center;
+    vertical-align: middle;
 }
 
 .switch_over .panel-default {
@@ -2889,7 +2887,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     .feedRatingFlex,
     .grn_exp_row,
     .home_slider_box,
-    .newDigiServices .row {
+    .newDigiServices .row,
+    .new_online_app_menu {
         display: flex;
         flex-wrap: wrap;
     }
@@ -3625,6 +3624,10 @@ hr {
     margin: 0 !important;
 }
 
+.new_online_app_menu .sapMGT.OneByOne {
+    height: 100% !important;
+}
+
 .new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent {
     padding: 0 !important;
 }
@@ -3638,6 +3641,11 @@ hr {
     padding: 10px 0 5px;
     margin: 0;
     font: bold 14px "Open Sans";
+    text-align: center;
+}
+
+.new_online_app_menu .sapMGT.OneByOne .sapMGTContent .sapMTileCnt .sapMTileCntContent h4 span {
+    display: block;
 }
 
 .new_online_app_menu .tileLayout {
@@ -3647,12 +3655,12 @@ hr {
 }
 
 .logintab .sapMITBTextOnly .sapMITBFilter {
-    margin: 0 0rem!important ;
+    margin: 0 0rem!important;
 }
 
 .logintab .sapMITBInLine .sapMITBFilter>.sapMITBText {
-   margin: 0rem 40px 1.1875rem 40px !important;
-    text-aling:center !important;
+    margin: 0rem 40px 1.1875rem 40px !important;
+    text-aling: center !important;
 }
 
 .logintab .sapMITBFilter .sapMITBText {
@@ -3665,26 +3673,26 @@ hr {
     color: #333333!important;
     text-shadow: 0 0 0.125rem #ffffff!important;
     font-size: 15px!important;
-    text-align:left!important;
+    text-align: left!important;
 }
+
 .logintab .sapMITBFilter .sapMITBText:hover {
-   line-height: 2.4375rem!important;
+    line-height: 2.4375rem!important;
     overflow: hidden!important;
     padding: 1.575rem 0 0!important;
     position: relative!important;
     text-overflow: ellipsis!important;
     width: 25rem!important;
     color: #fff!important;
-   text-shadow: 0 0 0.125rem #ffffff!important;
+    text-shadow: 0 0 0.125rem #ffffff!important;
     font-size: 15px!important;
-    text-align:left!important;
-}
-.loginbtn{
-	margin-top:20px;
+    text-align: left!important;
 }
 
-.onlinebox{
-	margin-top:30px;
+.loginbtn {
+    margin-top: 20px;
 }
 
- 
+.onlinebox {
+    margin-top: 30px;
+}
