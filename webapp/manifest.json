@@ -127,6 +127,38 @@
 					"name": "NewConnections",
 					"target": "NewConnections"
 				}, {
+					"pattern": "Load_Reduction",
+					"name": "Load_Reduction",
+					"target": "Load_Reduction"
+				}, {
+					"pattern": "Load_Enhancement",
+					"name": "Load_Enhancement",
+					"target": "Load_Enhancement"
+				}, {
+					"pattern": "RegisterNow_andGetRewarded",
+					"name": "RegisterNow_andGetRewarded",
+					"target": "RegisterNow_andGetRewarded"
+				}, {
+					"pattern": "PermanentDisconnection",
+					"name": "PermanentDisconnection",
+					"target": "PermanentDisconnection"
+				}, {
+					"pattern": "Tariff_Category_Change",
+					"name": "Tariff_Category_Change",
+					"target": "Tariff_Category_Change"
+				}, {
+					"pattern": "Reconnection",
+					"name": "Reconnection",
+					"target": "Reconnection"
+				}, {
+					"pattern": "Meter_Shifting",
+					"name": "Meter_Shifting",
+					"target": "Meter_Shifting"
+				},{
+					"pattern": "Meter_testing",
+					"name": "Meter_testing",
+					"target": "Meter_testing"
+				},{
 					"pattern": "Wireman",
 					"name": "Wireman",
 					"target": "Wireman"
@@ -196,7 +228,15 @@
 					"pattern": "NetMetering",
 					"name": "NetMetering",
 					"target": "NetMetering"
+				},  {
+					"pattern": "Contract_Maximum_Demand_Enhancement",
+					"name": "Contract_Maximum_Demand_Enhancement",
+					"target": "Contract_Maximum_Demand_Enhancement"
 				}, {
+					"pattern": "Contract_Maximum_Demand_Reduction",
+					"name": "Contract_Maximum_Demand_Reduction",
+					"target": "Contract_Maximum_Demand_Reduction"
+				},  {
 					"pattern": "ChangeOverConnection",
 					"name": "ChangeOverConnection",
 					"target": "ChangeOverConnection"
@@ -361,6 +401,56 @@
 				"NewConnections": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "NewConnections",
+					"viewLevel": 13
+				},
+				"Reconnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Reconnection",
+					"viewLevel": 13
+				},
+				"RegisterNow_andGetRewarded": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "RegisterNow_andGetRewarded",
+					"viewLevel": 13
+				},
+				"Load_Enhancement": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Load_Enhancement",
+					"viewLevel": 13
+				},
+				"Load_Reduction": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Load_Reduction",
+					"viewLevel": 13
+				},
+				"PermanentDisconnection": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PermanentDisconnection",
+					"viewLevel": 13
+				},
+				"Tariff_Category_Change": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Tariff_Category_Change",
+					"viewLevel": 13
+				},
+				"Contract_Maximum_Demand_Reduction": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Contract_Maximum_Demand_Reduction",
+					"viewLevel": 13
+				},
+				"Contract_Maximum_Demand_Enhancement": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Contract_Maximum_Demand_Enhancement",
+					"viewLevel": 13
+				},
+				"Meter_testing": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Meter_testing",
+					"viewLevel": 13
+				},
+					"Meter_Shifting": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "Meter_Shifting",
 					"viewLevel": 13
 				},
 				"Wireman": {

@@ -430,7 +430,7 @@
 									</TileContent>
 								</GenericTile>
 							</html:div>
-							<html:div class=" col-xs-6 col-xs-offset-3 col-sm-4 col-md-2 cubetube">
+							<html:div class=" col-xs-6 col-sm-4 col-md-2 cubetube">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout cubetile" press="pressNewsforyou">
 									<TileContent>
 										<content>

@@ -73,7 +73,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressReconnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -97,7 +97,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressRegisterNow_andGetRewarded">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -109,7 +109,7 @@
 											</GenericTile>
 										</html:div>
 											<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="pressNewConnection">
+											<GenericTile class="tileLayout" press="pressPermanentDisconnection">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -121,7 +121,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressLoad_Enhancement">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -133,7 +133,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressLoad_Reduction">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -145,7 +145,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressTariff_Category_Change">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -157,7 +157,7 @@
 											</GenericTile>
 										</html:div>
 											<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="pressNewConnection">
+											<GenericTile class="tileLayout" press="pressContract_Maximum_Demand_Enhancement">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -169,7 +169,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressContract_Maximum_Demand_Reduction">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -181,7 +181,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressMeter_Shifting">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
@@ -193,7 +193,7 @@
 											</GenericTile>
 										</html:div>
 										<html:div class="col-sm-3 onlinebox">
-											<GenericTile class="tileLayout" press="press">
+											<GenericTile class="tileLayout" press="pressMeter_testing">
 												<TileContent>
 													<content>
 														<html:div class="online_tile_img">
