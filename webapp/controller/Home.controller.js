@@ -5,6 +5,9 @@ sap.ui.define([
 
 	return BaseController.extend("tatapower.dev.controller.Home", {
 
+		_iCarouselTimeout: 0, // a pointer to the current timeout
+		_iCarouselLoopTime: 5000, // loop to next picture after 8 seconds
+
 		onDisplayNotFound: function(oEvent) {
 			// display the "notFound" target without changing the hash
 			this.getRouter().getTargets().display("notFound", {
@@ -34,7 +37,19 @@ sap.ui.define([
 		 */
 		onAfterRendering: function() {
 			this.mobileDropdown();
+			this.onCarouselPageChanged();
 			//$("#__panel0").hide();
+		},
+
+		onCarouselPageChanged: function() {
+			clearTimeout(this._iCarouselTimeout);
+			this._iCarouselTimeout = setTimeout(function() {
+				var oWelcomeCarousel = this.byId("mainSlider");
+				if (oWelcomeCarousel) {
+					oWelcomeCarousel.next();
+					this.onCarouselPageChanged();
+				}
+			}.bind(this), this._iCarouselLoopTime);
 		},
 
 		/**
@@ -83,7 +98,7 @@ sap.ui.define([
 		pressCustomercare: function() {
 			this.getRouter().navTo("Writetocustomercare");
 		},
-	    pressLoginpage: function() {
+		pressLoginpage: function() {
 			this.getRouter().navTo("Loginpage");
 		},
 		pressBillcalulator: function() {
@@ -137,7 +152,7 @@ sap.ui.define([
 			this.getRouter().navTo("Newsletter");
 		},
 		pressNewsforyou: function() {
-			window.location.href="https://www.tatapower.com/media/media-releases.aspx";
+			window.open('https://www.tatapower.com/media/media-releases.aspx', '_blank');
 		},
 		pressSeniorLeadership: function() {
 			this.getRouter().navTo("SeniorLeadership");

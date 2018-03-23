@@ -76,7 +76,7 @@
 								</html:div>
 							</html:div>
 							<html:div class="col-md-10">
-								<Carousel class="sapUiContentPadding" loop="true">
+								<Carousel class="sapUiContentPadding" id="mainSlider" loop="true">
 									<pages>
 										<Image src="images/2.png" alt="Example picture of speakers"/>
 										<Image src="images/Mailer_final-01.jpg" alt="Example picture of speakers"/>
