@@ -29,8 +29,6 @@ sap.ui.define([
 		pressSwitchOverConnection: function(oEvent) {
 			this.getRouter().navTo("SwitchOverConnection");
 		},
-		
-		
 
 		pressChangeOverConnection: function(oEvent) {
 			this.getRouter().navTo("ChangeOverConnection");
@@ -53,10 +51,10 @@ sap.ui.define([
 		pressMeter_testing: function(oEvent) {
 			this.getRouter().navTo("Meter_testing");
 		},
-			pressLoad_Reduction: function(oEvent) {
+		pressLoad_Reduction: function(oEvent) {
 			this.getRouter().navTo("Load_Reduction");
 		},
-			pressLoad_Enhancement: function(oEvent) {
+		pressLoad_Enhancement: function(oEvent) {
 			this.getRouter().navTo("Load_Enhancement");
 		},
 		pressRegisterNow_andGetRewarded: function(oEvent) {
@@ -68,14 +66,13 @@ sap.ui.define([
 		pressContract_Maximum_Demand_Reduction: function(oEvent) {
 			this.getRouter().navTo("Contract_Maximum_Demand_Reduction");
 		},
-			pressPermanentDisconnection: function(oEvent) {
+		pressPermanentDisconnection: function(oEvent) {
 			this.getRouter().navTo("PermanentDisconnection");
 		},
-			pressReconnection: function(oEvent) {
-			
+		pressReconnection: function(oEvent) {
+
 			this.getRouter().navTo("Reconnection");
-		}
-,
+		},
 		getRouter: function() {
 				return sap.ui.core.UIComponent.getRouterFor(this);
 			}
@@ -92,8 +89,8 @@ sap.ui.define([
 			this.getRouter().navTo("home");
 		}
 
-,
-	onOpenAccess: function(oEvent) {
+		,
+		onOpenAccess: function(oEvent) {
 			this.getRouter().navTo("OpenAccess");
 		}
 

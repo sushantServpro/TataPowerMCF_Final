@@ -154,11 +154,11 @@
 					"pattern": "Meter_Shifting",
 					"name": "Meter_Shifting",
 					"target": "Meter_Shifting"
-				},{
+				}, {
 					"pattern": "Meter_testing",
 					"name": "Meter_testing",
 					"target": "Meter_testing"
-				},{
+				}, {
 					"pattern": "Wireman",
 					"name": "Wireman",
 					"target": "Wireman"
@@ -228,7 +228,7 @@
 					"pattern": "NetMetering",
 					"name": "NetMetering",
 					"target": "NetMetering"
-				},  {
+				}, {
 					"pattern": "Contract_Maximum_Demand_Enhancement",
 					"name": "Contract_Maximum_Demand_Enhancement",
 					"target": "Contract_Maximum_Demand_Enhancement"
@@ -236,7 +236,7 @@
 					"pattern": "Contract_Maximum_Demand_Reduction",
 					"name": "Contract_Maximum_Demand_Reduction",
 					"target": "Contract_Maximum_Demand_Reduction"
-				},  {
+				}, {
 					"pattern": "ChangeOverConnection",
 					"name": "ChangeOverConnection",
 					"target": "ChangeOverConnection"
@@ -284,9 +284,7 @@
 					"pattern": "PrivacyPolicy",
 					"name": "PrivacyPolicy",
 					"target": "PrivacyPolicy"
-				},
-
-				{
+				}, {
 					"pattern": "OpenAccess",
 					"name": "OpenAccess",
 					"target": "OpenAccess"
@@ -448,7 +446,7 @@
 					"viewName": "Meter_testing",
 					"viewLevel": 13
 				},
-					"Meter_Shifting": {
+				"Meter_Shifting": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Meter_Shifting",
 					"viewLevel": 13
