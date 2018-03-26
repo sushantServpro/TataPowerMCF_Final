@@ -64,7 +64,7 @@
 											<html:h5>Green Buildings</html:h5>
 											<html:p>Green Buildings represent eco-friendly, energy ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressGreenBuildings"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -80,7 +80,7 @@
 											<html:h5>Combat Climate Change</html:h5>
 											<html:p>Tata Power is part of a group of 46 leading international companies</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressCombatClimateChange"/>
 											</html:div>
 										</html:div>
 									</html:div>

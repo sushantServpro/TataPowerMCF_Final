@@ -32,7 +32,7 @@
 											<html:h5>Energy Efficient Devices</html:h5>
 											<html:p>We have to control and prevent wastage of electrical energy ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressEnergyEfficientDevices"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -64,7 +64,7 @@
 											<html:h5>Power Consumption Guidelines</html:h5>
 											<html:p>Monthly energy consumption ready reckoner ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressPowerConsumptionGuidelines"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -80,7 +80,7 @@
 											<html:h5>Reducing your Bill</html:h5>
 											<html:p>Energy conservation and reducing bills should become a mantra ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressReducingyourBill"/>
 											</html:div>
 										</html:div>
 									</html:div>

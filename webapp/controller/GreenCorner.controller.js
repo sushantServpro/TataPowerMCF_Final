@@ -33,6 +33,21 @@ sap.ui.define([
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		},
+			pressGreenBuildings: function(oEvent) {
+			this.getRouter().navTo("GreenBuildings");
+		},
+		pressCombatClimateChange: function(oEvent) {
+			this.getRouter().navTo("CombatClimateChange");
+		},
+		pressEnergyEfficientDevices: function(oEvent) {
+			this.getRouter().navTo("EnergyEfficientDevices");
+		},
+		pressPowerConsumptionGuidelines: function(oEvent) {
+			this.getRouter().navTo("PowerConsumptionGuidelines");
+		},
+			pressReducingyourBill: function(oEvent) {
+			this.getRouter().navTo("ReducingyourBill");
+		},
 		handleButtonPress: function(evt) {
 
 			var vbox = this.getView().byId("FlexboxProcedure");
