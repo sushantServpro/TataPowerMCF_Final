@@ -73,6 +73,26 @@
 					"name": "MyAccount",
 					"target": "MyAccount"
 				}, {
+					"pattern": "GreenBuildings",
+					"name": "GreenBuildings",
+					"target": "GreenBuildings"
+				}, {
+					"pattern": "CombatClimateChange",
+					"name": "CombatClimateChange",
+					"target": "CombatClimateChange"
+				}, {
+					"pattern": "EnergyEfficientDevices",
+					"name": "EnergyEfficientDevices",
+					"target": "EnergyEfficientDevices"
+				}, {
+					"pattern": "PowerConsumptionGuidelines",
+					"name": "PowerConsumptionGuidelines",
+					"target": "PowerConsumptionGuidelines"
+				}, {
+					"pattern": "ReducingyourBill",
+					"name": "ReducingyourBill",
+					"target": "ReducingyourBill"
+				}, {
 					"pattern": "MyAccounts",
 					"name": "MyAccounts",
 					"target": "MyAccounts"
@@ -303,6 +323,31 @@
 				"Landingdigitalservice": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Landingdigitalservice",
+					"viewLevel": 2
+				},
+				"GreenBuildings": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "GreenBuildings",
+					"viewLevel": 2
+				},
+				"CombatClimateChange": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "CombatClimateChange",
+					"viewLevel": 2
+				},
+				"PowerConsumptionGuidelines": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "PowerConsumptionGuidelines",
+					"viewLevel": 2
+				},
+				"ReducingyourBill": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "ReducingyourBill",
+					"viewLevel": 2
+				},
+				"EnergyEfficientDevices": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "EnergyEfficientDevices",
 					"viewLevel": 2
 				},
 				"Writetocustomercare": {
