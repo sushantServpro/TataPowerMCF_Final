@@ -38,7 +38,7 @@ sap.ui.define([
 			var vbox = this.getView().byId("FlexboxProcedure");
 			vbox.destroyItems();
 		
-			if (evt.oSource.mProperties.text === "Train you wireman") {
+			if (evt.oSource.mProperties.text === "Train your wireman") {
 				
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.TrainedWireman.TrainYourWireman"].join("."), this);
 				vbox.addItem(fragment1);

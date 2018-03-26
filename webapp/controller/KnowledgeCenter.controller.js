@@ -45,7 +45,7 @@ sap.ui.define([
 					vbox.addItem(fragment1);
 				} else if (evt.oSource.mProperties.text === "Fuel Adjustment Charge") {
 
-					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.Knowledgecenter"].join("."), this);
+					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.FuelAdjustmentCharge"].join("."), this);
 					vbox.addItem(fragment1);
 				} else if (evt.oSource.mProperties.text === "Power Factor Improvement") {
 
@@ -55,7 +55,7 @@ sap.ui.define([
 
 					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.KnowledgeCenter.SafetyGuidelines"].join("."), this);
 					vbox.addItem(fragment1);
-				}
+				} 
 
 			}
 			/**

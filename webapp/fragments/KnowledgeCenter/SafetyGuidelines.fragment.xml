@@ -5,8 +5,19 @@
 			<Panel>
 				<html:div class="container-fluid padding_bottom">
 					<html:div class="go-green_intro">
-						<html:div class="intro_head">
-							<html:h4>Safety Guidelines</html:h4>
+						<html:div class="row intro_head">
+							<html:div class="col-xs-12">
+								<html:div class="knw_cen_bg border_rad_icon">
+									<html:div class="row icon_row_flex">
+										<html:div class="col-xs-2">
+											<html:image src="images/icon_knowledge.png" alt="icon_knowledge" class="img-responsive"></html:image>
+										</html:div>
+										<html:div class="col-xs-10">
+											<html:h4>Safety Guidelines</html:h4>
+										</html:div>
+									</html:div>
+								</html:div>
+							</html:div>
 						</html:div>
 						<html:div class="safety_guide_info">
 							<html:p>
