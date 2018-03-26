@@ -33,7 +33,7 @@ sap.ui.define([
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
 		},
-			pressGreenBuildings: function(oEvent) {
+		pressGreenBuildings: function(oEvent) {
 			this.getRouter().navTo("GreenBuildings");
 		},
 		pressCombatClimateChange: function(oEvent) {
@@ -45,8 +45,20 @@ sap.ui.define([
 		pressPowerConsumptionGuidelines: function(oEvent) {
 			this.getRouter().navTo("PowerConsumptionGuidelines");
 		},
-			pressReducingyourBill: function(oEvent) {
+		pressReducingyourBill: function(oEvent) {
 			this.getRouter().navTo("ReducingyourBill");
+		},
+		pressDSM: function(oEvent) {
+			this.getRouter().navTo("BeGreen");
+		},
+		pressEnergySavingTips: function(oEvent) {
+			this.getRouter().navTo("FAQ");
+		},
+		pressEnergyCal:function(oEvent) {
+			this.getRouter().navTo("Calculator");
+		},
+		pressBillCal:function(oEvent) {
+			this.getRouter().navTo("Calculator");
 		},
 		handleButtonPress: function(evt) {
 

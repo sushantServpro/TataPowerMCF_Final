@@ -48,7 +48,7 @@
 											<html:h5>Energy Saving Tips</html:h5>
 											<html:p>Mumbai is the one Indian city that has always enjoyed ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressEnergySavingTips"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -96,7 +96,7 @@
 											<html:h5>Energy Calculator</html:h5>
 											<html:p>Calculate your consumption, Kwh (Units) ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressEnergyCal"/>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -112,7 +112,7 @@
 											<html:h5>Bill Calculator</html:h5>
 											<html:p>Calculate your bill ...</html:p>
 											<html:div class="green_knw_more text-right">
-												<Link text="Know More" press="handleLinkPress"/>
+												<Link text="Know More" press="pressBillCal"/>
 											</html:div>
 										</html:div>
 									</html:div>
