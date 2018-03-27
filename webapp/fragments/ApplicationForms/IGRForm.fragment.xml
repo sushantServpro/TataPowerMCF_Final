@@ -22,7 +22,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/IGR-English-Appl-Form.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/ApplicationForms/IGR_English_Appl_Form.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -30,7 +30,7 @@
 										</html:div>
 									</html:div>
 									<html:div class="panel-footer">
-										IGR Form
+										Application Form for IGR
 									</html:div>
 								</html:div>
 							</html:a>

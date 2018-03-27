@@ -86,6 +86,10 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.MeterTestingRequestForm"].join("."), this);
 				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Permanent Disconnection") {
+
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.ApplicationForms.PermanentDisconnectionForm"].join("."), this);
+				vbox.addItem(fragment1);
 			}
 
 		}
