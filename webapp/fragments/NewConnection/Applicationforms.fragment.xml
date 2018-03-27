@@ -29,7 +29,7 @@
 							</html:div>
 						</html:div>
 						<html:div class="row procedure_files switch_over">
-							<html:a href="pdf/power-supply-agreement-print-version-may13.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/newconnection/powersupplyagreementprintversionmay13.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -39,7 +39,7 @@
 									<html:div class="panel-footer">Power Supply Agreement</html:div>
 								</html:div>
 							</html:a>
-							<html:a href="pdf/lease-deed.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/newconnection/leasedeed.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
