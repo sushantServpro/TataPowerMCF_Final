@@ -7,7 +7,7 @@
 					<html:h4>Standard Drawings</html:h4>
 				</html:div>
 				<html:div class="row procedure_files switch_over">
-					<html:a href="pdf/Metering-points.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/newconnection/StandarddrawingMeteringpoints.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
@@ -18,7 +18,7 @@
 								11kV HT S.S with 2 nos Metering points</html:div>
 						</html:div>
 					</html:a>
-					<html:a href="pdf/STANDARD-CSS.pdf" target="_blank" class="col-sm-3 col-md-3">
+					<html:a href="pdf/newconnection/STANDARDCSS.pdf" target="_blank" class="col-sm-3 col-md-3">
 						<html:div class="panel panel-default">
 							<html:div class="panel-body pdfviewer">
 								<html:div>
