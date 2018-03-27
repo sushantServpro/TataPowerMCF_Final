@@ -2578,11 +2578,15 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
 }
 
 .knw_cen_bg {
-	background: linear-gradient(to right, #e60f18 15%, #fff 85%) !important;
+    background: linear-gradient(to right, #e60f18 15%, #fff 85%) !important;
 }
 
 .btnGo {
     margin-top: 10px;
+}
+
+.cosnGrev {
+    padding: 10px;
 }
 
 
