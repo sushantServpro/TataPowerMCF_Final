@@ -108,12 +108,14 @@
 					"pattern": "ContactUs",
 					"name": "ContactUs",
 					"target": "ContactUs"
-				}
-
-				, {
+				}, {
 					"pattern": "AboutUs",
 					"name": "AboutUs",
 					"target": "AboutUs"
+				}, {
+					"pattern": "DigitalChampions",
+					"name": "DigitalChampions",
+					"target": "DigitalChampions"
 				}, {
 					"pattern": "Writetocustomercare",
 					"name": "Writetocustomercare",
@@ -404,6 +406,11 @@
 					"viewPath": "tatapower.dev.view",
 					"viewName": "QuickPayment",
 					"viewLevel": 6
+				},
+				"DigitalChampions": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "DigitalChampions",
+					"viewLevel": 7
 				},
 				"BeGreen": {
 					"viewPath": "tatapower.dev.view",

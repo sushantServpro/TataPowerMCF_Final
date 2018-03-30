@@ -169,6 +169,9 @@ sap.ui.define([
 		pressContactUs: function() {
 			this.getRouter().navTo("ContactUs");
 		},
+		pressDigitalChampions: function() {
+		this.getRouter().navTo("DigitalChampions");
+		},
 		pressTermsOfUse: function() {
 			this.getRouter().navTo("TermOfUse");
 		},
