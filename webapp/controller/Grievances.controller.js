@@ -37,49 +37,30 @@ sap.ui.define([
 		},
 		handleButtonPress: function(evt) {
 
-				var vbox = this.getView().byId("FlexboxProcedure");
-				vbox.destroyItems();
-				if (evt.oSource.mProperties.text === "Procedure") {
+			var vbox = this.getView().byId("FlexboxProcedure");
+			vbox.destroyItems();
+			if (evt.oSource.mProperties.text === "Procedure") {
 
-					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.Procedure"].join("."), this);
-					vbox.addItem(fragment1);
-				} else if (evt.oSource.mProperties.text === "Consumer Grievance Redressal Forum") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.Procedure"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Consumer Grievance Redressal Forum") {
 
-					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.ConsumerGrievanceRedressalForum"].join("."), this);
-					vbox.addItem(fragment1);
-				} else if (evt.oSource.mProperties.text === "Regulatory Guidelines") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.ConsumerGrievanceRedressalForum"].join("."), this);
+				vbox.addItem(fragment1);
+			} else if (evt.oSource.mProperties.text === "Regulatory Guidelines") {
 
-					var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.RegulatoryGuidelines"].join("."), this);
-					vbox.addItem(fragment1);
-				}
-
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Grievances.RegulatoryGuidelines"].join("."), this);
+				vbox.addItem(fragment1);
 			}
-			/**
-			 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
-			 * (NOT before the first rendering! onInit() is used for that one!).
-			 * @memberOf tatapower.dev.view.Grievances
-			 */
-			//	onBeforeRendering: function() {
-			//
-			//	},
 
-		/**
-		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
-		 * This hook is the same one that SAPUI5 controls get after being rendered.
-		 * @memberOf tatapower.dev.view.Grievances
-		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
-
-		/**
-		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
-		 * @memberOf tatapower.dev.view.Grievances
-		 */
-		//	onExit: function() {
-		//
-		//	}
-
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
+		}
+			
 	});
 
 });

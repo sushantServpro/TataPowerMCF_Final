@@ -30,6 +30,12 @@ sap.ui.define([
 
 		getRouter: function() {
 			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
 	});
