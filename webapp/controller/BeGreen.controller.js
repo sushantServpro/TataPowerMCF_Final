@@ -54,7 +54,7 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.Contact"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Ceiling Fan") {
+			} else if (evt.oSource.mProperties.description === "Ceiling Fan") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
 				vbox.addItem(fragment1);
