@@ -508,7 +508,7 @@
 							</items>
 						</IconTabBar>-->
 					</html:div>
-					<core:Fragment fragmentName="tatapower.dev.fragments.Main..Footer" type="XML"/>
+					<core:Fragment fragmentName="tatapower.dev.fragments.Main.Footer" type="XML"/>
 				</content>
 			</Page>
 		</pages>

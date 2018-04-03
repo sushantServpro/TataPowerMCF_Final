@@ -21,6 +21,12 @@ sap.ui.define([
 		},
 			onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
+			
+		},
+		
+		PressDown: function() {
+			
+			$("#demo").slideToggle("slow");
 		},
 		
 			getRouter: function() {

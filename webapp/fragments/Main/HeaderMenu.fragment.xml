@@ -132,7 +132,7 @@
 								<MenuButton text="FAQ's" buttonMode="Split" useDefaultActionOnly="false"></MenuButton>
 							</html:li>
 							<html:li>
-								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="false">
+								<MenuButton text="About Us" buttonMode="Split" useDefaultActionOnly="true">
 									<menu>
 										<Menu itemSelected="onMenuAction">
 											<items>

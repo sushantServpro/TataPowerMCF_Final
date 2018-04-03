@@ -30,7 +30,9 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_bluecrystal"]
+		"supportedThemes": [
+			"sap_bluecrystal"
+		]
 	},
 	"sap.ui5": {
 		"_version": "1.1.0",
@@ -38,7 +40,9 @@
 		"dependencies": {
 			"minUI5Version": "1.30",
 			"libs": {
-				"sap.m": {}
+				"sap.m": {
+					
+				}
 			}
 		},
 		"models": {
@@ -64,254 +68,317 @@
 					"target": "notFound"
 				}
 			},
-			"routes": [{
+			"routes": [
+				{
 					"pattern": "",
 					"name": "appHome",
 					"target": "home"
-				}, {
+				},
+				{
 					"pattern": "MyAccount",
 					"name": "MyAccount",
 					"target": "MyAccount"
-				}, {
+				},
+				{
 					"pattern": "GreenBuildings",
 					"name": "GreenBuildings",
 					"target": "GreenBuildings"
-				}, {
+				},
+				{
 					"pattern": "CombatClimateChange",
 					"name": "CombatClimateChange",
 					"target": "CombatClimateChange"
-				}, {
+				},
+				{
 					"pattern": "EnergyEfficientDevices",
 					"name": "EnergyEfficientDevices",
 					"target": "EnergyEfficientDevices"
-				}, {
+				},
+				{
 					"pattern": "PowerConsumptionGuidelines",
 					"name": "PowerConsumptionGuidelines",
 					"target": "PowerConsumptionGuidelines"
-				}, {
+				},
+				{
 					"pattern": "ReducingyourBill",
 					"name": "ReducingyourBill",
 					"target": "ReducingyourBill"
-				}, {
+				},
+				{
 					"pattern": "MyAccounts",
 					"name": "MyAccounts",
 					"target": "MyAccounts"
-				}, {
+				},
+				{
 					"pattern": "QuickPayment",
 					"name": "QuickPayment",
 					"target": "QuickPayment"
-				}, {
+				},
+				{
 					"pattern": "BeGreen",
 					"name": "BeGreen",
 					"target": "BeGreen"
-				}, {
+				},
+				{
 					"pattern": "ContactUs",
 					"name": "ContactUs",
 					"target": "ContactUs"
-				}, {
+				},
+				{
+					"pattern": "SubmitCeilingFan",
+					"name": "SubmitCeilingFan",
+					"target": "SubmitCeilingFan"
+				},
+				{
 					"pattern": "AboutUs",
 					"name": "AboutUs",
 					"target": "AboutUs"
-				}, {
+				},
+				{
 					"pattern": "DigitalChampions",
 					"name": "DigitalChampions",
 					"target": "DigitalChampions"
-				}, {
+				},
+				{
 					"pattern": "Writetocustomercare",
 					"name": "Writetocustomercare",
 					"target": "Writetocustomercare"
-				}, {
+				},
+				{
 					"pattern": "Loginpage",
 					"name": "Loginpage",
 					"target": "Loginpage"
-				}, {
+				},
+				{
 					"pattern": "EaseOfDoingBusiness",
 					"name": "EaseOfDoingBusiness",
 					"target": "EaseOfDoingBusiness"
-				}, {
+				},
+				{
 					"pattern": "FAQ",
 					"name": "FAQ",
 					"target": "FAQ"
-				}, {
+				},
+				{
 					"pattern": "Grievances",
 					"name": "Grievances",
 					"target": "Grievances"
-				}, {
+				},
+				{
 					"pattern": "Newsforyou",
 					"name": "Newsforyou",
 					"target": "Newsforyou"
-				}, {
+				},
+				{
 					"pattern": "KnowledgeCenter",
 					"name": "KnowledgeCenter",
 					"target": "KnowledgeCenter"
-				}, {
+				},
+				{
 					"pattern": "NewConnections",
 					"name": "NewConnections",
 					"target": "NewConnections"
-				}, {
+				},
+				{
 					"pattern": "Load_Reduction",
 					"name": "Load_Reduction",
 					"target": "Load_Reduction"
-				}, {
+				},
+				{
 					"pattern": "Load_Enhancement",
 					"name": "Load_Enhancement",
 					"target": "Load_Enhancement"
-				}, {
+				},
+				{
 					"pattern": "RegisterNow_andGetRewarded",
 					"name": "RegisterNow_andGetRewarded",
 					"target": "RegisterNow_andGetRewarded"
-				}, {
+				},
+				{
 					"pattern": "PermanentDisconnection",
 					"name": "PermanentDisconnection",
 					"target": "PermanentDisconnection"
-				}, {
+				},
+				{
 					"pattern": "Tariff_Category_Change",
 					"name": "Tariff_Category_Change",
 					"target": "Tariff_Category_Change"
-				}, {
+				},
+				{
 					"pattern": "Reconnection",
 					"name": "Reconnection",
 					"target": "Reconnection"
-				}, {
+				},
+				{
 					"pattern": "Meter_Shifting",
 					"name": "Meter_Shifting",
 					"target": "Meter_Shifting"
-				}, {
+				},
+				{
 					"pattern": "Meter_testing",
 					"name": "Meter_testing",
 					"target": "Meter_testing"
-				}, {
+				},
+				{
 					"pattern": "Wireman",
 					"name": "Wireman",
 					"target": "Wireman"
-				}, {
+				},
+				{
 					"pattern": "GreenCorner",
 					"name": "GreenCorner",
 					"target": "GreenCorner"
-				}, {
+				},
+				{
 					"pattern": "Newsletter",
 					"name": "Newsletter",
 					"target": "Newsletter"
-				}, {
+				},
+				{
 					"pattern": "Wireman",
 					"name": "Wireman",
 					"target": "Wireman"
-				}, {
+				},
+				{
 					"pattern": "AboutUs",
 					"name": "AboutUs",
 					"target": "AboutUs"
-				}, {
+				},
+				{
 					"pattern": "Calculator",
 					"name": "Calculator",
 					"target": "Calculator"
-				}, {
+				},
+				{
 					"pattern": "OnlineApplications",
 					"name": "OnlineApplications",
 					"target": "OnlineApplications"
-				}, {
+				},
+				{
 					"pattern": "NewCustomer",
 					"name": "NewCustomer",
 					"target": "NewCustomer"
-				}, {
+				},
+				{
 					"pattern": "PaymentHistory",
 					"name": "PaymentHistory",
 					"target": "PaymentHistory"
-				}, {
+				},
+				{
 					"pattern": "LatesAds",
 					"name": "LatesAds",
 					"target": "LatesAds"
-				}, {
+				},
+				{
 					"pattern": "RegisterPowerFailure",
 					"name": "RegisterPowerFailure",
 					"target": "RegisterPowerFailure"
 				},
-
 				{
 					"pattern": "SeniorLeadership",
 					"name": "SeniorLeadership",
 					"target": "SeniorLeadership"
-				}, {
+				},
+				{
 					"pattern": "Shedulepoweroutage",
 					"name": "Shedulepoweroutage",
 					"target": "Shedulepoweroutage"
-				}, {
+				},
+				{
 					"pattern": "Safetyathome",
 					"name": "Safetyathome",
 					"target": "Safetyathome"
-				}, {
+				},
+				{
 					"pattern": "SwitchOverConnection",
 					"name": "SwitchOverConnection",
 					"target": "SwitchOverConnection"
-				}, {
+				},
+				{
 					"pattern": "TariffDetails",
 					"name": "TariffDetails",
 					"target": "TariffDetails"
-				}, {
+				},
+				{
 					"pattern": "NetMetering",
 					"name": "NetMetering",
 					"target": "NetMetering"
-				}, {
+				},
+				{
 					"pattern": "Contract_Maximum_Demand_Enhancement",
 					"name": "Contract_Maximum_Demand_Enhancement",
 					"target": "Contract_Maximum_Demand_Enhancement"
-				}, {
+				},
+				{
 					"pattern": "Contract_Maximum_Demand_Reduction",
 					"name": "Contract_Maximum_Demand_Reduction",
 					"target": "Contract_Maximum_Demand_Reduction"
-				}, {
+				},
+				{
 					"pattern": "ChangeOverConnection",
 					"name": "ChangeOverConnection",
 					"target": "ChangeOverConnection"
-				}, {
+				},
+				{
 					"pattern": "AdvanceBillPayment",
 					"name": "AdvanceBillPayment",
 					"target": "AdvanceBillPayment"
-				}, {
+				},
+				{
 					"pattern": "LandingFAQs",
 					"name": "LandingFAQs",
 					"target": "LandingFAQs"
-				}, {
+				},
+				{
 					"pattern": "Landingdigitalservice",
 					"name": "Landingdigitalservice",
 					"target": "Landingdigitalservice"
-				}, {
+				},
+				{
 					"pattern": "LandingKnowledgeCenter",
 					"name": "LandingKnowledgeCenter",
 					"target": "LandingKnowledgeCenter"
-				}, {
+				},
+				{
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
-				}, {
+				},
+				{
 					"pattern": "ApplicationForms",
 					"name": "ApplicationForms",
 					"target": "ApplicationForms"
-				}, {
+				},
+				{
 					"pattern": "VideoGallery",
 					"name": "VideoGallery",
 					"target": "VideoGallery"
-				}, {
+				},
+				{
 					"pattern": "PaymentOptions",
 					"name": "PaymentOptions",
 					"target": "PaymentOptions"
-				}, {
+				},
+				{
 					"pattern": "RegulatoryInformation",
 					"name": "RegulatoryInformation",
 					"target": "RegulatoryInformation"
-				}, {
+				},
+				{
 					"pattern": "TermOfUse",
 					"name": "TermOfUse",
 					"target": "TermOfUse"
-				}, {
+				},
+				{
 					"pattern": "PrivacyPolicy",
 					"name": "PrivacyPolicy",
 					"target": "PrivacyPolicy"
-				}, {
+				},
+				{
 					"pattern": "OpenAccess",
 					"name": "OpenAccess",
 					"target": "OpenAccess"
 				}
-
 			],
 			"targets": {
 				"home": {
@@ -335,6 +402,11 @@
 				"CombatClimateChange": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "CombatClimateChange",
+					"viewLevel": 2
+				},
+				"SubmitCeilingFan": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SubmitCeilingFan",
 					"viewLevel": 2
 				},
 				"PowerConsumptionGuidelines": {
@@ -427,7 +499,6 @@
 					"viewName": "LatesAds",
 					"viewLevel": 8
 				},
-
 				"EaseOfDoingBusiness": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "EaseOfDoingBusiness",
@@ -513,7 +584,6 @@
 					"viewName": "GreenCorner",
 					"viewLevel": 15
 				},
-
 				"Newsletter": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "Newsletter",
@@ -529,13 +599,11 @@
 					"viewName": "Calculator",
 					"viewLevel": 18
 				},
-
 				"OnlineApplications": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "OnlineApplications",
 					"viewLevel": 19
 				},
-
 				"RegisterPowerFailure": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "RegisterPowerFailure",
@@ -560,9 +628,7 @@
 					"viewPath": "tatapower.dev.view",
 					"viewName": "VideoGallery",
 					"viewLevel": 20
-				}
-
-				,
+				},
 				"ChangeOverConnection": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "ChangeOverConnection",
@@ -573,7 +639,6 @@
 					"viewName": "AdvanceBillPayment",
 					"viewLevel": 20
 				},
-
 				"NetMetering": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "NetMetering",
@@ -589,7 +654,6 @@
 					"viewName": "SwitchOverConnection",
 					"viewLevel": 20
 				},
-
 				"LandingFAQs": {
 					"viewPath": "tatapower.dev.view",
 					"viewName": "LandingFAQs",

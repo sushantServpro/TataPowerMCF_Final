@@ -56,35 +56,40 @@ sap.ui.define([
 				vbox.addItem(fragment1);
 			}
 
-			// 	else if(evt.oSource.mProperties.text === "Ceiling Fan") {
+			else if(evt.oSource.mProperties.description === "Ceiling Fan") {
 
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "Energy Audit") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+				else if(evt.oSource.mProperties.description === "Energy Audit") {
 
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_audit"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text ==="Energy Refrigerator") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_audit"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+				else if(evt.oSource.mProperties.description ==="Energy Refrigerator") {
 
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_eff_refrigerator"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "LED Tube") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_eff_refrigerator"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+				else if(evt.oSource.mProperties.description === "LED Tube") {
 
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.led_tube"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
-			// 	else if(evt.oSource.mProperties.text === "Split AC") {
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.led_tube"].join("."), this);
+				vbox.addItem(fragment1);
+			}
+				else if(evt.oSource.mProperties.description === "Split AC") {
 
-			// 	var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.split_ac"].join("."), this);
-			// 	vbox.addItem(fragment1);
-			// }
+				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.split_ac"].join("."), this);
+				vbox.addItem(fragment1);
+			}
 
 		},
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
+		},
+		
+		onSubmitfanPress: function(oEvent) {
+			
+			this.getRouter().navTo("SubmitCeilingFan");
 		},
 
 		getRouter: function() {
