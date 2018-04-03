@@ -92,15 +92,15 @@ sap.ui.define([
 		,
 		onOpenAccess: function(oEvent) {
 			this.getRouter().navTo("OpenAccess");
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
-		/**
-		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
-		 * @memberOf tatapower.dev.view.OnlineApplications
-		 */
-		//	onExit: function() {
-		//
-		//	}
+		
 
 	});
 

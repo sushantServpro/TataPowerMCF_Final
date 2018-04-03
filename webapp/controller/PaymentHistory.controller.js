@@ -59,6 +59,12 @@ sap.ui.define([
 		onExit: function() {
 			this.mobileDropdown();
 			//$("#__panel0").hide();
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
 	});

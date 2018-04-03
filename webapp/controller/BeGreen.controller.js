@@ -54,29 +54,23 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.Contact"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-
-			else if(evt.oSource.mProperties.description === "Ceiling Fan") {
+			} else if (evt.oSource.mProperties.text === "Ceiling Fan") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.ceiling_fan"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.description === "Energy Audit") {
+			} else if (evt.oSource.mProperties.description === "Energy Audit") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_audit"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.description ==="Energy Refrigerator") {
+			} else if (evt.oSource.mProperties.description === "Energy Refrigerator") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.energy_eff_refrigerator"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.description === "LED Tube") {
+			} else if (evt.oSource.mProperties.description === "LED Tube") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.led_tube"].join("."), this);
 				vbox.addItem(fragment1);
-			}
-				else if(evt.oSource.mProperties.description === "Split AC") {
+			} else if (evt.oSource.mProperties.description === "Split AC") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.BeGreen.split_ac"].join("."), this);
 				vbox.addItem(fragment1);
@@ -86,40 +80,21 @@ sap.ui.define([
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-		
+
 		onSubmitfanPress: function(oEvent) {
-			
+
 			this.getRouter().navTo("SubmitCeilingFan");
 		},
 
 		getRouter: function() {
-				return sap.ui.core.UIComponent.getRouterFor(this);
-			}
-			/**
-			 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
-			 * (NOT before the first rendering! onInit() is used for that one!).
-			 * @memberOf tatapower.dev.view.BeGreen
-			 */
-			//	onBeforeRendering: function() {
-			//
-			//	},
-
-		/**
-		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
-		 * This hook is the same one that SAPUI5 controls get after being rendered.
-		 * @memberOf tatapower.dev.view.BeGreen
-		 */
-		//	onAfterRendering: function() {
-		//
-		//	},
-
-		/**
-		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
-		 * @memberOf tatapower.dev.view.BeGreen
-		 */
-		//	onExit: function() {
-		//
-		//	}
+			return sap.ui.core.UIComponent.getRouterFor(this);
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
+		}
 
 	});
 

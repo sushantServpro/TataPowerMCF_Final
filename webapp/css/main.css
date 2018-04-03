@@ -2530,6 +2530,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 0 15px;
 }
 
+.online_app_bg {
+	background: linear-gradient(to right, #e59304 15%, #fff 85%) !important;
+}
+
 .bill_calc_bg {
     background: linear-gradient(to right, #fb6e2b 15%, #fff 85%) !important;
 }
@@ -2626,6 +2630,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px;
 }
 
+.engSaveList li { font-weight: normal; }
+
 
 /*green corner sub menus*/
 
@@ -2719,6 +2725,10 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     height: 100%;
     border: 3px solid #1a68b2;
     border-radius: 10px;
+}
+
+.setMinHeight {
+	min-height: 430px;
 }
 
 

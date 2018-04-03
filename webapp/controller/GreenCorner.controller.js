@@ -94,6 +94,12 @@ sap.ui.define([
 				vbox.addItem(fragment1);
 			}
 
+		},
+		pressTermsOfUse: function() {
+			this.getRouter().navTo("TermOfUse");
+		},
+		pressPrivacyPolicy: function() {
+			this.getRouter().navTo("PrivacyPolicy");
 		}
 
 	});
