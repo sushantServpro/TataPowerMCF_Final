@@ -2614,6 +2614,8 @@ html:not([data-sap-ui-browser^="ie"]):not([data-sap-ui-browser^="ed"]) .sapUiIco
     padding: 10px;
 }
 
+.engSaveList li { font-weight: normal; }
+
 
 /*green corner sub menus*/
 
