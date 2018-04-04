@@ -375,6 +375,11 @@
 					"target": "PrivacyPolicy"
 				},
 				{
+					"pattern": "SubmitRef",
+					"name": "SubmitRef",
+					"target": "SubmitRef"
+				},
+				{
 					"pattern": "OpenAccess",
 					"name": "OpenAccess",
 					"target": "OpenAccess"
@@ -678,6 +683,11 @@
 					"viewPath": "tatapower.dev.view",
 					"viewName": "PrivacyPolicy",
 					"viewLevel": 20
+				},
+				"SubmitRef": {
+					"viewPath": "tatapower.dev.view",
+					"viewName": "SubmitRef",
+					"viewLevel": 2
 				},
 				"OpenAccess": {
 					"viewPath": "tatapower.dev.view",

@@ -80,7 +80,9 @@ sap.ui.define([
 		onHomePress: function(oEvent) {
 			this.getRouter().navTo("home");
 		},
-
+		onPressRef: function() {
+			this.getRouter().navTo("SubmitRef");
+		},
 		onSubmitfanPress: function(oEvent) {
 
 			this.getRouter().navTo("SubmitCeilingFan");
