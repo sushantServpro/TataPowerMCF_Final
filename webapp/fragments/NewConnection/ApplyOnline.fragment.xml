@@ -131,7 +131,7 @@
 						</html:div>
 						<html:div class="row typepremises">
 							<html:div class="col-xs-12">
-								<html:h5>type of premises</html:h5>
+								<html:h5>Type of premises</html:h5>
 							</html:div>
 						</html:div>
 						<html:div class="row">
@@ -164,7 +164,7 @@
 						</html:div>
 						<html:div class="row coresponding">
 							<html:div class="col-xs-12">
-								<html:h5>Coresponding Address
+								<html:h5>Corresponding Address
 								</html:h5>
 							</html:div>
 						</html:div>
@@ -227,7 +227,7 @@
 								<RadioButton id="RBGRP2_2" groupName="GroupB" text="No"/>
 							</html:div>
 							<html:div class="col-md-6 col-sm-12 col-xs-12">
-								<html:h6>We promote granulation to avoid waste of papers</html:h6>
+								<html:h6>We promote greenolution to avoid waste of papers</html:h6>
 							</html:div>
 						</html:div>
 						<html:div class="row powerreq">
@@ -302,7 +302,7 @@
 								<RadioButton id="RBGRP4_2" groupName="GroupD" text="Commercial"/>
 							</html:div>
 							<html:div class="col-md-2">
-								<RadioButton id="RBGRP4_3" groupName="GroupD" text="Indivisual" selected="true"/>
+								<RadioButton id="RBGRP4_3" groupName="GroupD" text="Industrial" selected="true"/>
 							</html:div>
 							<html:div class="col-md-2">
 								<RadioButton id="RBGRP4_4" groupName="GroupD" text="Others"/>

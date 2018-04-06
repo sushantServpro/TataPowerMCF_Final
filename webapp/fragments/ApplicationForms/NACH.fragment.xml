@@ -34,6 +34,18 @@
 									</html:div>
 								</html:div>
 							</html:a>
+							<html:a href="pdf/PaymentOptions/NACH_Leaflet.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Procedure and Guidelines
+									</html:div>
+								</html:div>
+							</html:a>
 						</html:div>
 					</html:div>
 				</html:div>

@@ -34,6 +34,67 @@
 									</html:div>
 								</html:div>
 							</html:a>
+							<html:a href="pdf/ApplicationForms/WorkCompletionTestReport.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Work Completion Test Report
+									</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/newconnection/StandarddrawingMeteringpoints.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Standard Drawings - 11kV HT S.S with 2 nos Metering points</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/newconnection/STANDARDCSS.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Standard Drawings - STANDARD CSS DWG 11KV 8X5 1250kVA
+									</html:div>
+								</html:div>
+							</html:a>
+						</html:div>
+						<html:div class="row procedure_files switch_over">
+							<html:a href="pdf/ApplicationForms/PowerSupplyAgreementPrintVersionMay13.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Power Supply Agreement
+									</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/ApplicationForms/LeaseDeed.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Lease Deed
+									</html:div>
+								</html:div>
+							</html:a>
 						</html:div>
 					</html:div>
 				</html:div>
