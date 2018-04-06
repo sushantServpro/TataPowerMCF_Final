@@ -131,6 +131,19 @@
 						ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 				</html:div>
 			</html:div>
+			<html:h4>Note:</html:h4>
+			<html:ol>
+				<html:li>Consumption for an equipment can be calculated as follows: Total Electricty consumption in units = Consumption in units/hr × No. of
+					hrs. Consumer might be requested to choose from the values of wattages given against a particular appliance. Software will then choose the
+					corresponding consumption in units/hr.
+				</html:li>
+				<html:li>Since refrigerator is a continuously run machine, it is more logical to give daily consumption in units. So the values of
+					refrigerator consumption are given in daily units.
+				</html:li>
+				<html:li>Values of Star Rating band for DC refrigerator applicable from Jan 2015 have been given.</html:li>
+				<html:li>BEE takes annual consumption of refrigerator for deciding star rating. Working days of refrigerator have been taken days 300 per
+					year for arriving at daily coonsumption.</html:li>
+			</html:ol>
 		</content>
 	</Panel>
 </core:FragmentDefinition>
