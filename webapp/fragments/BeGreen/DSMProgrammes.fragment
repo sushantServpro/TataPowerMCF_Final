@@ -49,7 +49,7 @@
 												<html:h5 class="text-center">Programmes for Industrial/Commercial Consumers</html:h5>
 												<html:div class="row cons_opt">
 													<html:div class="col-xs-6 col-sm-6">
-														<ImageContent class="pro_img_cont" src="images/audit.png" description="Energy Audit" press="handleButtonPress"></ImageContent>
+														<ImageContent class="pro_img_cont" src="images/audit.png" description="Enery Audit" press="handleButtonPress"></ImageContent>
 													</html:div>
 													<html:div class="col-xs-6 col-sm-6">
 														<ImageContent class="pro_img_cont" src="images/led.png" description="LED Tube" press="handleButtonPress"></ImageContent>

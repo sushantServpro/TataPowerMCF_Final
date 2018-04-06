@@ -1,8 +1,8 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified" xmlns:tnt="sap.tnt" height="100%"
 	xmlns:html="http://www.w3.org/1999/xhtml">
-	<Panel >
+	<Panel>
 		<content>
-			<Panel >
+			<Panel>
 				<html:h5>DMS Programmes Registration</html:h5>
 				<html:div class="apply">
 					<html:div class="row">
@@ -33,13 +33,7 @@
 							<html:p>8. This is a limited period programme. The products and prices may change without giving prior notice.</html:p>
 							<html:p>9. Tata Power is only a facilitator of this Programme and its role &amp; liability is restricted only to offering a rebate to the manufacturer. The warrantee for the ceiling fans is provided by Atomberg and any future issue regarding product and warrantee etc. shall be directly dealt with Atomberg without involving Tata Power. Tata Power shall not be responsible in any manner (financial or otherwise) for any issues relating to this Programme or the product in future. Tata Power's decision in all respects for issues/ disputes/differences shall be final.</html:p>
 							</html:div></html:div>
-							<html:div class="row">
-							
-							<html:div class="col-md-3">
-								<CheckBox id="IdAgreetermSWC" text=" I/We agree to all above terms and conditions" select="onSelectAgree"  selected="false"/> 
-							</html:div>
-						</html:div>
-						<html:div id="frmblock" style="display:none;">
+						
 						<html:div class="row">
 							<Label class="col-md-4" text="Consumer Name" required="true"  labelFor="input-a"/>
 							<html:div class="col-md-4"><Input id="conNameInputId"  required="true" type="Text" class="sapUiSmallMarginBottom" />
@@ -50,40 +44,29 @@
 							<html:div class="col-md-4"><Input id="conNoInputId"  required="true" type="Number" class="sapUiSmallMarginBottom" />
 							
 						</html:div>
-						<html:div class="col-md-2"><Button icon="sap-icon://search" text="Next" id="btnBackPageSWC" press="onNextSearch" class="switchcenter"
-									ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
+						<html:div class="col-md-2"><Button icon="sap-icon://search" text="Next" id="btnBackPageSWC" press="onBackPage" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button></html:div>
 						</html:div>
 						<html:div class="row">
 							<Label class="col-md-4" text="Consumer Name as in Bill:	" enabled="false" labelFor="input-a"/>
-							<html:div class="col-md-4" style="display:none;" id="blockConNameFan" ><Input id="conBillNameInputId"  enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{CeilingFanData>/ExCaName}" />
+							<html:div class="col-md-4" style="display:none;" ><Input id="conBillNameInputId"  enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" />
 						</html:div></html:div>
+						
 						<html:div class="row">
 							<Label class="col-md-4" text="Contact Number" enabled="false" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="contactNoInputId" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{CeilingFanData>/PrimaryPhone}" />
+							<html:div class="col-md-4"><Input id="contactNoInputId" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" />
 						</html:div></html:div>
+						
 						<html:div class="row">
 							<Label class="col-md-4" text="Alternate Contact Number" enabled="false" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="altContactNoInputId" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{CeilingFanData>/SecondaryPhone}" />
+							<html:div class="col-md-4"><Input id="altContactNoInputId" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" />
 						</html:div></html:div>
+						
 							<html:div class="row">
 							<Label class="col-md-4" text="Contact Email id" enabled="false" labelFor="input-a"/>
-							<html:div class="col-md-4"><Input id="ContactEmailInputId" enabled="false" required="true" type="Email" class="sapUiSmallMarginBottom" value="{CeilingFanData>/PrimaryEmail}" />
+							<html:div class="col-md-4"><Input id="ContactEmailInputId" enabled="false" required="true" type="Email" class="sapUiSmallMarginBottom" />
 						</html:div></html:div>
-						<html:div id="hideblock" style="display:none;">
-							<html:div class="row" >
-								<Label class="col-md-4" text="Capacity" enabled="false" labelFor="input-a"/>
-								<html:div class="col-md-4"><Input id="capacityInputId"  required="true" type="Text" class="sapUiSmallMarginBottom" />
-							</html:div></html:div>
-							<html:div class="row" >
-								<Label class="col-md-4" text="Quantity" enabled="false" labelFor="input-a"/>
-								<html:div class="col-md-4"><Input id="qtyInputId"  required="true" type="Text" class="sapUiSmallMarginBottom" />
-							</html:div></html:div>
-							<html:div class="row" >
-								<html:div class="col-md-2"><Button icon="sap-icon://save" text="Submit" id="btnSaveCeiling" press="onSubmitBeGreen" class="switchcenter"
-										ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
-							</html:div>
-						</html:div>
-						</html:div>	
+						
 					</html:div>
 				</html:div>
 			</Panel>

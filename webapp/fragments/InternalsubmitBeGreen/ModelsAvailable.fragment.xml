@@ -3,7 +3,7 @@
 	height="100%" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Panel>
 		<content>
-			<html:table class="fanview table table-bordered">
+			<html:table class="fanview">
 				<html:tr>
 					<html:th>Model</html:th>
 					<html:th>Model Details</html:th>

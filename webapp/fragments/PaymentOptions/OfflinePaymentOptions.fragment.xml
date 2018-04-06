@@ -27,15 +27,63 @@
 									<Label text="Enter your area" labelFor="req_num"/>
 								</html:div>
 								<html:div class="col-sm-6">
-									<Input type="Text" id="req_num"/>
+									<!--<Input type="Text" id="req_num"/>-->
+									<Input id="areaInput" required="true" type="Text" class="sapUiSmallMarginBottom" showValueHelp="true" valueHelpRequest="ValueHelpAreaSearch"/>
 								</html:div>
 								<html:div class="col-sm-2">
-									<Button text="SEARCH" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									<Button text="SEARCH" press="onPressSearch" class="switchcenter form-control"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 								</html:div>
 								<html:div class="col-sm-2">
-									<Button text="RESET" press="onPress" class="switchcenter form-control" ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
+									<Button text="RESET" press="onPressReset" class="switchcenter form-control"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 								</html:div>
 							</html:div>
+						</html:div>
+					</html:div>
+					<html:div class="row">
+						<html:div class="col-md-12">
+						<Table id="idProductsTable" inset="false" items="{ path: 'AddressDetails>/results' }">
+								<headerToolbar>
+									<Toolbar>
+										<content>
+											<Title text="Address" level="H2"/>
+											<ToolbarSpacer/>
+											<ComboBox id="idPopinLayout" placeholder="Address Filter" change="onPopinLayoutChanged" 
+												items="{
+													path: 'Descriptiondrp>/results',
+													sorter: { path: 'text' }
+												}">
+												<core:Item key="{Descriptiondrp>DomvalueL}" text="{Descriptiondrp>Ddtext}" />
+											</ComboBox>
+										</content>
+									</Toolbar>
+								</headerToolbar>
+								<columns>
+									<Column >
+										<Text text="Address1"/>
+									</Column>
+									<Column >
+										<Text text="Address2"/>
+									</Column>
+									<Column >
+										<Text text="Address3"/>
+									</Column>
+									<Column minScreenWidth="Tablet" demandPopin="true">
+										<Text text="Description"/>
+									</Column>
+								</columns>
+								<items>
+									<ColumnListItem>
+										<cells>
+											<ObjectIdentifier title="{AddressDetails>ZpcAddr1}" text="{AddressDetails>ZpcAddr1}"/>
+											<Text text="{AddressDetails>ZpcAddr2}"/>
+											<Text text="{AddressDetails>ZpcAddr3}"/>
+											<Text text="{AddressDetails>ZpcTypeDesc}"/>
+										</cells>
+									</ColumnListItem>
+								</items>
+							</Table>
 						</html:div>
 					</html:div>
 					<html:div class="off_search_result">

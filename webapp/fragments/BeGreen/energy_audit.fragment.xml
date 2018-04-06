@@ -28,10 +28,58 @@
 					</html:div>
 					<html:div class="row">
 						<html:div class="col-sm-2 col-sm-offset-5 audit_reg">
-							<Button text="REGISTER" press="onPress" class="switchcenter form-control"
+							<Button text="REGISTER" press="onPressAudit" class="switchcenter form-control"
 								ariaDescribedBy="defaultButtonDescription genericButtonDescription"></Button>
 						</html:div>
 					</html:div>
+				<html:div id="frmblockEA" style="display:none;">
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Name" required="true"  labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="conNameInputIdEA"  required="true" type="Text" class="sapUiSmallMarginBottom"  />
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Number" required="true"  labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="conNoInputIdEA"  required="true" type="Number" class="sapUiSmallMarginBottom" />
+							
+						</html:div>
+						<html:div class="col-md-2"><Button icon="sap-icon://search" text="Next" id="btnBackPageSWCEA" press="onNextSearch" class="switchcenter"
+									ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
+						</html:div>
+						<html:div class="row">
+							<Label class="col-md-4" text="Consumer Name as in Bill:	" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4" style="display:none;" id="blkConName"><Input id="conBillNameInputIdEA"  enabled="false" required="true" type="Text" class="sapUiSmallMarginBottom" value="{AuditData>/ExCaName}" />
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Contact Number" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="contactNoInputIdEA" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{AuditData>/PrimaryPhone}"/>
+						</html:div></html:div>
+						
+						<html:div class="row">
+							<Label class="col-md-4" text="Alternate Contact Number" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="altContactNoInputIdEA" enabled="false" required="true" type="Number" class="sapUiSmallMarginBottom" value="{AuditData>/SecondaryPhone}" />
+						</html:div></html:div>
+						
+							<html:div class="row">
+							<Label class="col-md-4" text="Contact Email id" enabled="false" labelFor="input-a"/>
+							<html:div class="col-md-4"><Input id="ContactEmailInputIdEA" enabled="false" required="true" type="Email" class="sapUiSmallMarginBottom" value="{AuditData>/PrimaryEmail}" />
+						</html:div></html:div>
+						<html:div id="hideblockEA" style="display:none;">
+							<html:div class="row" >
+								<Label class="col-md-4" text="Capacity" enabled="false" labelFor="input-a"/>
+								<html:div class="col-md-4"><Input id="capacityInputIdEA"  required="true" type="Text" class="sapUiSmallMarginBottom" />
+							</html:div></html:div>
+							<html:div class="row" >
+								<Label class="col-md-4" text="Quantity" enabled="false" labelFor="input-a"/>
+								<html:div class="col-md-4"><Input id="qtyInputIdEA"  required="true" type="Text" class="sapUiSmallMarginBottom" />
+							</html:div></html:div>
+							<html:div class="row" >
+								<html:div class="col-md-2"><Button icon="sap-icon://save" text="Submit" id="btnSaveEA" press="onSubmitBeGreen" class="switchcenter"
+										ariaDescribedBy="defaultButtonDescription genericButtonDescription" ></Button></html:div>
+							</html:div>
+						</html:div>
+						</html:div>	
 				</html:div>
 			</Panel>
 		</content>
