@@ -669,7 +669,7 @@ sap.ui.define([
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Calculator.bill_calculator"].join("."), this);
 				vbox.addItem(fragment1);
-			} else if (evt.oSource.mProperties.text === "Energry CalCulator") {
+			} else if (evt.oSource.mProperties.text === "Energry Calculator") {
 
 				var fragment1 = sap.ui.xmlfragment(["tatapower.dev.fragments.Calculator.energy_calculator"].join("."), this);
 				vbox.addItem(fragment1);

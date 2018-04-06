@@ -6,7 +6,7 @@
 				<content>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMain" type="XML"/>
 					<core:Fragment fragmentName="tatapower.dev.fragments.Main.HeaderMenu" type="XML"/>
-					<html:div class="container">
+					<html:div class="container setMinHeight">
 						<Panel>
 							<html:div class="container-fluid">
 								<html:div class="go-green_intro">
@@ -41,9 +41,7 @@
 									</html:ul>
 									<html:p>
 										The recommendations presented in the 3C Roadmap have been developed out of 3C's founding statement, through a six-month process of open
-										consultation with many of the initiatives participating companies. Read more about the development of the Roadmap and participants in the 3C
-										Initiative on
-										<html:a href="www.combatclimatechange.org" target="_blank" title="Combat Climate Change">www.combatclimatechange.org</html:a>
+										consultation with many of the initiatives participating companies.
 									</html:p>
 								</html:div>
 							</html:div>

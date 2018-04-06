@@ -18,12 +18,12 @@
 					</html:div>
 				</html:div>
 				<html:div class="registerpf">
-					<html:h6 align="center" style="color:red">* Indicate Mondatory fields</html:h6>
+					<html:h6 align="center" style="color:red">* Indicate Mandatory fields</html:h6>
 					<html:div class="row">
 						<html:div class="col-md-6">
 							<html:div class="row">
 								<html:div class="col-md-9">
-									<Label text="Consumer Number" labelFor="input-a"/>
+									<Label text="Consumer Number" labelFor="cnInput"/>
 									<Input id="cnInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 								</html:div>
 								<html:div class="col-md-3">
@@ -33,18 +33,18 @@
 							</html:div>
 						</html:div>
 						<html:div class="col-md-6">
-							<Label text="Consumer Name" labelFor="input-a"/>
+							<Label text="Consumer Name" labelFor="ncInput"/>
 							<Input id="ncInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 						</html:div>
 					</html:div>
 					<html:div class="row">
 						<html:div class="col-md-6">
-							<Label text="Mobile Number" labelFor="input-a"/>
+							<Label text="Mobile Number" labelFor="mobnumberInput"/>
 							<Input id="mobnumberInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 						</html:div>
 						<html:div class="col-md-6">
-							<Label text="Email ID" labelFor="input-a"/>
-							<Input id="emidInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
+							<Label text="Email ID" labelFor="emidInput"/>
+							<Input id="emidInput" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 						</html:div>
 					</html:div>
 					<html:div class="row">
@@ -53,7 +53,7 @@
 							<TextArea placeholder="Enter Text" growing="true" growingMaxLines="7" width="100%"/>
 						</html:div>
 						<html:div class="col-md-12">
-							<Label text="Nearest Landmark" labelFor="input-a"/>
+							<Label text="Nearest Landmark" labelFor="nlInput"/>
 							<Input id="nlInput" required="true" type="Text" class="sapUiSmallMarginBottom" placeholder="Enter"/>
 						</html:div>
 						<html:div class="col-md-2 col-md-offset-5 text-center">

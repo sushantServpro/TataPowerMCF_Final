@@ -4,7 +4,7 @@
 		<content>
 			<Panel>
 				<html:div class="cusservice">
-					<html:h4>HOD Costumer Services</html:h4>
+					<html:h4>HOD Customer Services</html:h4>
 				</html:div>
 				<html:div class="tpdcs">
 					<html:p>

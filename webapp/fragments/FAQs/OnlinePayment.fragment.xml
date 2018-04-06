@@ -38,8 +38,8 @@
 							class="sapUiResponsiveMargin">
 							<content>
 								<html:div class="textpara">
-									<html:p>No, there are no extra charges for this online facility. The net bill amount that you see against your current bill details is
-										exactly what you pay.</html:p>
+									<html:p>Convenience fee will be applicable for payments above Rs. 5000/- made through debit/credit card, wallet. Transaction fees are not
+										applicable for payments made though net banking irrespective of the amount.</html:p>
 								</html:div>
 							</content>
 						</Panel>

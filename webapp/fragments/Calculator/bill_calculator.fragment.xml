@@ -24,8 +24,8 @@
 						<html:div class="row">
 							<html:div class="col-sm-7">
 								<html:p>
-									Select your tariff category and enter your energy consumption to help us calculate your bill. If you desire to calculate your energy
-									consumption, please
+									Select your tariff category and enter your energy consumption to calculate your bill. If you desire to calculate your energy consumption,
+									please
 								</html:p>
 							</html:div>
 						</html:div>
@@ -35,8 +35,8 @@
 							<html:div class="col-sm-10 col-sm-offset-1">
 								<html:div class="row">
 									<html:div class="col-sm-4">
-										<Label text="Tarrif Category"/>
-										<ActionSelect id="select1" selectedKey="{BillCalModel>/TariffCategory}" change="onTariffCategoryChange"
+										<Label text="Tarrif Category" labelFor="select1"/>
+										<ActionSelect id="select1" required="true" selectedKey="{BillCalModel>/TariffCategory}" change="onTariffCategoryChange"
 											items="{ path: 'TariffCategory>/results' }">
 											<items>
 												<core:Item key="{TariffCategory>Key}" text="{TariffCategory>Value}"/>
@@ -44,7 +44,7 @@
 										</ActionSelect>
 									</html:div>
 									<html:div class="col-sm-4">
-										<Label text="Tarrif "/>
+										<Label text="Tarrif " labelFor="TarrifId"/>
 										<Input id="TarrifId" showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelp"
 											suggestionItems="{path:'Tariff>/results'}" value="{BillCalModel>/Tariff}">
 											<suggestionItems>
@@ -64,7 +64,7 @@
 								<html:div class="row">
 									<html:div class="col-sm-4">
 										<Label labelFor="select-a" text="supply Voltage:" visible="{CalculatorView>/block1}"/>
-										<ActionSelect id="select-a" selectedKey="{BillCalModel>/SupplyLoad}" items="{ path: 'SupplyVolt>/results' }"
+										<ActionSelect id="select-a" required="true" selectedKey="{BillCalModel>/SupplyLoad}" items="{ path: 'SupplyVolt>/results' }"
 											visible="{CalculatorView>/block1}">
 											<items>
 												<core:Item key="{SupplyVolt>Key}" text="{SupplyVolt>Value}"/>

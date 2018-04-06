@@ -53,10 +53,10 @@
 									<html:p>
 										For more information on star rating products kindly visit to following sites:
 										<html:span>
-											<html:a href="http://www.bee-india.nic.in/" target="_blank" title="Bee India">http://www.bee-india.nic.in/</html:a>
+											<html:a href="http://energysavers.co.in/" target="_blank" title="Energy Savers">energysavers.co.in</html:a>
 										</html:span>
 										<html:span>
-											<html:a href="http://www.saveenergy.co.in/" target="_blank" title="Save Energy">http://www.saveenergy.co.in/</html:a>
+											<html:a href="http://www.saveenergy.co.in/" target="_blank" title="Save Energy">saveenergy.co.in</html:a>
 										</html:span>
 									</html:p>
 								</html:div>

@@ -69,10 +69,10 @@
 									<html:p>
 										For more information, we encourage you to visit following sites:
 										<html:span>
-											<html:a href="http://www.bee-india.nic.in/" target="_blank" title="Bee India">http://www.bee-india.nic.in/</html:a>
+											<html:a href="https://beeindia.gov.in" target="_blank" title="Bee India">bee-india.nic.in</html:a>
 										</html:span>
 										<html:span>
-											<html:a href="https://igbc.in/igbc/" target="_blank" title="IGBC">https://igbc.in/igbc/</html:a>
+											<html:a href="https://igbc.in/igbc/" target="_blank" title="IGBC">igbc.in/igbc</html:a>
 										</html:span>
 									</html:p>
 								</html:div>

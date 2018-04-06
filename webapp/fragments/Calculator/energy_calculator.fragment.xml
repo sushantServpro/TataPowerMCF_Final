@@ -22,7 +22,8 @@
 						<html:div class="row">
 							<html:div class="col-sm-6 left_side">
 								<html:p>
-									Calculate your energy consumption and save to compare the actuals Compare, with your actual consumption if you had already saved your plan.
+									Calculate your energy consumption and save to compare the actuals. You can also compare with your actual consumption if you had already
+									saved your plan.
 								</html:p>
 								<html:div class="energy_cal_opts">
 									<html:div class="container-fluid">
