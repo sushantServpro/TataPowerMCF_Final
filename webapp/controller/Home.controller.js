@@ -7,7 +7,7 @@ sap.ui.define([
 
 		_iCarouselTimeout: 0, // a pointer to the current timeout
 		_iCarouselLoopTime: 5000, // loop to next picture after 8 seconds
-		
+
 		onDisplayNotFound: function(oEvent) {
 			// display the "notFound" target without changing the hash
 			this.getRouter().getTargets().display("notFound", {
@@ -16,8 +16,7 @@ sap.ui.define([
 		},
 
 		onInit: function() {
-			
-			
+
 			//$("#__panel0").hide();
 
 			/**
@@ -27,7 +26,7 @@ sap.ui.define([
 			 */
 		},
 		onBeforeRendering: function() {
-			
+
 			//$("#__panel0").hide();
 		},
 
@@ -40,7 +39,7 @@ sap.ui.define([
 			this.onCarouselPageChanged();
 			//$("#__panel0").hide();
 		},
-		
+
 		onCarouselPageChanged: function() {
 			clearTimeout(this._iCarouselTimeout);
 			this._iCarouselTimeout = setTimeout(function() {
@@ -57,7 +56,7 @@ sap.ui.define([
 		 * @memberOf view.MyAccount
 		 */
 		onExit: function() {
-		
+
 			//$("#__panel0").hide();
 		},
 		pressOnlineApplication: function(oEvent) {
@@ -105,7 +104,7 @@ sap.ui.define([
 		pressBillcalulator: function() {
 			this.getRouter().navTo("Calculator");
 		},
-		pressFAQ: function() { 
+		pressFAQ: function() {
 
 			this.getRouter().navTo("LandingFAQs");
 		},
@@ -125,14 +124,10 @@ sap.ui.define([
 			this.getRouter().navTo("GreenCorner");
 		},
 		pressKnowledgeCenter: function() {
-
 			this.getRouter().navTo("LandingKnowledgeCenter");
-
 		},
 		pressShedulepoweroutage: function() {
-
 			this.getRouter().navTo("Shedulepoweroutage");
-
 		},
 		pressRegulatoryInformation: function() {
 			this.getRouter().navTo("RegulatoryInformation");
@@ -170,16 +165,19 @@ sap.ui.define([
 		pressContactUs: function() {
 			this.getRouter().navTo("ContactUs");
 		},
+		pressDigitalChampions: function() {
+			this.getRouter().navTo("DigitalChampions");
+		},
 		pressTermsOfUse: function() {
 			this.getRouter().navTo("TermOfUse");
 		},
 		pressPrivacyPolicy: function() {
 			this.getRouter().navTo("PrivacyPolicy");
 		}
-	
-	/*	pressNewsforyou: function() {
-			window.location.href="https://www.tatapower.com/media/media-releases.aspx";
-			}*/
+
+		/*	pressNewsforyou: function() {
+				window.location.href="https://www.tatapower.com/media/media-releases.aspx";
+				}*/
 
 	});
 
