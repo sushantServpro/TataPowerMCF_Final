@@ -14,7 +14,7 @@
 												<html:image src="images/icon_app_form.png" alt="icon_app_form" class="img-responsive"></html:image>
 											</html:div>
 											<html:div class="col-xs-10">
-												<html:h4>Application Form for Address Correction</html:h4>
+												<html:h4>Change of Name</html:h4>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -30,11 +30,11 @@
 										</html:div>
 									</html:div>
 									<html:div class="panel-footer">
-										Undertaking for Change of Name
+										Application Form for Change of Name
 									</html:div>
 								</html:div>
 							</html:a>
-							<html:a href="pdf/ApplicationForms/ElectricConnection.pdf" target="_blank" class="col-sm-3 col-md-3">
+							<html:a href="pdf/ApplicationForms/ChangeOfNameUndertaking.pdf" target="_blank" class="col-sm-3 col-md-3">
 								<html:div class="panel panel-default">
 									<html:div class="panel-body pdfviewer">
 										<html:div>
@@ -42,7 +42,7 @@
 										</html:div>
 									</html:div>
 									<html:div class="panel-footer">
-										Undertaking for Electric connection
+										Undertaking for Change of Name
 									</html:div>
 								</html:div>
 							</html:a>

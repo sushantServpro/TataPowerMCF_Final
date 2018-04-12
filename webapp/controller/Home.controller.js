@@ -173,6 +173,9 @@ sap.ui.define([
 		},
 		pressPrivacyPolicy: function() {
 			this.getRouter().navTo("PrivacyPolicy");
+		},
+		pressDigitalChampions: function() {
+			this.getRouter().navTo("DigitalChampions");
 		}
 
 		/*	pressNewsforyou: function() {
