@@ -35,6 +35,9 @@ sap.ui.define([
 		},
 		pressPrivacyPolicy: function() {
 			this.getRouter().navTo("PrivacyPolicy");
+		},
+		pressTariff:function() {
+			this.getRouter().navTo("TariffDetails");
 		}
 			
 

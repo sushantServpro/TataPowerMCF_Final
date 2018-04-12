@@ -12,7 +12,7 @@
 									<items>
 										<IconTabFilter text="VALUE PROPOSITION">
 											<html:div class="intabnc">
-												<html:p></html:p>
+												<html:p>Economical tariffs, highly reliable and safe power supply, and multiple modes of interaction and payment for our customers convenience</html:p>
 											</html:div>
 										</IconTabFilter>
 										<IconTabFilter text="SERVICE PROVIDED">
@@ -38,7 +38,7 @@
 											</html:div>
 										</IconTabFilter>
 										<IconTabFilter text="TARIFF">
-											<Text text="Notes go here ..."/>
+											<Link text="Click here for Tariff Details" class="loginlink" press="pressTariff"/>
 										</IconTabFilter>
 									</items>
 								</IconTabBar>
@@ -106,7 +106,7 @@
 											</html:div>
 										</IconTabFilter>
 										<IconTabFilter text="TARIFF">
-											<Text text="Notes go here ..."/>
+											<Link text="Click here for Tariff Details" class="loginlink" press="pressTariff"/>
 										</IconTabFilter>
 									</items>
 								</IconTabBar>
@@ -174,7 +174,7 @@
 											</html:div>
 										</IconTabFilter>
 										<IconTabFilter text="TARIFF">
-											<Text text="Notes go here ..."/>
+											<Link text="Click here for Tariff Details" class="loginlink" press="pressTariff"/>
 										</IconTabFilter>
 									</items>
 								</IconTabBar>

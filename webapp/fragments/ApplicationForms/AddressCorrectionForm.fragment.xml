@@ -14,7 +14,7 @@
 												<html:image src="images/icon_app_form.png" alt="icon_app_form" class="img-responsive"></html:image>
 											</html:div>
 											<html:div class="col-xs-10">
-												<html:h4>Address Correction Form</html:h4>
+												<html:h4>Address Correction</html:h4>
 											</html:div>
 										</html:div>
 									</html:div>
@@ -30,7 +30,19 @@
 										</html:div>
 									</html:div>
 									<html:div class="panel-footer">
-										Application Form for Address Correction 
+										Application Form for Address Correction
+									</html:div>
+								</html:div>
+							</html:a>
+							<html:a href="pdf/ApplicationForms/AddressCorrectionUndertaking.pdf" target="_blank" class="col-sm-3 col-md-3">
+								<html:div class="panel panel-default">
+									<html:div class="panel-body pdfviewer">
+										<html:div>
+											<html:image src="images/pdf_icn.png" alt="tata_logo"></html:image>
+										</html:div>
+									</html:div>
+									<html:div class="panel-footer">
+										Undertaking for Address Correction
 									</html:div>
 								</html:div>
 							</html:a>

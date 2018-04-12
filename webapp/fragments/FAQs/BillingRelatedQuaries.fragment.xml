@@ -228,7 +228,7 @@
 								<html:li>
 									<html:h5>
 										If customer's load is more than 60 A or supply voltage is higher than 440 Volts, Current and voltage transformers are used in metering
-											circuit to restrict the current and voltage to the rated capacity of meter.
+										circuit to restrict the current and voltage to the rated capacity of meter.
 									</html:h5>
 								</html:li>
 								<html:li>
@@ -307,24 +307,25 @@
 										</html:li>
 										<html:li>
 											<html:h5>
-												<html:strong>Regulatory Asset Charges :</html:strong>Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility which could not be
-												recovered since, the approved Tariff was not sufficient to recover the costs incurred.</html:h5>
+												<html:strong>Regulatory Asset Charges :</html:strong>Regulatory Asset Charges is the Charge for past recoveries of the Distribution Utility
+												which could not be recovered since, the approved Tariff was not sufficient to recover the costs incurred.</html:h5>
 										</html:li>
 										<html:li>
 											<html:h5>
-												<html:strong>Cross Subsidy Surcharge :</html:strong>Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity other than the distribution
-												licensee he is connected to, to compensate the host distribution licensee serving such consumers for loss of the cross-subsidy element built
-												into the tariff of such consumers. (It is the difference between the tariff applicable to the relevant category of consumers and the cost of
-												the distribution licensee to supply electricity to the consumers of the applicable class.)</html:h5>
+												<html:strong>Cross Subsidy Surcharge :</html:strong>Cross Subsidy Surcharge is the charge levied on a consumer who buys power from an entity
+												other than the distribution licensee he is connected to, to compensate the host distribution licensee serving such consumers for loss of the
+												cross-subsidy element built into the tariff of such consumers. (It is the difference between the tariff applicable to the relevant category
+												of consumers and the cost of the distribution licensee to supply electricity to the consumers of the applicable class.)</html:h5>
 										</html:li>
 										<html:li>
 											<html:h5>
-												<html:strong>Other Charges in view of MTR Tariff impacting July 15 Bill :</html:strong> Due to revised tariff order being retrospectively applicable from 1st June 2015,
-												consumers were billed on revised tariff for the month of July 15 along with the differential tariff for the applicable days of the month of
-												June 15. The credit of Fuel Adjustment charges(FAC) that was passed on to the consumers in their June 15 bill had to be recovered in their
-												July 15 bill basis the revised order as the credit of FAC is no more applicable for the said period. Please note that these charges (Tariff
-												differential and FAC recovery) are one-time adjustments due to tariff revision. These charges were indicated as âOther Charges âon
-												reverse side of the bill and reflected as past dues on the front side of the bill due to technical issue.</html:h5>
+												<html:strong>Other Charges in view of MTR Tariff impacting July 15 Bill :</html:strong>
+												Due to revised tariff order being retrospectively applicable from 1st June 2015, consumers were billed on revised tariff for the month of
+												July 15 along with the differential tariff for the applicable days of the month of June 15. The credit of Fuel Adjustment charges(FAC) that
+												was passed on to the consumers in their June 15 bill had to be recovered in their July 15 bill basis the revised order as the credit of FAC
+												is no more applicable for the said period. Please note that these charges (Tariff differential and FAC recovery) are one-time adjustments
+												due to tariff revision. These charges were indicated as âOther Charges âon reverse side of the bill and reflected as past dues on the
+												front side of the bill due to technical issue.</html:h5>
 										</html:li>
 									</html:ol>
 								</html:li>
@@ -478,7 +479,8 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" on 1800-209-5161 (Toll Free) Or Whatsapp us on 7045116237.
+								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" on
+								1800-209-5161 (Toll Free) Or Whatsapp us on 7045116237 Or write to us at customercare@tatapower.com
 							</html:h5>
 						</html:div>
 					</content>
@@ -518,8 +520,8 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								The customer should contact the "Call Centrer" or Consumer Relations Dept. and collect a duplicate bill. The duplicate bill will be sent to
-								him by courier or fax.
+								Even though every effort is made to eliminate billing errors, should the customer face any problem may contact our "Call Centre" on
+								1800-209-5161 (Toll Free) Or Whatsapp us on 7045116237 Or write to us at customercare@tatapower.com
 							</html:h5>
 						</html:div>
 					</content>
@@ -529,7 +531,8 @@
 					<content>
 						<html:div class="textpara">
 							<html:h5>
-								The customer can contact the "Call Centrer" or Whatsapp on 7045116237 and register his/her concern. The duplicate bill will then be sent by courier. You can also visit the Consumer Relations Dept. to collect a duplicate bill.
+								The customer can contact the "Call Centrer" or Whatsapp on 7045116237 and register his/her concern. The duplicate bill will then be sent by
+								courier. You can also visit the Consumer Relations Dept. to collect a duplicate bill.
 							</html:h5>
 						</html:div>
 					</content>

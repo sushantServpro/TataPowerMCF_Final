@@ -3785,3 +3785,17 @@ hr {
 .procedure_files {
     margin-bottom: 15px;
 }
+
+.digitalMembers h4 {
+    font: bold 16px "Open Sans";
+}
+
+.imgdown h5 {
+    font: normal 16px "Open Sans";
+}
+
+.loginlink.sapMLnk {
+	padding: 15px;
+    color: #0070b1 !important;
+    font-weight: bold;
+}
